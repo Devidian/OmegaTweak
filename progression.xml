@@ -16,6 +16,49 @@
 	skill_point_cost_multiplier="0"
 	skill_point_cost_per_level="1" > <!-- these are defaults and can be used to modify individual skills as needed -->
 
+	<!-- START OmegaTweak -->
+	<!-- Player Skills -->
+	<!-- Action Skills -->
+	<action_skill name="Fistfight" icon="run" description_key="fistfightDesc" title_key="fistfight" exp_to_level="100" group="weapons" >
+		<effect name="StaminaDegradation">
+			<multiply skill_level="1,5" value="1,.95" />
+			<multiply skill_level="5,11" value=".95,.91" />
+			<multiply skill_level="11,19" value=".91,.87" />
+			<multiply skill_level="19,32" value=".87,.82" />
+			<multiply skill_level="32,49" value=".82,.77" />
+			<multiply skill_level="49,70" value=".77,.72" />
+			<multiply skill_level="70,100" value=".72,.66" />
+		</effect>
+		<effect name="EntityDamage"><!-- copy from blunt weapons, no changes yet -->
+			<multiply skill_level="1,5" value="1,1.04" />
+			<multiply skill_level="5,11" value="1.04,1.07" />
+			<multiply skill_level="11,19" value="1.07,1.1" />
+			<multiply skill_level="19,32" value="1.1,1.14" />
+			<multiply skill_level="32,49" value="1.14,1.19" />
+			<multiply skill_level="49,70" value="1.19,1.23" />
+			<multiply skill_level="70,100" value="1.23,1.28" />
+		</effect>
+	</action_skill>
+	<!-- Player Perks -->
+	<perk name="Geologist" icon="mining" description_key="geologistDesc" title_key="geologist" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="20" group="tools">
+		<requirement perk_level="1" required_skill_name="Miner 69er" required_skill_level="5"/>
+		<requirement perk_level="1" required_skill_name="Mining Tools" required_skill_level="90"/>
+		<requirement perk_level="1" required_player_level="50"/>
+		<requirement perk_level="2" required_player_level="100"/>
+		<requirement perk_level="2" required_skill_name="Mining Tools" required_skill_level="100"/>
+		<effect name="BlockDamage">
+			<multiply perk_level="0" value="1"/>
+			<multiply perk_level="1" value="1.1"/>
+			<multiply perk_level="2" value="1.2"/>
+		</effect>
+		<effect name="HarvestCount">
+			<multiply perk_level="0" value="1"/>
+			<multiply perk_level="1" value="1.05"/> <!--  5% Harvest Bonus -->
+			<multiply perk_level="2" value="1.10"/> <!-- 10% Harvest Bonus -->
+		</effect>
+	</perk>
+	<!-- END OmegaTweak -->
+
 	<!-- Player Skills -->
 	<player_skill name="Athletics" icon="run" description_key="athleticsDesc" title_key="athletics" exp_to_level="500" group="health" >
 		<effect name="StaminaDegradation">
@@ -1024,24 +1067,6 @@
 			<multiply skill_level="3" value="0.7"/>
 			<multiply skill_level="4" value="0.6"/>
 			<multiply skill_level="5" value="0.5"/>
-		</effect>
-	</perk>
-
-	<perk name="Geologist" icon="mining" description_key="geologistDesc" title_key="geologist" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="20" group="tools">
-		<requirement perk_level="1" required_skill_name="Miner 69er" required_skill_level="5"/>
-		<requirement perk_level="1" required_skill_name="Mining Tools" required_skill_level="90"/>
-		<requirement perk_level="1" required_player_level="50"/>
-		<requirement perk_level="2" required_player_level="100"/>
-		<requirement perk_level="2" required_skill_name="Mining Tools" required_skill_level="100"/>
-		<effect name="BlockDamage">
-			<multiply perk_level="0" value="1"/>
-			<multiply perk_level="1" value="1.1"/>
-			<multiply perk_level="2" value="1.2"/>
-		</effect>
-		<effect name="HarvestCount">
-			<multiply perk_level="0" value="1"/>
-			<multiply perk_level="1" value="1.05"/> <!--  5% Harvest Bonus -->
-			<multiply perk_level="2" value="1.10"/> <!-- 10% Harvest Bonus -->
 		</effect>
 	</perk>
 
