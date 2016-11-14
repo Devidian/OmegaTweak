@@ -1,8 +1,8 @@
-# OmegaTweak v15.2
+# OmegaTweak v15.3
 ## 7 Days to die Tweaks by Devidian
 
 ### Changes to recipes.xml
-* added book recipe for 64 paper + 1 wood (caseing)
+* added book recipe for 64 paper + 1 leather (caseing)
 * added paper recipe from book (1 book = 64 paper)
 * added crushedSand recipe (18 sand from 1 destroyed stone)
 * added machete repair recipe (1 machete 1 repair kit 2 forgedSteel)
@@ -51,6 +51,7 @@
 
 ### Changes to items.xml
 * Added Fistfight as Action0 group for player hand
+* uncommented book
 
 ### Changes to Localisation.txt
 * Localisation for Geologist perk

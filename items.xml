@@ -7768,7 +7768,7 @@ which does not exist, yet. -->
 	<property name="EconomicBundleSize" value="5" />
 	<property name="Group" value="Resources" />
 </item>
-<!--
+
 <item id="1329" name="book">
 	<property name="Meshfile" value="Items/Misc/Book" />
 	<property name="Material" value="paper" />
@@ -7778,7 +7778,7 @@ which does not exist, yet. -->
 	<property name="Weight" value="20" />
 	<property name="Group" value="Decor/Miscellaneous" />
 </item>
--->
+
 <item id="1330" name="militaryFiber"> <!-- scrap material -->
 	<property name="Meshfile" value="Items/Crafting/cloth" />
 	<property name="Material" value="MmilitaryFiber" />

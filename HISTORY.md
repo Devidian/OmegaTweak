@@ -1,3 +1,11 @@
+## v15.3
+
+### Changes to recipes.xml
+* changed book recipe to use 1 leather instead of 1 wood
+
+### Changes to items.xml
+* uncommented book
+
 
 ## v15.2
 
