@@ -51,7 +51,7 @@
 
 ### Changes to items.xml
 * Added Fistfight as Action0 group for player hand
-* uncommented book
+* uncommented book, changed stack to 100, fuel and weight to 64
 
 ### Changes to Localisation.txt
 * Localisation for Geologist perk
@@ -60,8 +60,11 @@
 
 ## Installation & Update Information
 The current master is ONLY for Alpha 15, dont try to use with a lower Alpha version.
-### Linux Dedicated Server
 
+### Localisation 
+Due to the fact that Localisation.txt is not pushed by the server, all players should be install the mod to have full Localisation feature (english & german).
+
+### Linux Dedicated Server
 Connect to your server via ssh and go to your Data folder. This for example is when you use allocs fixes:
 
 ```

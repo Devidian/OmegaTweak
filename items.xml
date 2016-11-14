@@ -7773,9 +7773,9 @@ which does not exist, yet. -->
 	<property name="Meshfile" value="Items/Misc/Book" />
 	<property name="Material" value="paper" />
 	<property name="HoldType" value="21" />
-	<property name="Stacknumber" value="50" />
-	<property name="FuelValue" value="20" />
-	<property name="Weight" value="20" />
+	<property name="Stacknumber" value="100" />
+	<property name="FuelValue" value="64" />
+	<property name="Weight" value="64" />
 	<property name="Group" value="Decor/Miscellaneous" />
 </item>
 

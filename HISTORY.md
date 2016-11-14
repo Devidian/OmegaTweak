@@ -2,6 +2,7 @@
 
 ### Changes to recipes.xml
 * changed book recipe to use 1 leather instead of 1 wood
+* changed book stack to 100, fuel and weight to 64
 
 ### Changes to items.xml
 * uncommented book
