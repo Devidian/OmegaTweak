@@ -2,7 +2,7 @@
 
 <progression>
 <player
-	max_level="200"
+	max_level="1000"
 	exp_to_level="8000"
 	experience_multiplier="1.00905"
 	skill_points_per_level="5"
@@ -55,6 +55,70 @@
 			<multiply perk_level="0" value="1"/>
 			<multiply perk_level="1" value="1.05"/> <!--  5% Harvest Bonus -->
 			<multiply perk_level="2" value="1.10"/> <!-- 10% Harvest Bonus -->
+		</effect>
+	</perk>
+	<perk name="Tools perfectionist" icon="tool_smithing" description_key="perfectionistDesc" title_key="ToolsPerfectionist" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="20" group="crafting">
+		<requirement perk_level="1" required_skill_name="Tool Smithing" required_skill_level="100"/>
+		<requirement perk_level="1" required_player_level="200"/>
+		<effect name="CraftingQuality">
+			<add perk_level="0" value="0" />
+			<add perk_level="1,5" value="20,100" />
+		</effect>
+	</perk>
+	<perk name="Miscellaneous perfectionist" icon="misc_crafting" description_key="perfectionistDesc" title_key="MiscellaneousPerfectionist" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="20" group="crafting">
+		<requirement perk_level="1" required_skill_name="Miscellaneous Crafting" required_skill_level="100"/>
+		<requirement perk_level="1" required_player_level="200"/>
+		<effect name="CraftingQuality">
+			<add perk_level="0" value="0" />
+			<add perk_level="1,5" value="20,100" />
+		</effect>
+	</perk>
+	<perk name="Weapon perfectionist" icon="weapon_smithing" description_key="perfectionistDesc" title_key="WeaponPerfectionist" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="20" group="crafting">
+		<requirement perk_level="1" required_skill_name="Weapon Smithing" required_skill_level="100"/>
+		<requirement perk_level="1" required_player_level="200"/>
+		<effect name="CraftingQuality">
+			<add perk_level="0" value="0" />
+			<add perk_level="1,5" value="20,100" />
+		</effect>
+	</perk>
+	<perk name="Gun perfectionist" icon="gunsmithing" description_key="perfectionistDesc" title_key="GunPerfectionist" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="20" group="crafting">
+		<requirement perk_level="1" required_skill_name="Gun Smithing" required_skill_level="100"/>
+		<requirement perk_level="1" required_player_level="200"/>
+		<effect name="CraftingQuality">
+			<add perk_level="0" value="0" />
+			<add perk_level="1,5" value="20,100" />
+		</effect>
+	</perk>
+	<perk name="Science perfectionist" icon="science" description_key="perfectionistDesc" title_key="SciencePerfectionist" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="20" group="crafting">
+		<requirement perk_level="1" required_skill_name="Science" required_skill_level="100"/>
+		<requirement perk_level="1" required_player_level="200"/>
+		<effect name="CraftingQuality">
+			<add perk_level="0" value="0" />
+			<add perk_level="1,5" value="20,100" />
+		</effect>
+	</perk>
+	<perk name="Tailoring perfectionist" icon="tailoring" description_key="perfectionistDesc" title_key="TailorPerfectionist" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="20" group="crafting">
+		<requirement perk_level="1" required_skill_name="Tailoring" required_skill_level="100"/>
+		<requirement perk_level="1" required_player_level="200"/>
+		<effect name="CraftingQuality">
+			<add perk_level="0" value="0" />
+			<add perk_level="1,5" value="20,100" />
+		</effect>
+	</perk>
+	<perk name="Lether perfectionist" icon="armor_leather" description_key="perfectionistDesc" title_key="LetherPerfectionist" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="20" group="crafting">
+		<requirement perk_level="1" required_skill_name="Leatherworking" required_skill_level="100"/>
+		<requirement perk_level="1" required_player_level="200"/>
+		<effect name="CraftingQuality">
+			<add perk_level="0" value="0" />
+			<add perk_level="1,5" value="20,100" />
+		</effect>
+	</perk>
+	<perk name="Armor perfectionist" icon="forge" description_key="perfectionistDesc" title_key="ArmorPerfectionist" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="20" group="crafting">
+		<requirement perk_level="1" required_skill_name="Armor Smithing" required_skill_level="100"/>
+		<requirement perk_level="1" required_player_level="200"/>
+		<effect name="CraftingQuality">
+			<add perk_level="0" value="0" />
+			<add perk_level="1,5" value="20,100" />
 		</effect>
 	</perk>
 	<!-- END OmegaTweak -->
