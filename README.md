@@ -16,16 +16,17 @@
 * Dog & Animal corpse lifetime raised from 300 to 900 seconds (15 Minutes)
 
 ### Changes to progression.xml
-* New Perk: Geologist with 2 level each 20 Skillpoints
- * Requirements: Player Level 50, Miner 69er Level 5, Mining Tools Level 100
- * Level 1: 10% Block Damage,  5% harvest count
- * Level 2: 20% Block Damage, 10% harvest count (With this one you can one-hit stone again)
+* Raised player level from 200 to 1000
 * New Action Skill: Fistfight
  * Bonus 1: StaminaDegradation down to 0.66 (Level 100)
  * Bonus 2: EntityDamage up to 1.28
 * New Action Skill: Machetes Training
  * Bonus 2: EntityDamage up to 1.28 (Level 100) and 1.40 (level 200)
-* Raised player level from 200 to 1000
+* Added Machetes Training as requirement for knife guy and decapitator until we have something similar
+* New Perk: Geologist with 2 level each 20 Skillpoints
+ * Requirements: Player Level 50, Miner 69er Level 5, Mining Tools Level 100
+ * Level 1: 10% Block Damage,  5% harvest count
+ * Level 2: 20% Block Damage, 10% harvest count (With this one you can one-hit stone again)
 * New Perk: Tools-Perfectionist with 5 level each 20 Skillpoints
  * Requirements: Player level 200, Tool smithing level 100
  * Level 1-5: 20-100 Quality points added

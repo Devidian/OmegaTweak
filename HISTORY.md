@@ -15,6 +15,7 @@
 ### Changes to progression.xml
 * New Action Skill: Machetes Training
  * Bonus 2: EntityDamage up to 1.28 (Level 100) and 1.40 (level 200)
+* Added Machetes Training as requirement for knife guy and decapitator until we have something similar
 
 ## v15.2
 
