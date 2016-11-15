@@ -10,6 +10,11 @@
  * 5% chance to buff bleeding
  * 30% chance to stun
 * added actionXp (5) to player hand action0 (Fistfight ActionGroup)
+* Added "Machetes Training" as ActionSkillGroup for machete
+
+### Changes to progression.xml
+* New Action Skill: Machetes Training
+ * Bonus 2: EntityDamage up to 1.28 (Level 100) and 1.40 (level 200)
 
 ## v15.2
 

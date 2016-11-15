@@ -2485,6 +2485,8 @@ SciencePerfectionist,progression,Skill,KgNone,Science-Perfectionist,,Wissenschaf
 TailorPerfectionist,progression,Skill,KgNone,Tailoring-Perfectionist,,Schneiderei-Perfektionist,,
 LetherPerfectionist,progression,Skill,KgNone,Lether-Perfectionist,,Lederhandwerks-Perfektionist,,
 ArmorPerfectionist,progression,Skill,KgNone,Armor-Perfectionist,,Rüstungs-Perfektionist,,
+machetesTraining,progression,Skill,KgNone,Machetes Training,,Macheten Training,,
+machetesTrainingDesc,progression,Skill,KgNone,,,,,
 fistfight,progression,Skill,KgNone,Fistfight,,Faustkampf,,
 fistfightDesc,progression,Skill,KgNone,,,,,
 geologist,progression,Skill,KgNone,Geologist,Géologue,Geologe,,Geólogo

@@ -39,6 +39,20 @@
 			<multiply skill_level="70,100" value="1.23,1.28" />
 		</effect>
 	</action_skill>
+	
+	<action_skill name="Machetes Training" max_level="200" exp_to_level="100" icon="knife" description_key="machetesTrainingDesc" title_key="machetesTraining" group="weapons">
+		<effect name="EntityDamage">
+			<multiply skill_level="1,5" value="1,1.04" />
+			<multiply skill_level="5,11" value="1.04,1.07" />
+			<multiply skill_level="11,19" value="1.07,1.1" />
+			<multiply skill_level="19,32" value="1.1,1.14" />
+			<multiply skill_level="32,49" value="1.14,1.19" />
+			<multiply skill_level="49,70" value="1.19,1.23" />
+			<multiply skill_level="70,100" value="1.23,1.28" />
+			<multiply skill_level="100,140" value="1.28,1.34" />
+			<multiply skill_level="140,200" value="1.34,1.40" />
+		</effect>
+	</action_skill>
 	<!-- Player Perks -->
 	<perk name="Geologist" icon="mining" description_key="geologistDesc" title_key="geologist" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="20" group="tools">
 		<requirement perk_level="1" required_skill_name="Miner 69er" required_skill_level="5"/>

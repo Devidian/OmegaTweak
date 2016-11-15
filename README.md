@@ -23,6 +23,8 @@
 * New Action Skill: Fistfight
  * Bonus 1: StaminaDegradation down to 0.66 (Level 100)
  * Bonus 2: EntityDamage up to 1.28
+* New Action Skill: Machetes Training
+ * Bonus 2: EntityDamage up to 1.28 (Level 100) and 1.40 (level 200)
 * Raised player level from 200 to 1000
 * New Perk: Tools-Perfectionist with 5 level each 20 Skillpoints
  * Requirements: Player level 200, Tool smithing level 100
@@ -56,6 +58,7 @@
   * 5% chance to buff bleeding
   * 30% chance to stun
 * uncommented book, changed stack to 100, fuel and weight to 64
+* Added "Machetes Training" as ActionSkillGroup for machete
 
 
 ### Changes to Localisation.txt

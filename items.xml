@@ -373,7 +373,7 @@ Mesh files no longer used:
 		<property name="DismembermentBonus" value="0,0.00036"/>
 	</property>
 	<property name="Group" value="Ammo/Weapons" />
-	<property name="ActionSkillGroup" value="Blade Weapons"/>
+	<property name="ActionSkillGroup" value="Machetes Training"/>
 	<property name="CraftingSkillGroup" value="Weapon Smithing"/>
 	<property name="RepairExpMultiplier" value="5.5"/>
 </item>
@@ -930,6 +930,7 @@ Mesh files no longer used:
 	<property name="Extends" value="handMaster" />
 	<property name="IsDeveloper" value="true" />
 	<property name="HoldType" value="0" />
+	<property name="ActionSkillGroup" value="Fistfight"/>
 	<property class="Action0">
 		<property name="Delay" value="0.75" />
 		<property name="Range" value="2.5" />
@@ -938,7 +939,6 @@ Mesh files no longer used:
 		<property name="Stamina_usage" value="3" />
 		<property name="DamageBonus.head" value="2" />
 		<property name="DamageBonus.organic" value="5" />
-		<property name="ActionSkillGroup" value="Fistfight"/>
 		<property name="ActionExp" value="5" />
 		<property name="Buff" value="bleeding,stunned" />
 		<property name="Buff_chance" value="0.05,0.3" />
