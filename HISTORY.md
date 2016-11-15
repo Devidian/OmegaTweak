@@ -6,7 +6,10 @@
 
 ### Changes to items.xml
 * uncommented book
-
+* added buffs to player hand (id 70)
+ * 5% chance to buff bleeding
+ * 30% chance to stun
+* added actionXp (5) to player hand action0 (Fistfight ActionGroup)
 
 ## v15.2
 

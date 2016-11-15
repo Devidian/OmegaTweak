@@ -50,8 +50,13 @@
  * Level 1-5: 20-100 Quality points added
 
 ### Changes to items.xml
-* Added Fistfight as Action0 group for player hand
+* added Fistfight as Action0 group for player hand (id 70)
+ * added actionXp (5)
+ * added buffs to player hand
+  * 5% chance to buff bleeding
+  * 30% chance to stun
 * uncommented book, changed stack to 100, fuel and weight to 64
+
 
 ### Changes to Localisation.txt
 * Localisation for Geologist perk

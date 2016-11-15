@@ -939,6 +939,9 @@ Mesh files no longer used:
 		<property name="DamageBonus.head" value="2" />
 		<property name="DamageBonus.organic" value="5" />
 		<property name="ActionSkillGroup" value="Fistfight"/>
+		<property name="ActionExp" value="5" />
+		<property name="Buff" value="bleeding,stunned" />
+		<property name="Buff_chance" value="0.05,0.3" />
 	</property>
 	<property class="Action1"> <!-- UseAction -->
 		<property name="Class" value="Eat" />
