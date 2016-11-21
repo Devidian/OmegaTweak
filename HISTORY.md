@@ -11,11 +11,13 @@
  * 30% chance to stun
 * added actionXp (5) to player hand action0 (Fistfight ActionGroup)
 * Added "Machetes Training" as ActionSkillGroup for machete
+* changed machete repairMaterial to forgedSteel
 
 ### Changes to progression.xml
 * New Action Skill: Machetes Training
  * Bonus 2: EntityDamage up to 1.28 (Level 100) and 1.40 (level 200)
 * Added Machetes Training as requirement for knife guy and decapitator until we have something similar
+* Changed xp of fistfight and machete training to 125 (from 100) to rebalance
 
 ## v15.2
 
@@ -23,7 +25,7 @@
 * added book recipe for 64 paper + 1 wood (caseing)
 * added paper recipe from book (1 book = 64 paper)
 * added crushedSand recipe (18 sand from 1 destroyed stone)
-* added machete repair recipe (1 machete 1 repair kit 2 forgedSteel)
+* added machete repair recipe (1 machete 2 repair kit 5 forgedSteel)
 
 ### Changes to progression.xml
 * Raised player level from 200 to 1000

@@ -341,7 +341,7 @@ Mesh files no longer used:
 <item id="22" name="machete">
 	<property name="Meshfile" value="Items/Weapons/Melee/Knives/machetePrefab" />
 	<property name="Material" value="metal" />
-	<property name="RepairTools" value="forgedIron" />
+	<property name="RepairTools" value="forgedSteel" />
 	<property name="HoldType" value="47" />
  	<property name="DegradationBreaksAfter" value="false" />
 	<property name="FuelValue" value="12" />

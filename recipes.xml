@@ -2469,8 +2469,8 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 
 <recipe name="machete" count="1" craft_area="workbench">
 	<ingredient name="machete" count="1"/>
-	<ingredient name="repairKit" count="1"/>
-	<ingredient name="forgedSteel" count="2"/>
+	<ingredient name="repairKit" count="2"/>
+	<ingredient name="forgedSteel" count="5"/>
 </recipe>
 
 <!-- Tweak end -->

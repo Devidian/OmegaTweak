@@ -5,7 +5,7 @@
 * added book recipe for 64 paper + 1 leather (caseing)
 * added paper recipe from book (1 book = 64 paper)
 * added crushedSand recipe (18 sand from 1 destroyed stone)
-* added machete repair recipe (1 machete 1 repair kit 2 forgedSteel)
+* added machete repair recipe (1 machete 2 repair kit 5 forgedSteel)
 
 ### Changes to entityclasses.xml
 
@@ -51,6 +51,7 @@
 * New Perk: Armor-Perfectionist with 5 level each 20 Skillpoints
  * Requirements: Player level 200, Armor smithing level 100
  * Level 1-5: 20-100 Quality points added
+* Changed xp of fistfight and machete training to 125 (from 100) to rebalance
 
 ### Changes to items.xml
 * added Fistfight as Action0 group for player hand (id 70)
@@ -60,6 +61,7 @@
   * 30% chance to stun
 * uncommented book, changed stack to 100, fuel and weight to 64
 * Added "Machetes Training" as ActionSkillGroup for machete
+* changed machete repairMaterial to forgedSteel
 
 
 ### Changes to Localisation.txt
