@@ -1,5 +1,11 @@
 ## v15.3
 
+### Changes to entitygroups.xml
+* added new group with all special zombies
+
+### Changes to spawning.xml
+* added entry for screamer horde to spawn 2 zombies from special zombies group (must be tseted)
+
 ### Changes to recipes.xml
 * changed book recipe to use 1 leather instead of 1 wood
 * changed book stack to 100, fuel and weight to 64

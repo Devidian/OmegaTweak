@@ -69,6 +69,12 @@
 * Localisation for fistfight (german & english only yet)
 * Localisation for all perfectionist perks (german & english only yet)
 
+### Changes to entitygroups.xml
+* added new group with all special zombies
+
+### Changes to spawning.xml
+* added entry for screamer horde to spawn 2 zombies from special zombies group (must be tseted)
+
 ## Installation & Update Information
 The current master is ONLY for Alpha 15, dont try to use with a lower Alpha version.
 
