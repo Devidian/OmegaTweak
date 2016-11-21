@@ -70,10 +70,10 @@
 * Localisation for all perfectionist perks (german & english only yet)
 
 ### Changes to entitygroups.xml
-* added new group with all special zombies
+* added new group with all +special zombies
 
 ### Changes to spawning.xml
-* added entry for screamer horde to spawn 2 zombies from special zombies group (must be tseted)
+* changed last entry for screamer horde to spawn zombies from special zombies group too
 
 ## Installation & Update Information
 The current master is ONLY for Alpha 15, dont try to use with a lower Alpha version.

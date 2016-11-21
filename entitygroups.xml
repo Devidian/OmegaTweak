@@ -16,19 +16,36 @@
 	</entitygroup>
 
 	<!-- Added by OmegaTweak -->
-	<entitygroup name="ZombiesSpecial">
-		<entity name="ZombieBiker" />
-		<entity name="ZombieCheerleader" />
-		<entity name="ZombieSkateboarder" />
-		<entity name="ZombieFarmer" />
-		<entity name="ZombieFemaleFatUMA" />
-		<entity name="zombieFemaleHazmat" />
-		<entity name="ZombieFootballPlayer" />
-		<entity name="ZombieMiner" />
-		<entity name="ZombieUtilityWorker" />
-		<entity name="ZombieStripper" />
-		<entity name="ZombieSoldier" />
-		<entity name="zombieOldTimer" />
+	<entitygroup name="ZombiesAllSpecial">
+		<entity name="ZombieBiker" prob="0.15" />
+		<entity name="ZombieCheerleader" prob="0.15" />
+		<entity name="ZombieSkateboarder" prob="0.15" />
+		<entity name="ZombieFarmer" prob="0.15" />
+		<entity name="ZombieFemaleFatUMA" prob="0.15" />
+		<entity name="zombieFemaleHazmat" prob="0.15" />
+		<entity name="ZombieFootballPlayer" prob="0.07" />
+		<entity name="ZombieMiner" prob="0.3" />
+		<entity name="ZombieUtilityWorker" prob="0.15" />
+		<entity name="ZombieStripper" prob="0.15" />
+		<entity name="ZombieSoldier" prob="0.3" />
+		<entity name="zombieOldTimer" prob="0.3" />
+		<entity name="spiderzombie"/>
+		<entity name="zombieBoe" prob="0.05"/>
+		<entity name="zombieJoe" prob="0.05"/>
+		<entity name="zombieSteve" prob="0.05"/>
+		<entity name="zombieMoe" prob="0.05"/>
+		<entity name="zombieYo" prob="0.05"/>
+		<entity name="zombieArlene" />
+		<entity name="zombieDarlene" />
+		<entity name="zombieMarlene" />
+		<entity name="zombieNurse" />		
+		<entity name="hornet" prob="0.15"/>
+		<entity name="zombiedog" prob="0.15"/>
+		<entity name="zombieSteveCrawler" prob="0.05"/>
+		<entity name="fatzombiecop" prob="0.15"/>
+		<entity name="burntzombie" prob="0.07"/>
+		<entity name="zombieBear" prob="0.1"/>
+		<entity name="zombieferal" prob="0.1"/>
 	</entitygroup>
 	
 	<entitygroup name="ZombiesNight">
