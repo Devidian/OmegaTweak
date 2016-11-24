@@ -443,7 +443,7 @@ Forge weight: We have auto-scaling based on resources IF there is a recipe for t
 	<drop event="Harvest" name="rockSmall" count="7" />
 	<drop event="Destroy" name="crushedSand" count="2"/>
 	<drop event="Destroy" name="rockSmall" count="4"/>
-	<drop event="Fall" name="gravel" stick_chance="1">
+	<drop event="Fall" name="gravel" stick_chance="1"/>
 	<property name="CanMobsSpawnOn" value="true" />
 	<property name="EconomicValue" value="5" />
 	<property name="EconomicBundleSize" value="1" />
