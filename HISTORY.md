@@ -31,7 +31,7 @@
  * crushedSand 1000 -> 3000
  * rockSmall 1000 -> 3000
  * yuccaFibers 1000 -> 5000
- * clayLump 1000 -> 5000
+ * clayLump 1000 -> 3000
  * calipers 1 -> 10
  * toolAndDieSet 1 -> 5
 
