@@ -1,5 +1,10 @@
 ## v15.3
 
+### Changes to blocks.xml
+* new Drop-Fall event paths (no magic disappearance of material)
+ * Stone->destroyedStone->Gravel->sandStone->sand->sand
+ * (type)Ore->(type)Ore 
+
 ### Changes to entitygroups.xml
 * added new group with all +special zombies
 
@@ -18,6 +23,18 @@
 * added actionXp (5) to player hand action0 (Fistfight ActionGroup)
 * Added "Machetes Training" as ActionSkillGroup for machete
 * changed machete repairMaterial to forgedSteel
+* Adjusted stack numbers:
+ * scrapIron 5000 -> 30000 (what fits in forge)
+ * scrapBrass 5000 -> 30000
+ * scrapLead 5000 -> 30000
+ * ironFragment 1000 -> 3000 (->15000 Scrap iron,2 of it fit in forge)
+ * crushedSand 1000 -> 3000
+ * rockSmall 1000 -> 3000
+ * yuccaFibers 1000 -> 5000
+ * clayLump 1000 -> 5000
+ * calipers 1 -> 10
+ * toolAndDieSet 1 -> 5
+
 
 ### Changes to progression.xml
 * New Action Skill: Machetes Training

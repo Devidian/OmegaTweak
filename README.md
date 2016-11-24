@@ -1,6 +1,11 @@
 # OmegaTweak v15.3
 ## 7 Days to die Tweaks by Devidian
 
+### Changes to blocks.xml
+* new Drop-Fall event paths (no magic disappearance of material)
+ * Stone->destroyedStone->Gravel->sandStone->sand->sand
+ * (type)Ore->(type)Ore 
+
 ### Changes to recipes.xml
 * added book recipe for 64 paper + 1 leather (caseing)
 * added paper recipe from book (1 book = 64 paper)
@@ -62,7 +67,17 @@
 * uncommented book, changed stack to 100, fuel and weight to 64
 * Added "Machetes Training" as ActionSkillGroup for machete
 * changed machete repairMaterial to forgedSteel
-
+* Adjusted stack numbers:
+ * scrapIron 5000 -> 30000 (what fits in forge)
+ * scrapBrass 5000 -> 30000
+ * scrapLead 5000 -> 30000
+ * ironFragment 1000 -> 3000 (->15000 Scrap iron,2 of it fit in forge)
+ * crushedSand 1000 -> 3000
+ * rockSmall 1000 -> 3000
+ * yuccaFibers 1000 -> 5000
+ * clayLump 1000 -> 5000
+ * calipers 1 -> 10
+ * toolAndDieSet 1 -> 5
 
 ### Changes to Localisation.txt
 * Localisation for Geologist perk
