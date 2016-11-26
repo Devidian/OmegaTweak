@@ -2472,6 +2472,31 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="repairKit" count="2"/>
 	<ingredient name="forgedSteel" count="5"/>
 </recipe>
+<!-- commercialDoor2_v1 -->
+<recipe name="commercialDoor2_v1" count="1" craft_area="workbench">
+	<ingredient name="forgedIron" count="8"/>
+	<ingredient name="mechanicalParts" count="1"/>
+</recipe>
+<!-- commercialDoor1_v1 -->
+<recipe name="commercialDoor1_v1" count="1" craft_area="workbench">
+	<ingredient name="forgedIron" count="8"/>
+	<ingredient name="mechanicalParts" count="1"/>
+</recipe>
+<!-- jailDoor -->
+<recipe name="jailDoor" count="1" craft_area="workbench">
+	<ingredient name="forgedSteel" count="15"/>
+	<ingredient name="mechanicalParts" count="2"/>
+</recipe>
+<!-- emberPile1 -->
+<recipe name="emberPile1" count="1">
+	<ingredient name="coal" count="8"/>
+	<ingredient name="wood" count="4"/>
+</recipe>
+<!-- emberPile2 -->
+<recipe name="emberPile2" count="1">
+	<ingredient name="coal" count="8"/>
+	<ingredient name="wood" count="4"/>
+</recipe>
 
 <!-- Tweak end -->
 
