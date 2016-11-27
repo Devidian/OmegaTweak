@@ -5,6 +5,7 @@
 * new Drop-Fall event paths (no magic disappearance of material)
  * Stone->destroyedStone->Gravel->sandStone->sand->sand
  * (type)Ore->(type)Ore 
+ * added repair items (wood) for pew segments
 
 ### Changes to recipes.xml
 * added book recipe for 64 paper + 1 leather (caseing)
@@ -12,8 +13,9 @@
 * added crushedSand recipe (18 sand from 1 destroyed stone)
 * added machete repair recipe (1 machete 2 repair kit 5 forgedSteel)
 * added jailDoor recipe (workbench)
-* added commercialDoor1 and 2 recipe (workbench)
+* added commercialDoor1, 2 & 4 recipe (workbench)
 * added emberpile1 & 2 recipe
+* added pew segments recipes
 
 ### Changes to entityclasses.xml
 

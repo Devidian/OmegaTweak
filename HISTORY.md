@@ -4,6 +4,7 @@
 * new Drop-Fall event paths (no magic disappearance of material)
  * Stone->destroyedStone->Gravel->sandStone->sand->sand
  * (type)Ore->(type)Ore 
+ * added repair items (wood) for pew segments
 
 ### Changes to entitygroups.xml
 * added new group with all +special zombies
@@ -15,8 +16,9 @@
 * changed book recipe to use 1 leather instead of 1 wood
 * changed book stack to 100, fuel and weight to 64
 * added jailDoor recipe (workbench)
-* added commercialDoor1 and 2 recipe (workbench)
+* added commercialDoor1, 2 & 4 recipe (workbench)
 * added emberpile1 & 2 recipe
+* added pew segments recipes
 
 ### Changes to items.xml
 * uncommented book

@@ -2482,6 +2482,11 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="forgedIron" count="8"/>
 	<ingredient name="mechanicalParts" count="1"/>
 </recipe>
+<!-- commercialDoor4_v1 -->
+<recipe name="commercialDoor4_v1" count="1" craft_area="workbench">
+	<ingredient name="forgedIron" count="8"/>
+	<ingredient name="mechanicalParts" count="1"/>
+</recipe>
 <!-- jailDoor -->
 <recipe name="jailDoor" count="1" craft_area="workbench">
 	<ingredient name="forgedSteel" count="15"/>
@@ -2496,6 +2501,21 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="emberPile2" count="1">
 	<ingredient name="coal" count="8"/>
 	<ingredient name="wood" count="4"/>
+</recipe>
+<!-- pew_segment01 -->
+<recipe name="pew_segment01" count="1">
+	<ingredient name="nail" count="4"/>
+	<ingredient name="wood" count="12"/>
+</recipe>
+<!-- pew_segment02 -->
+<recipe name="pew_segment02" count="1">
+	<ingredient name="nail" count="3"/>
+	<ingredient name="wood" count="8"/>
+</recipe>
+<!-- pew_segment03 -->
+<recipe name="pew_segment03" count="1">
+	<ingredient name="nail" count="4"/>
+	<ingredient name="wood" count="12"/>
 </recipe>
 
 <!-- Tweak end -->

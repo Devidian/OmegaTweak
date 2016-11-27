@@ -1746,7 +1746,9 @@ group desc for stuff like metal siding
 
 <block id="220" name="woodBlock">
 	<property name="Extends" value="woodMaster" />
-	<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodBlock" /> </property>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="rWoodBlock" />
+	</property>
 	<property name="DowngradeBlock" value="solidWoodFrameBlock" />
 </block>
 
@@ -1754,27 +1756,33 @@ group desc for stuff like metal siding
 	<property name="Extends" value="woodFrameMaster" />
 	<property name="Group" value="Building,Basics" />
 	<property name="CanPickup" value="true" />
-	<property name="Shape" value="WedgedBackFaces" /> <property name="Place" value="TowardsPlacer90" />
-	<property class="UpgradeBlock"> <property name="ToBlock" value="woodRamp" /> </property>
+	<property name="Shape" value="WedgedBackFaces" /> 
+	<property name="Place" value="TowardsPlacer90" />
+	<property class="UpgradeBlock"> 
+		<property name="ToBlock" value="woodRamp" />
+	</property>
 </block>
 
 <block id="222" name="woodRamp">
 	<property name="Extends" value="woodMaster" />
-	<property name="Shape" value="Wedged" /> <property name="Place" value="TowardsPlacer90" />
+	<property name="Shape" value="Wedged" /> 
+	<property name="Place" value="TowardsPlacer90" />
 	<property name="DowngradeBlock" value="solidWoodFrameRamp" />
 	<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodRamp" /> </property>
 </block>
 
 <block id="223" name="rWoodRamp">
 	<property name="Extends" value="rWoodMaster" />
-	<property name="Shape" value="Wedged" /> <property name="Place" value="TowardsPlacer90" />
+	<property name="Shape" value="Wedged" /> 
+	<property name="Place" value="TowardsPlacer90" />
 	<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodMetalRamp" /> </property>
 	<property name="DowngradeBlock" value="woodRamp" />
 </block>
 
 <block id="224" name="rWoodMetalRamp">
 	<property name="Extends" value="rWoodMetalMaster" />
-	<property name="Shape" value="Wedged" /> <property name="Place" value="TowardsPlacer90" />
+	<property name="Shape" value="Wedged" /> 
+	<property name="Place" value="TowardsPlacer90" />
 	<property class="UpgradeBlock"> <property name="ToBlock" value="scrapIronRamp" /> </property>
 	<property name="DowngradeBlock" value="rWoodRamp" />
 </block>
@@ -2647,6 +2655,9 @@ group desc for stuff like metal siding
 	<property name="Model" value="Furniture/pew_segment01" param1="main_mesh" />
 	<property name="Weight" value="50" />
 	<property name="FuelValue" value="80" />
+	<property class="RepairItems">
+		<property name="wood" value="6" /> 
+	</property>
 	<drop event="Harvest" name="wood" count="6" />
 	<drop event="Destroy" count="0" />
 </block>
@@ -2659,7 +2670,10 @@ group desc for stuff like metal siding
 	<property name="Model" value="Furniture/pew_segment02" param1="main_mesh" />
 	<property name="Weight" value="50" />
 	<property name="FuelValue" value="80" />
-	<drop event="Harvest" name="wood" count="6" />
+	<property class="RepairItems">
+		<property name="wood" value="4" /> 
+	</property>
+	<drop event="Harvest" name="wood" count="4" />
 	<drop event="Destroy" count="0" />
 </block>
 
@@ -2671,6 +2685,9 @@ group desc for stuff like metal siding
 	<property name="Model" value="Furniture/pew_segment03" param1="main_mesh" />
 	<property name="Weight" value="50" />
 	<property name="FuelValue" value="80" />
+	<property class="RepairItems">
+		<property name="wood" value="6" /> 
+	</property>
 	<drop event="Harvest" name="wood" count="6" />
 	<drop event="Destroy" count="0" />
 </block>
