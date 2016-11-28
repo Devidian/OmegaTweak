@@ -16,6 +16,7 @@
 * added commercialDoor1, 2 & 4 recipe (workbench)
 * added emberpile1 & 2 recipe
 * added pew segments recipes
+* added miningHelmet recipe with footballHelmetZU
 
 ### Changes to entityclasses.xml
 

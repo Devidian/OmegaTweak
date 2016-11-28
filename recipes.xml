@@ -2518,6 +2518,14 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="wood" count="12"/>
 </recipe>
 
+<recipe name="miningHelmet" count="1" craft_area="workbench">
+	<ingredient name="footballHelmetZU" count="1"/>
+	<ingredient name="flashlight02" count="1"/>
+	<ingredient name="electricParts" count="8"/>
+	<ingredient name="ductTape" count="5"/>
+	<ingredient name="scrapPlastics" count="4"/>
+</recipe>
+
 <!-- Tweak end -->
 
 </recipes>
