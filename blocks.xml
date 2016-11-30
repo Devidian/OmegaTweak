@@ -71,8 +71,7 @@ Forge weight: We have auto-scaling based on resources IF there is a recipe for t
 	</property>
 	<drop event="Harvest" name="dirtFragment" count="7" />
 	<drop event="Destroy" name="dirtFragment" count="3" />
-	<drop event="Fall" name="grass" count="1" prob="0.25" stick_chance="1" />
-	<drop event="Fall" name="dirtFragment" count="20" prob="0.187" stick_chance="0" />
+	<drop event="Fall" name="dirt" count="1" prob="1" stick_chance="1" />
 	<property name="Group" value="Decor/Miscellaneous" />
 	<property name="CanMobsSpawnOn" value="true" />
 	<property name="EconomicValue" value="5" />
@@ -97,8 +96,7 @@ Forge weight: We have auto-scaling based on resources IF there is a recipe for t
 	</property>
 	<drop event="Harvest" name="dirtFragment" count="7" />
 	<drop event="Destroy" name="dirtFragment" count="3" />
-	<drop event="Fall" name="dirt" count="1" prob="0.25" stick_chance="1" />
-	<drop event="Fall" name="dirtFragment" count="20" prob="0.187" stick_chance="0" />
+	<drop event="Fall" name="dirt" count="1" prob="1" stick_chance="1" />
 	<property name="CanMobsSpawnOn" value="true" />
 	<property name="EconomicValue" value="5" />
 	<property name="EconomicBundleSize" value="1" />
@@ -360,8 +358,7 @@ Forge weight: We have auto-scaling based on resources IF there is a recipe for t
 	</property>
 	<drop event="Harvest" name="dirtFragment" count="7" />
 	<drop event="Destroy" name="dirtFragment" count="3" />
-	<drop event="Fall" name="fertileDirt" count="1" prob="0.25" stick_chance="1" />
-	<drop event="Fall" name="dirtFragment" count="20" prob="0.187" stick_chance="0" />
+	<drop event="Fall" name="fertileDirt" count="1" prob="1" stick_chance="1" />
 </block>
 
 <block id="23" name="silverOre">
@@ -490,11 +487,13 @@ Forge weight: We have auto-scaling based on resources IF there is a recipe for t
 	<property name="UpgradeRated.ToBlock" value="hardSod" />
 	<property name="UpgradeRated.Rate" value="8" />
 	<property name="Group" value="Building" />
-	<property class="RepairItems"> <property name="dirtFragment" value="10" /> <property name="yuccaFibers" value="2" /> </property>
+	<property class="RepairItems"> 
+		<property name="dirtFragment" value="10" /> 
+		<property name="yuccaFibers" value="2" /> 
+	</property>
 	<drop event="Harvest" name="dirtFragment" count="7" />
 	<drop event="Destroy" name="dirtFragment" count="3" />
-	<drop event="Fall" name="sod" count="1" prob="0.25" stick_chance="1" />
-	<drop event="Fall" name="dirtFragment" count="20" prob="0.187" stick_chance="0" />
+	<drop event="Fall" name="sod" count="1" prob="1" stick_chance="1" />
 	<property name="EconomicValue" value="5" />
 	<property name="EconomicBundleSize" value="1" />
 	<property name="SellableToTrader" value="false" />
@@ -511,7 +510,10 @@ Forge weight: We have auto-scaling based on resources IF there is a recipe for t
 	<property name="DropScale" value="2" />
 	<property name="LPHardnessScale" value="2" />
 	<property name="Map.Color" value="55,79,58" />
-	<property class="RepairItems"> <property name="dirtFragment" value="10" /> <property name="yuccaFibers" value="2" /> </property>
+	<property class="RepairItems"> 
+		<property name="dirtFragment" value="10" /> 
+		<property name="yuccaFibers" value="2" /> 
+	</property>
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="fertileFarmland" />
 		<property name="Item" value="hoeIron" />
@@ -520,8 +522,7 @@ Forge weight: We have auto-scaling based on resources IF there is a recipe for t
 	</property>
 	<drop event="Harvest" name="dirtFragment" count="7" />
 	<drop event="Destroy" name="dirtFragment" count="3" />
-	<drop event="Fall" name="sod" count="1" prob="0.25" stick_chance="1" />
-	<drop event="Fall" name="dirtFragment" count="20" prob="0.187" stick_chance="0" />
+	<drop event="Fall" name="sod" count="1" prob="1" stick_chance="1" />
 </block>
 
 <block id="32" name="woodDebris">

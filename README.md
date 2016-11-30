@@ -5,7 +5,11 @@
 * new Drop-Fall event paths (no magic disappearance of material)
  * Stone->destroyedStone->Gravel->sandStone->sand->sand
  * (type)Ore->(type)Ore 
- * added repair items (wood) for pew segments
+ * grass -> dirt
+ * dirt -> dirt
+ * fertileFarmland -> fertileDirt
+ * sod -> sod
+* added repair items (wood) for pew segments
 
 ### Changes to recipes.xml
 * added book recipe for 64 paper + 1 leather (caseing)

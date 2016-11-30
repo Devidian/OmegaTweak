@@ -4,7 +4,11 @@
 * new Drop-Fall event paths (no magic disappearance of material)
  * Stone->destroyedStone->Gravel->sandStone->sand->sand
  * (type)Ore->(type)Ore 
- * added repair items (wood) for pew segments
+ * grass -> dirt
+ * dirt -> dirt
+ * fertileFarmland -> fertileDirt
+ * sod -> sod
+* added repair items (wood) for pew segments
 
 ### Changes to entitygroups.xml
 * added new group with all +special zombies
