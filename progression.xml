@@ -3,11 +3,11 @@
 <progression>
 <player
 	max_level="1000"
-	exp_to_level="8000"
-	experience_multiplier="1.00905"
+	exp_to_level="6000"
+	experience_multiplier="1.0142"
 	skill_points_per_level="5"
 	skill_point_multiplier="0"/>
-	<!-- that's 4000 XP for level 1 and 56k for level 199, total cumulative of 3.97MXP -->
+	<!-- that's 8000 XP for level 1 and 134k for level 199, total cumulative of 9MXP aka 2x of A15.0 (at level 200)-->
 
 <skills
 	max_level="100"
