@@ -1,4 +1,8 @@
-## v15.3
+## v15.1.1
+* changed versioning
+* merged A15.1 experimental changes
+
+## v15.0.3
 
 ### Changes to blocks.xml
 * new Drop-Fall event paths (no magic disappearance of material)
@@ -52,7 +56,7 @@
 * Added Machetes Training as requirement for knife guy and decapitator until we have something similar
 * Changed xp of fistfight and machete training to 125 (from 100) to rebalance
 
-## v15.2
+## v15.0.2
 
 ### Changes to recipes.xml
 * added book recipe for 64 paper + 1 wood (caseing)
@@ -90,7 +94,7 @@
 ### Changes to Localisation.txt
 * Localisation for all perfectionist perks (german & english only yet)
 
-## v15.1
+## v15.0.1
 
 ### Changes to entityclasses.xml
 

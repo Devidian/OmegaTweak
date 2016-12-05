@@ -1,4 +1,4 @@
-# OmegaTweak v15.3
+# OmegaTweak v15.1.1
 ## 7 Days to die Tweaks by Devidian
 
 ### Changes to blocks.xml
