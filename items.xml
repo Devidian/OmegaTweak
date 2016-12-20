@@ -7709,7 +7709,7 @@ which does not exist, yet. -->
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
 	<property name="Material" value="stone" />
 	<property name="HoldType" value="45" />
-	<property name="Stacknumber" value="1000" /> <!-- STK resource -->
+	<property name="Stacknumber" value="5000" /> <!-- STK resource -->
 	<property name="DropScale" value="1" />
 	<property name="EconomicValue" value="10" />
 	<property name="EconomicBundleSize" value="70" />
@@ -7721,7 +7721,7 @@ which does not exist, yet. -->
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
 	<property name="Material" value="stone" />
 	<property name="HoldType" value="45" />
-	<property name="Stacknumber" value="1000" /> <!-- STK resource -->
+	<property name="Stacknumber" value="3000" /> <!-- STK resource -->
 	<property name="EconomicValue" value="10" />
 	<property name="EconomicBundleSize" value="70" />
 	<property name="Group" value="Building,Resources" />
@@ -7732,7 +7732,7 @@ which does not exist, yet. -->
 	<property name="Material" value="stone" />
 	<property name="Weight" value="20" />
 	<property name="HoldType" value="34" />
-	<property name="Stacknumber" value="1000" /> <!-- STK resource -->
+	<property name="Stacknumber" value="5000" /> <!-- STK resource -->
 	<property name="EconomicValue" value="9" />
 	<property name="EconomicBundleSize" value="20" />
 	<property name="Group" value="Resources" />

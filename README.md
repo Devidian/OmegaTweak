@@ -1,4 +1,4 @@
-# OmegaTweak v15.1.1
+# OmegaTweak v15.1.2
 ## 7 Days to die Tweaks by Devidian
 
 ### Changes to blocks.xml
@@ -88,6 +88,9 @@
  * clayLump 1000 -> 3000
  * calipers 1 -> 10
  * toolAndDieSet 1 -> 5
+ * cobblestones 1000 -> 5000
+ * concreteMix 1000 -> 5000
+ * cement 1000 -> 3000
 
 ### Changes to Localisation.txt
 * Localisation for Geologist perk

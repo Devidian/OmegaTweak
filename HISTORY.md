@@ -1,3 +1,11 @@
+## v15.1.2
+
+### Changes to items.xml
+* Adjusted stack numbers of build materials according to others:
+ * cobblestones 1000 -> 5000
+ * concreteMix 1000 -> 5000
+ * cement 1000 -> 3000
+
 ## v15.1.1
 * changed versioning
 * merged A15.1 experimental changes
