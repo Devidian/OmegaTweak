@@ -1,3 +1,6 @@
+## v15.2.1
+* merged A15.2 experimental changes
+
 ## v15.1.2
 
 ### Changes to items.xml
