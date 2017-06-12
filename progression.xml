@@ -21,7 +21,7 @@
 	<!-- START OmegaTweak -->
 	<!-- Player Skills -->
 	<!-- Action Skills -->
-	<action_skill name="Fistfight" icon="run" description_key="fistfightDesc" title_key="fistfight" exp_to_level="125" group="weapons" >
+	<action_skill name="Fistfight" exp_to_level="125" icon="run" description_key="fistfightDesc" title_key="fistfight" group="weapons" >
 		<effect name="StaminaDegradation">
 			<multiply skill_level="1,5" value="1,.95" />
 			<multiply skill_level="5,11" value=".95,.91" />
@@ -42,7 +42,7 @@
 		</effect>
 	</action_skill>
 	
-	<action_skill name="Machetes Training" max_level="200" exp_to_level="125" icon="knife" description_key="machetesTrainingDesc" title_key="machetesTraining" group="weapons">
+	<action_skill name="Machetes Training" exp_to_level="125" icon="knife" description_key="machetesTrainingDesc" title_key="machetesTraining" group="weapons">
 		<effect name="EntityDamage">
 			<multiply skill_level="1,5" value="1,1.04" />
 			<multiply skill_level="5,11" value="1.04,1.07" />
