@@ -1,4 +1,4 @@
-# OmegaTweak v15.2.1
+# OmegaTweak v16.0.e
 ## 7 Days to die Tweaks by Devidian
 
 ### Changes to blocks.xml
@@ -9,6 +9,7 @@
  * dirt -> dirt
  * fertileFarmland -> fertileDirt
  * sod -> sod
+ * clay -> clay
 * added repair items (wood) for pew segments
 
 ### Changes to recipes.xml
@@ -24,9 +25,9 @@
 
 ### Changes to entityclasses.xml
 
-* Map Icon for Minibikes activated
+* ~~Map Icon for Minibikes activated~~ (vanilla @ A16)
 * Backpack lifetime raised from 20 Minutes to 60 Minutes
-* (UMA)Zombie/Hornet corpse lifetime raised from 30(45) to 60 seconds
+* (UMA)Zombie corpse lifetime raised from 30(45) to 60 seconds
  * Note: corpse still exist after rotting, no time to set(change) there currently
 * Dog & Animal corpse lifetime raised from 300 to 900 seconds (15 Minutes)
 
@@ -42,31 +43,9 @@
  * Requirements: Player Level 50, Miner 69er Level 5, Mining Tools Level 100
  * Level 1: 10% Block Damage,  5% harvest count
  * Level 2: 20% Block Damage, 10% harvest count (With this one you can one-hit stone again)
-* New Perk: Tools-Perfectionist with 5 level each 20 Skillpoints
- * Requirements: Player level 200, Tool smithing level 100
+* New Perk: Crafting-Perfectionist with 5 level each 20*1.15 Skillpoints
+ * Requirements: Player level 140,150,165,180,200 all craftSkill* level 2,4,6,8,10
  * Level 1-5: 20-100 Quality points added
-* New Perk: Weapon-Perfectionist with 5 level each 20 Skillpoints
- * Requirements: Player level 200, Weapon smithing level 100
- * Level 1-5: 20-100 Quality points added
-* New Perk: Crafting-Perfectionist with 5 level each 20 Skillpoints
- * Requirements: Player level 200, Miscellaneous Crafting level 100
- * Level 1-5: 20-100 Quality points added
-* New Perk: Gun perfectionist with 5 level each 20 Skillpoints
- * Requirements: Player level 200, Gun Smithing level 100
- * Level 1-5: 20-100 Quality points added
-* New Perk: Science-Perfectionist with 5 level each 20 Skillpoints
- * Requirements: Player level 200, Science level 100
- * Level 1-5: 20-100 Quality points added
-* New Perk: Tailoring-Perfectionist with 5 level each 20 Skillpoints
- * Requirements: Player level 200, Tailoring level 100
- * Level 1-5: 20-100 Quality points added
-* New Perk: Leatherworking-Perfectionist with 5 level each 20 Skillpoints
- * Requirements: Player level 200, Leatherworking level 100
- * Level 1-5: 20-100 Quality points added
-* New Perk: Armor-Perfectionist with 5 level each 20 Skillpoints
- * Requirements: Player level 200, Armor smithing level 100
- * Level 1-5: 20-100 Quality points added
-* Changed xp of fistfight and machete training to 125 (from 100) to rebalance
 
 ### Changes to items.xml
 * added Fistfight as Action0 group for player hand (id 70)
@@ -78,14 +57,14 @@
 * Added "Machetes Training" as ActionSkillGroup for machete
 * changed machete repairMaterial to forgedSteel
 * Adjusted stack numbers:
- * scrapIron 5000 -> 30000 (what fits in forge)
- * scrapBrass 5000 -> 30000
- * scrapLead 5000 -> 30000
- * ironFragment 1000 -> 3000 (->15000 Scrap iron,2 of it fit in forge)
- * crushedSand 1000 -> 3000
- * rockSmall 1000 -> 3000
- * yuccaFibers 1000 -> 5000
- * clayLump 1000 -> 3000
+ * scrapIron 6000 -> 30000 (what fits in forge)
+ * scrapBrass 6000 -> 30000
+ * scrapLead 6000 -> 30000
+ * ironFragment 1200 -> 3000 (->15000 Scrap iron,2 of it fit in forge)
+ * ~~crushedSand 1000 -> 3000~~ (vanilla now 6000 @A16)
+ * ~~rockSmall 1000 -> 3000~~ (vanilla now 6000 @A16)
+ * ~~yuccaFibers 1000 -> 5000~~ (vanilla now 6000 @A16)
+ * ~~clayLump 1000 -> 3000~~ (vanilla now 6000 @A16)
  * calipers 1 -> 10
  * toolAndDieSet 1 -> 5
  * cobblestones 1000 -> 5000
@@ -95,10 +74,10 @@
 ### Changes to Localisation.txt
 * Localisation for Geologist perk
 * Localisation for fistfight (german & english only yet)
-* Localisation for all perfectionist perks (german & english only yet)
+* Localisation for perfectionist perk (german & english only yet)
 
 ### Changes to entitygroups.xml
-* added new group with all +special zombies
+* added new group with all +special zombies (ToDo: A16 Zombies)
 
 ### Changes to spawning.xml
 * changed last entry for screamer horde to spawn zombies from special zombies group too

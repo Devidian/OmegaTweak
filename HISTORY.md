@@ -1,3 +1,20 @@
+## v16.0.e (merge version, nothing new)
+* restored changes to blocks.xml made in previous versions
+ * drop fall events
+ * pew segmet repair values
+* restored entitygroups zombie group
+ * removed deleted zombie types
+ * need to add A16 zombies
+* restored entityclasses.xml changes
+ * all timer changes
+* restored all changes from spawning.xml
+* restored all Omega recipes in recipes.xml
+ * note: jail door is now vanilla recipe
+* restored OmegaTweak perks
+ * due to changes, there is now only one crafting-perfectionist perk but requieres all craftSkill* on a certain level and player level 140+
+* restored Localisation.txt changes
+* restored items.xml changes
+
 ## v15.2.1
 * merged A15.2 experimental changes
 
