@@ -3,13 +3,13 @@
 
 ### Changes to blocks.xml
 * new Drop-Fall event paths (no magic disappearance of material)
- * Stone->destroyedStone->Gravel->sandStone->sand->sand
- * (type)Ore->(type)Ore 
- * grass -> dirt
- * dirt -> dirt
- * fertileFarmland -> fertileDirt
- * sod -> sod
- * clay -> clay
+  + Stone->destroyedStone->Gravel->sandStone->sand->sand
+  + (type)Ore->(type)Ore 
+  + grass -> dirt
+  + dirt -> dirt
+  + fertileFarmland -> fertileDirt
+  + sod -> sod
+  + clay -> clay
 * added repair items (wood) for pew segments
 
 ### Changes to recipes.xml
@@ -28,48 +28,48 @@
 * ~~Map Icon for Minibikes activated~~ (vanilla @ A16)
 * Backpack lifetime raised from 20 Minutes to 60 Minutes
 * (UMA)Zombie corpse lifetime raised from 30(45) to 60 seconds
- * Note: corpse still exist after rotting, no time to set(change) there currently
+  + Note: corpse still exist after rotting, no time to set(change) there currently
 * Dog & Animal corpse lifetime raised from 300 to 900 seconds (15 Minutes)
 
 ### Changes to progression.xml
 * Raised player level from 200 to 1000
 * New Action Skill: Fistfight
- * Bonus 1: StaminaDegradation down to 0.66 (Level 100)
- * Bonus 2: EntityDamage up to 1.28
+  + Bonus 1: StaminaDegradation down to 0.66 (Level 100)
+  + Bonus 2: EntityDamage up to 1.28
 * New Action Skill: Machetes Training
- * Bonus 2: EntityDamage up to 1.28 (Level 100) and 1.40 (level 200)
+  + Bonus 2: EntityDamage up to 1.28 (Level 100) and 1.40 (level 200)
 * Added Machetes Training as requirement for knife guy and decapitator until we have something similar
 * New Perk: Geologist with 2 level each 20 Skillpoints
- * Requirements: Player Level 50, Miner 69er Level 5, Mining Tools Level 100
- * Level 1: 10% Block Damage,  5% harvest count
- * Level 2: 20% Block Damage, 10% harvest count (With this one you can one-hit stone again)
+  + Requirements: Player Level 50, Miner 69er Level 5, Mining Tools Level 100
+  + Level 1: 10% Block Damage,  5% harvest count
+  + Level 2: 20% Block Damage, 10% harvest count (With this one you can one-hit stone again)
 * New Perk: Crafting-Perfectionist with 5 level each 20*1.15 Skillpoints
- * Requirements: Player level 140,150,165,180,200 all craftSkill* level 2,4,6,8,10
- * Level 1-5: 20-100 Quality points added
+  + Requirements: Player level 140,150,165,180,200 all craftSkill* level 2,4, 6,8,10
+  + Level 1-5: 20-100 Quality points added
 
 ### Changes to items.xml
 * added Fistfight as Action0 group for player hand (id 70)
- * added actionXp (5)
- * added buffs to player hand
-  * 5% chance to buff bleeding
-  * 30% chance to stun
+  + added actionXp (5)
+  + added buffs to player hand
+    - 5% chance to buff bleeding
+    - 30% chance to stun
 * uncommented book, changed stack to 100, fuel and weight to 64
 * Added "Machetes Training" as ActionSkillGroup for machete
 * changed machete repairMaterial to forgedSteel
 * Adjusted stack numbers:
- * scrapIron 6000 -> 30000 (what fits in forge)
- * scrapBrass 6000 -> 30000
- * scrapLead 6000 -> 30000
- * ironFragment 1200 -> 3000 (->15000 Scrap iron,2 of it fit in forge)
- * ~~crushedSand 1000 -> 3000~~ (vanilla now 6000 @A16)
- * ~~rockSmall 1000 -> 3000~~ (vanilla now 6000 @A16)
- * ~~yuccaFibers 1000 -> 5000~~ (vanilla now 6000 @A16)
- * ~~clayLump 1000 -> 3000~~ (vanilla now 6000 @A16)
- * calipers 1 -> 10
- * toolAndDieSet 1 -> 5
- * cobblestones 1000 -> 5000
- * concreteMix 1000 -> 5000
- * cement 1000 -> 3000
+  + scrapIron 6000 -> 30000 (what fits in forge)
+  + scrapBrass 6000 -> 30000
+  + scrapLead 6000 -> 30000
+  + ironFragment 1200 -> 3000 (->15000 Scrap iron,2 of it fit in forge)
+  + ~~crushedSand 1000 -> 3000~~ (vanilla now 6000 @A16)
+  + ~~rockSmall 1000 -> 3000~~ (vanilla now 6000 @A16)
+  + ~~yuccaFibers 1000 -> 5000~~ (vanilla now 6000 @A16)
+  + ~~clayLump 1000 -> 3000~~ (vanilla now 6000 @A16)
+  + calipers 1 -> 10
+  + toolAndDieSet 1 -> 5
+  + cobblestones 1000 -> 5000
+  + concreteMix 1000 -> 5000
+  + cement 1000 -> 3000
 
 ### Changes to Localisation.txt
 * Localisation for Geologist perk
@@ -83,7 +83,8 @@
 * changed last entry for screamer horde to spawn zombies from special zombies group too
 
 ## Installation & Update Information
-The current master is ONLY for Alpha 15, dont try to use with a lower Alpha version.
+The current master is ONLY for Alpha 16, dont try to use with a lower Alpha version.
+Lower versions are tagged
 
 ### Localisation 
 Due to the fact that Localisation.txt is not pushed by the server, all players should be install the mod to have full Localisation feature (english & german).
