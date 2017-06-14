@@ -52,8 +52,8 @@
 		<entity name="zombieSteveCrawler" prob="0.05"/>
 		<entity name="zombieFatCop" prob="0.15"/>
 		<!--<entity name="burntzombie" prob="0.07"/>-->
-		<entity name="zombieBear" prob="0.1"/>
-		<entity name="zombieferal" prob="0.1"/>
+		<entity name="animalZombieBear" prob="0.1"/>
+		<!--<entity name="zombieferal" prob="0.1"/>-->
 	</entitygroup>
 
 	<entitygroup name="ZombiesNight">
