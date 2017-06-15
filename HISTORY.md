@@ -1,10 +1,10 @@
-## v16.0.e (merge version, nothing new)
+## v16.0.e (merge version, experimental)
 * restored changes to blocks.xml made in previous versions
   * drop fall events
   * pew segmet repair values
 * restored entitygroups zombie group
   * removed deleted zombie types
-  * need to add A16 zombies
+  * need to add A16 zombies (done!)
 * restored entityclasses.xml changes
   * all timer changes
 * restored all changes from spawning.xml

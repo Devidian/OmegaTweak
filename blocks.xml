@@ -57,9 +57,9 @@ tbnsew:
 	<drop event="Harvest" name="rockSmall" count="25" tool_category="harvestingTools"/>
 	<drop event="Harvest" name="ironFragment" count="2" tool_category="harvestingTools"/>
 	<drop event="Destroy" count="0"/>
-	<drop event="Fall" name="rockSmall" count="50" prob=".23" stick_chance="0"/>
-	<drop event="Fall" name="ironFragment" count="4" prob=".23" stick_chance="0"/>
-	<drop event="Fall" name="destroyedStone" count="1" prob="0.1" stick_chance=".5"/>
+	<!--<drop event="Fall" name="rockSmall" count="50" prob=".23" stick_chance="0"/>-->
+	<!--<drop event="Fall" name="ironFragment" count="4" prob=".23" stick_chance="0"/>-->
+	<drop event="Fall" name="destroyedStone" count="1" prob="1" stick_chance="1"/>
 	<!-- Better to have fewer stacks with higher numbers for performance reasons. -->
 	<!-- With a stick chance fallen resources just get buried and fall off the earth. -->
 	<!-- Could maybe do "0.1" stick but it would quickly make the whole endeavor unfun. Gazz -->
@@ -158,7 +158,6 @@ tbnsew:
 	<drop event="Harvest" name="potassiumNitratePowder" count="20" tool_category="harvestingTools"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="potassiumNitrate" stick_chance="1" />
-	<!--<drop event="Fall" name="potassiumNitratePowder" count="20" prob=".5" stick_chance="0"/>-->
 	<property name="CanMobsSpawnOn" value="true"/>
 </block>
 
@@ -275,6 +274,7 @@ tbnsew:
 	<drop event="Harvest" name="rockSmall" count="4" tool_category="harvestingTools"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="sand" stick_chance="1"/>
+	<!--<drop event="Fall" name="rockSmall" count="4" prob=".5" stick_chance="0"/>-->
 	<property name="Group" value="Decor/Miscellaneous"/>
 	<property name="CanMobsSpawnOn" value="true"/>
 	<property name="EconomicValue" value="5"/>
@@ -331,6 +331,7 @@ tbnsew:
 	<drop event="Harvest" name="rockSmall" count="8" tool_category="harvestingTools"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="sandStone" stick_chance="1"/>
+	<!--<drop event="Fall" name="rockSmall" count="24" prob=".16" stick_chance="0"/>-->
 	<property name="CanMobsSpawnOn" value="true"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="20"/>
@@ -401,6 +402,7 @@ tbnsew:
 	<drop event="Harvest" name="dirtFragment" count="10" tool_category="harvestingTools"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="fertileDirt" stick_chance="1"/>
+	<!--<drop event="Fall" name="dirtFragment" count="20" prob="0.187" stick_chance="0"/>-->
 	<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
 </block>
 
@@ -436,6 +438,7 @@ tbnsew:
 	<drop event="Harvest" name="dirtFragment" count="10" tool_category="harvestingTools"/>
 	<drop event="Destroy" name="yuccaFibers" count="1" prob="0.25"/>
 	<drop event="Fall" name="dirt" stick_chance="1"/>
+	<!--<drop event="Fall" name="dirtFragment" count="20" prob="0.187" stick_chance="0"/>-->
 	<property name="Group" value="Decor/Miscellaneous"/>
 	<property name="CanMobsSpawnOn" value="true"/>
 	<property name="EconomicValue" value="5"/>
@@ -464,6 +467,7 @@ tbnsew:
 	<drop event="Harvest" name="dirtFragment" count="10" tool_category="harvestingTools"/>
 	<drop event="Destroy" name="yuccaFibers" count="2"/>
 	<drop event="Fall" name="dirt" stick_chance="1"/>
+	<!--<drop event="Fall" name="dirtFragment" count="20" prob="0.187" stick_chance="0"/>-->
 	<property name="Group" value="Decor/Miscellaneous"/>
 	<property name="CanMobsSpawnOn" value="true"/>
 	<property name="EconomicValue" value="5"/>
@@ -538,6 +542,7 @@ tbnsew:
 	<drop event="Harvest" name="dirtFragment" count="10" tool_category="harvestingTools"/>
 	<drop event="Destroy" name="yuccaFibers" count="1"/>
 	<drop event="Fall" name="sod" stick_chance="1"/>
+	<!--<drop event="Fall" name="dirtFragment" count="20" prob="0.187" stick_chance="0"/>-->
 	<property name="EconomicValue" value="5"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property name="SellableToTrader" value="false"/>
@@ -564,6 +569,7 @@ tbnsew:
 	<drop event="Harvest" name="dirtFragment" count="10" tool_category="harvestingTools"/>
 	<drop event="Destroy" name="yuccaFibers" count="1"/>
 	<drop event="Fall" name="sod" stick_chance="1"/>
+	<!--<drop event="Fall" name="dirtFragment" count="20" prob="0.187" stick_chance="0"/>-->
 </block>
 
 <block id="32" name="woodDebris">
@@ -616,6 +622,7 @@ tbnsew:
 	<drop event="Harvest" name="dirtFragment" count="10" tool_category="harvestingTools"/>
 	<drop event="Destroy" name="fertilizer" count="1" prob="0.33"/>
 	<drop event="Fall" name="fertileFarmland" stick_chance="1"/>
+	<!--<drop event="Fall" name="dirtFragment" count="20" prob="0.187" stick_chance="0"/>-->
 	<property name="DescriptionKey" value="terrainBlockGroupDesc"/>
 </block>
 
@@ -988,6 +995,7 @@ group desc for stuff like metal siding
 </block>
 
 <block id="117" name="glassBulletproofMaster">
+	<property name="Group" value="Building"/>
 	<property name="IsDeveloper" value="true"/>
 	<property name="Material" value="MglassBulletproof"/>
 	<property name="Shape" value="New"/>
@@ -1081,6 +1089,7 @@ group desc for stuff like metal siding
 </block>
 
 <block id="121" name="stainlessSteelMaster">
+	<property name="Group" value="Building"/>
 	<property name="Material" value="MstainlessSteel"/>
 	<property name="PassThroughDamage" value="true"/>
 	<property name="Texture" value="267"/>
@@ -1111,35 +1120,7 @@ group desc for stuff like metal siding
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1"/>
 	<property name="EconomicValue" value="20"/>
 </block>
-
-<block id="123" name="cobblestoneFrameMaster">
-	<property name="Group" value="Building"/>
-	<property name="DescriptionKey" value="cobblestoneFrameGroupDesc"/>
-	<property name="Material" value="wood_weak"/>
-	<property name="Shape" value="New"/>
-	<property name="LightOpacity" value="0"/>
-	<property name="Mesh" value="cutout"/> <!-- A16, any shape should automatically be suitable as a frame block when set to the cutout mesh -->
-	<property name="Model" value="cube"/>
-	<property name="Frame"/> <!-- tells the game to render this as a frame with backfaces and without zfighting -->
-	<property name="Texture" value="347"/>
-	<property name="ImposterExclude" value="true"/>
-	<property name="ImposterDontBlock" value="true"/>
-	<property name="IsDeveloper" value="true"/>
-	<property name="Collide" value="movement,melee,rocket"/> <!-- -rocket -->
-	<property name="FuelValue" value="150"/>
-	<property name="CanPickup" value="true"/>
-	<property class="RepairItems"> <property name="wood" value="5"/> </property>
-	<property class="UpgradeBlock">
-		<property name="ToBlock" value="cobblestoneMaster"/>
-		<property name="Item" value="cobblestones"/>
-		<property name="ItemCount" value="10"/>
-		<property name="UpgradeHitCount" value="8"/>
-	</property>
-	<drop event="Destroy" name="wood" count="1,3"/>
-	<drop event="Fall" name="woodDebris" count="1" prob=".3" stick_chance="1"/>
-	<property name="EconomicValue" value="6"/>
-	<property name="EconomicBundleSize" value="20"/>
-</block>
+	<!-- 1 Free -->
 
 <block id="124" name="cobblestoneMaster">
 	<property name="Group" value="Building"/>
@@ -1164,6 +1145,7 @@ group desc for stuff like metal siding
 </block>
 
 <block id="125" name="woodWeakNoUpgradeMaster">
+	<property name="Group" value="Building"/>
 	<property name="DescriptionKey" value="woodFrameGroupDesc"/>
 	<property name="Material" value="wood_weak"/>
 	<property name="Texture" value="241"/>
@@ -1233,6 +1215,7 @@ group desc for stuff like metal siding
 </block>
 
 <block id="130" name="corrugatedMetalNoUpgradeMaster">
+	<property name="Group" value="Building"/>
 	<property name="Material" value="metal"/> <!-- 300 HP -->
 	<property name="Texture" value="194"/>
 	<!-- <property name="ImposterExchange" value="imposterBlock" param1="57"/> -->
@@ -1257,8 +1240,8 @@ group desc for stuff like metal siding
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="cobblestoneMaster"/>
 		<property name="Item" value="cobblestones"/>
-		<property name="ItemCount" value="7"/>
-		<property name="UpgradeHitCount" value="4"/>
+		<property name="ItemCount" value="9"/>
+		<property name="UpgradeHitCount" value="6"/>
 	</property>
 	<property name="HarvestOverdamage" value="true"/>
 	<drop event="Harvest" name="rockSmall" count="5"/>
@@ -1285,6 +1268,7 @@ group desc for stuff like metal siding
 </block>
 
 <block id="133" name="steelMaster">
+	<property name="Group" value="Building"/>
 	<property name="Material" value="Msteel"/>
 	<property name="MaxDamage" value="10000"/>
 	<property name="PassThroughDamage" value="true"/>
@@ -1308,6 +1292,7 @@ group desc for stuff like metal siding
 </block>
 
 <block id="134" name="rConcreteMaster">
+	<property name="Group" value="Building"/>
 	<property name="Material" value="MrConcrete"/>
 	<property name="PassThroughDamage" value="true"/>
 	<property name="Texture" value="315"/>
@@ -1330,6 +1315,7 @@ group desc for stuff like metal siding
 </block>
 
 <block id="135" name="pouredRConcreteMaster">
+	<property name="Group" value="Building"/>
 	<property name="Material" value="Mconcrete"/>
 	<property name="MaxDamage" value="1500"/>
 	<property name="Texture" value="176"/>
@@ -1344,6 +1330,7 @@ group desc for stuff like metal siding
 </block>
 
 <block id="136" name="pouredConcreteMaster">
+	<property name="Group" value="Building"/>
 	<property name="Material" value="Mconcrete"/>
 	<property name="MaxDamage" value="1500"/>
 	<property name="Texture" value="176"/>
@@ -1389,11 +1376,14 @@ group desc for stuff like metal siding
 
 <block id="139" name="adobeMaster">
 	<property name="Group" value="Building"/>
-	<property name="DescriptionKey" value="adobeGroupDesc"/>
+	<property name="DescriptionKey" value="legacyBlockDesc"/>
 	<property name="Material" value="Mbrick"/> <!-- 1000 -->
 	<property name="MaxDamage" value="1000"/>
 	<property name="Texture" value="169"/>
-	<!-- <property name="ImposterExchange" value="imposterBlock" param1="46"/> -->
+	<!-- <property name="ImposterExchange" value="imposterBlock" param1="46"/>
+
+	<property name="MergeInto" value="flagstone" param1="46,46,46,46,46,46" />
+	--><!-- "169,169,169,169,169,169" -->
 	<property name="IsDeveloper" value="true"/>
 	<property class="RepairItems"> <property name="crushedSand" value="7"/> <property name="clayLump" value="5"/> </property>
 	<property class="UpgradeBlock">
@@ -1436,6 +1426,7 @@ group desc for stuff like metal siding
 </block>
 
 <block id="141" name="rScrapIronMaster">
+	<property name="Group" value="Building"/>
 	<property name="Material" value="Mmetal_medium"/>
 	<property name="PassThroughDamage" value="true"/>
 	<property name="Texture" value="352"/>
@@ -1464,8 +1455,8 @@ group desc for stuff like metal siding
 	<property name="Shape" value="New"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Model" value="cube"/>
-	<property name="Mesh" value="cutout"/>
-	<property name="Frame"/>
+	<property name="Mesh" value="cutout"/> <!-- A16, any shape should automatically be suitable as a frame block when set to the cutout mesh -->
+	<property name="Frame"/> <!-- tells the game to render this as a frame with backfaces and without zfighting -->
 	<property name="Texture" value="289"/>
 	<property name="ImposterExclude" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -2687,7 +2678,7 @@ group desc for stuff like metal siding
 
 <block id="267" name="animalGore">
 	<property name="IsDeveloper" value="true"/>
-	<property name="Class" value="Gore"/>
+	<!--property name="Class" value="Gore"/-->
 	<property name="Material" value="organic"/>
 	<property name="Shape" value="ModelEntity"/> <!-- A ModelEntity does NOT need a texture entry. -->
 	<property name="Model" value="Entities/Gore/animal_remainsPrefab"/>
@@ -2695,8 +2686,10 @@ group desc for stuff like metal siding
 	<property name="Tag" value="Gore"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="FallDamage" value="false"/>
-	<property name="UpgradeRated.ToBlock" value="air"/> <!-- 1=min, 15=max NOTE: 1 tick is approximately a 1 to 2 minute real-time interval. -->
-	<property name="UpgradeRated.Rate" value="15"/>
+    <!-- WILL NOT WORK WITH GORE ANY MORE
+	<property name="UpgradeRated.ToBlock" value="air"/--> <!-- 1=min, 15=max NOTE: 1 tick is approximately a 1 to 2 minute real-time interval. -->
+	<!-- property name="UpgradeRated.Rate" value="15"/>
+    -->    
 	<property name="Density" value="0.1"/>
 	<property name="HeatMapStrength" value="4.0"/>
 	<!-- HeatMapTime: Every "bit" of heat is like a game object. It DECAYS in x seconds. (scales with game time)
@@ -2794,6 +2787,7 @@ group desc for stuff like metal siding
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterExclude" value="true"/>
 	<drop event="Destroy" name="brokenGlass" count="1,2"/>
+	<property name="DescriptionKey" value="decorativeBlockGroupDesc"/>
 </block>
 
 <block id="278" name="cntLootCrateBookstore">
@@ -2935,8 +2929,9 @@ group desc for stuff like metal siding
 	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
 	<property name="Mesh" value="opaque"/>
 	<property name="Shape" value="New"/>
-	<property name="Model" value="cube_frame"/>
-	<property name="Texture" value="241"/>
+	<property name="Model" value="cube"/>
+	<property name="Mesh" value="cutout"/>
+	<property name="Texture" value="381"/>
 	<property name="UseGlobalUV" value="Local"/>
 	<property name="Group" value="Building,Basics"/>
 	<property name="CanPickup" value="true"/>
@@ -3100,9 +3095,9 @@ group desc for stuff like metal siding
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
-	<property name="FuelValue" value="150"/>
+	<property name="FuelValue" value="200"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
-	<property class="RepairItems"> <property name="wood" value="6"/> </property>
+	<property class="RepairItems"> <property name="wood" value="4"/> </property>
 	<drop event="Destroy" name="wood" count="1,3" prob="1"/>
 	<property name="Collide" value="melee,bullet,arrow,rocket"/>
 	<property name="CanPickup" value="true"/>
@@ -3139,6 +3134,7 @@ group desc for stuff like metal siding
 
 <block id="316" name="porchLight01">
 	<property name="Class" value="Light"/>
+	<property name="DescriptionKey" value="lightPOIGroupDesc"/>
 	<property name="Material" value="Mmetal_thin"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
 	<property name="Shape" value="ModelEntity"/>
@@ -3231,6 +3227,7 @@ group desc for stuff like metal siding
 	<property class="RepairItems"> <property name="forgedIron" value="2"/> <property name="wood" value="5"/> </property>
 	<drop event="Destroy" name="scrapIron" count="5"/>
 	<property name="EconomicValue" value="12"/>
+	<property name="DescriptionKey" value="decorativeBlockGroupDesc"/>
 </block>
 
 <block id="328" name="pew_segment01">
@@ -3247,10 +3244,11 @@ group desc for stuff like metal siding
 	</property>
 	<drop event="Harvest" name="wood" count="6"/>
 	<drop event="Destroy" count="0"/>
+	<property name="DescriptionKey" value="decorativeBlockGroupDesc"/>
 </block>
 
 <block id="329" name="pew_segment02">
-	<property class="RepairItems">
+<property class="RepairItems">
 		<property name="wood" value="4" /> 
 	</property>
 	<drop event="Harvest" name="wood" count="4"/>
@@ -3488,7 +3486,7 @@ group desc for stuff like metal siding
 </block>
 
 <block id="351" name="wallTorch">
-	<property name="Class" value="Torch"/>
+	<property name="Class" value="Torch"/> <!-- no effect on the heat map -->
 	<property name="Material" value="wood_weak"/>
 	<property name="MaxDamage" value="1"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
@@ -3499,11 +3497,7 @@ group desc for stuff like metal siding
 	<property name="ParticleName" value="torch_wall"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="OnlySimpleRotations" value="true"/>
-	<!-- This was not a good idea. <property name="BuffsWhenWalkedOn" value="burningSmall"/> -->
 	<property name="CanPickup" value="true" param1="torch"/>
-	<property name="HeatMapStrength" value="4.05"/>
-	<property name="HeatMapTime" value="1200"/> <!-- str1, t600, f5 = 2.5; str1, t900, f5 = 4; str4.05, t1200, f15 = 4.05-8.1; -->
-	<property name="HeatMapFrequency" value="15"/>
 	<drop event="Destroy" name="torch" count="1"/>
 	<property name="Group" value="Basics,Building"/>
 	<property name="DescriptionKey" value="torchGroupDesc"/>
@@ -3606,6 +3600,7 @@ group desc for stuff like metal siding
 
 <block id="364" name="streetLight01">
 	<property name="Class" value="Light"/>
+	<property name="DescriptionKey" value="lightPOIGroupDesc"/>
 	<property name="Material" value="metal"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
 	<property name="Shape" value="ModelEntity"/>
@@ -4117,7 +4112,7 @@ group desc for stuff like metal siding
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="trapSpikesNew"/>
 		<property name="Item" value="wood"/>
-		<property name="ItemCount" value="12"/>
+		<property name="ItemCount" value="3"/>
 		<property name="UpgradeHitCount" value="4"/>
 	</property>
 	<property name="CustomUpgradeSound" value="place_block_wood"/>
@@ -4197,7 +4192,7 @@ group desc for stuff like metal siding
 	<property name="FuelValue" value="300"/>
 	<!--property name="DontDamageOnTouch" value="true" /-->
 	<property name="BuffsWhenWalkedOn" value="trapDamage1Trigger"/>
-	<property class="RepairItems"> <property name="wood" value="20"/> </property>
+	<property class="RepairItems"> <property name="wood" value="10"/> </property>
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="rWoodLogSpike2"/>
 		<property name="Item" value="wood"/>
@@ -4991,8 +4986,8 @@ kind of free
 	<property name="Model" value="Furniture/chair01" param1="main_mesh"/>
 	<property name="Place" value="TowardsPlacer"/>
 	<property name="IsTerrainDecoration" value="true"/>
-	<property name="FuelValue" value="150"/>
-	<property name="Weight" value="50"/>
+	<property name="FuelValue" value="200"/>
+	<property name="Weight" value="30"/>
 	<property name="CanPickup" value="true"/>
 	<property name="DescriptionKey" value="furnitureGroupDesc"/>
 	<drop event="Destroy" name="wood" count="1,3" prob="1"/>
@@ -5200,7 +5195,7 @@ kind of free
 	<property name="Tag" value="Door"/>
 	<property name="Place" value="Door"/>
 	<property name="PlaceEverywhere" value="true"/>
-	<property name="Model" value="Entities/Doors/jail_doorPrefab"/><property name="ModelOffset" value="0,0,0"/>
+	<property name="Model" value="Entities/Doors/jail_doorPrefab"/> <property name="ModelOffset" value="0,.5,0"/>
 	<property name="MultiBlockDim" value="2,2,1"/>
 	<property name="ImposterExclude" value="true"/>
 	<!--
@@ -5743,7 +5738,7 @@ kind of free
 	<drop event="Harvest" name="wood" count="30" tool_category="harvestingTools"/>
 	<property name="ParticleOnDeath" value="treeGib_dead_02"/>
 </block>
-	<!-- n Free -->
+	<!-- 3 Free -->
 
 <block id="586" name="treeWinterEverGreen">
 	<property name="Extends" value="treeMaster"/>
@@ -5912,18 +5907,18 @@ kind of free
 </block>
 
 <block id="604" name="looseBoardsTrapPlate1x1">
-	<property name="Extends" value="looseBoardsTrapBlock1x1" param1="DescriptionKey"/>
+	<property name="Extends" value="looseBoardsTrapBlock1x1" param1="CustomIcon,DescriptionKey"/>
 	<property name="Model" value="Plate"/>
-	<property name="CustomIcon" value="looseBoardsTrapPlate1x1"/>
+	<!-- <property name="CustomIcon" value="looseBoardsTrapPlate1x1"/> -->
 	<property name="Texture" value="342,342,173,173,173,173"/>
 </block>
 
 <block id="605" name="looseBoardsTrapBlock3x3">
-	<property name="Extends" value="looseBoardsTrapBlock1x1"/>
+	<property name="Extends" value="looseBoardsTrapBlock1x1" param1="CustomIcon,DescriptionKey"/>
 	<property name="Model" value="floor_trap_3x3"/>
 	<property name="MultiBlockDim" value="3,1,3"/>
 	<property name="ActivationDistance" value="6"/>
-	<property name="CustomIcon" value="looseBoardsTrapBlock3x3"/>
+	<!-- <property name="CustomIcon" value="looseBoardBlock3x3"/> -->
 	<!--<property name="DowngradeBlock" value="rWoodWedgeCNRInsideBottom"/>-->
   <property name="UseGlobalUV" value="Global"/>
 </block>
@@ -6531,62 +6526,32 @@ kind of free
 	<property name="TraderID" value="4"/>
 	<property name="Buff" value="shockedBuff"/>
 </block>
+	<!-- 1 Free -->
 
-<block id="659" name="cobblestoneFrameWedge">
-	<property name="Extends" value="cobblestoneFrameMaster"/>
-	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
+<block id="662" name="flagstonePole">
+	<property name="Extends" value="flagstoneMaster"/>
 	<property name="Shape" value="New"/>
-	<property name="Model" value="wedge60"/> <property name="Place" value="TowardsPlacerInverted"/>
-	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneWedge"/>	</property>
+	<property name="LightOpacity" value="0"/>
+	<property name="Model" value="pole_square"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="UseGlobalUV" value="Local"/>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestonePole"/> </property>
 </block>
+	<!-- 1 Free -->
 
-<block id="660" name="cobblestoneFrameWedgeTip">
-	<property name="Extends" value="cobblestoneFrameMaster"/>
-	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
+<block id="664" name="flagstonePillar100">
+	<property name="Extends" value="flagstoneMaster"/>
 	<property name="Shape" value="New"/>
-	<property name="Model" value="wedge60_tip"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
-	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneWedgeTip"/> </property>
-</block>
-
-<block id="661" name="cobblestoneFramePlate">
-	<property name="Extends" value="cobblestoneFrameMaster"/>
-	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
-	<property name="Shape" value="New"/>
-	<property name="Model" value="Plate"/> <!-- needs cutout -->
-	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestonePlate"/> </property>
-</block>
-
-<block id="662" name="cobblestoneFrameCNRFull">
-	<property name="Extends" value="cobblestoneFrameMaster"/>
-	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
-	<property name="Shape" value="New"/>
-	<property name="Model" value="ramp_outside_corner"/>
-	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneCNRFull"/> </property>
-</block>
-
-<block id="663" name="cobblestoneFrameCNRInside">
-	<property name="Extends" value="cobblestoneFrameMaster"/>
-	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
-	<property name="Shape" value="New"/>
-	<property name="Model" value="ramp_inside_corner"/> <property name="Place" value="TowardsPlacerInverted"/>
-	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneCNRInside"/> </property>
-</block>
-
-<block id="664" name="cobblestoneFramePillar100">
-	<property name="Extends" value="cobblestoneFrameMaster"/>
-	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
-	<property name="Shape" value="New"/>
-	<property name="Model" value="Pole1m"/> <!-- needs cutout -->
+	<property name="Model" value="Pole1m"/>
 	<property name="UseGlobalUV" value="Local"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestonePillar100"/> </property>
 </block>
 
-<block id="665" name="cobblestoneFramePillar50">
-	<property name="Extends" value="cobblestoneFrameMaster"/>
-	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
+<block id="665" name="flagstonePillar50">
+	<property name="Extends" value="flagstoneMaster"/>
 	<property name="Shape" value="New"/>
 	<property name="LightOpacity" value="0"/>
-	<property name="Model" value="Pole0.5m"/> <!-- needs cutout -->
+	<property name="Model" value="Pole0.5m"/>
 	<property name="UseGlobalUV" value="Local"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestonePillar50"/> </property>
 </block>
@@ -6874,21 +6839,27 @@ kind of free
 
 <block id="690" name="adobePole">
 	<property name="Extends" value="adobeMaster"/>
+	<property name="IsDeveloper" value="true"/>
 	<property name="Shape" value="New"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Model" value="pole_square"/>
 	<property name="ImposterExclude" value="true"/>
 	<property name="UseGlobalUV" value="Local"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcretePole"/> </property>
+
+	<property name="MergeInto" value="flagstonePole" param1="46,46,46,46,46,46" /> <!-- "169,169,169,169,169,169" -->
 </block>
 
 <block id="691" name="adobePillar100">
 	<property name="Extends" value="adobeMaster"/>
+	<property name="IsDeveloper" value="true"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="Pole1m"/>
 	<property name="UseGlobalUV" value="Local"/>
 	<property name="ImposterExchange" value="imposterDontBlockBlock" param1="46"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcretePillar100"/> </property>
+
+	<property name="MergeInto" value="flagstonePillar100" param1="46,46,46,46,46,46" /> <!-- "169,169,169,169,169,169" -->
 </block>
 
 <block id="692" name="lootToolsAndForgeHelper">
@@ -7061,8 +7032,11 @@ kind of free
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="FallDamage" value="false"/>
 		<!-- <property name="UpgradeRated.BlockCombined" value="air"/> -->
+        <!-- WILL NOT WORK WITH GORE ANY MORE
 		<property name="UpgradeRated.ToBlock" value="air"/>
 		<property name="UpgradeRated.Rate" value="50"/>
+        -->
+    <property name="LootList" value="1"/>  <!-- dummy loot list, will be overridden by the zombie that died -->
 	<drop event="Harvest" name="rottingFlesh" count="1,3" prob="1" tool_category="Butcher"/>
 	<drop event="Harvest" name="femur" count="1,2" prob=".4" tool_category="Butcher"/>
 	<drop event="Harvest" name="animalFat" count="1,2" prob=".33" tool_category="Butcher"/>
@@ -7083,8 +7057,11 @@ kind of free
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsTerrainDecoration" value="true"/>
 		<!-- <property name="UpgradeRated.BlockCombined" value="air"/> -->
+        <!-- WILL NOT WORK WITH GORE ANY MORE
 		<property name="UpgradeRated.ToBlock" value="air"/>
 		<property name="UpgradeRated.Rate" value="25"/>
+        -->
+    <property name="LootList" value="1"/>  <!-- dummy loot list, will be overridden by the zombie that died -->        
 	<drop event="Harvest" name="" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="femur" count="1" prob=".4" tool_category="Butcher"/>
 	<drop event="Destroy" name="femur" count="1" prob="1"/>
@@ -7153,9 +7130,12 @@ kind of free
 
 <block id="708" name="adobeWedgeIncline">
 	<property name="Extends" value="adobeMaster"/>
+	<property name="IsDeveloper" value="true"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60_incline"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteWedgeIncline"/> </property>
+
+	<property name="MergeInto" value="flagstoneWedgeIncline" param1="46,46,46,46,46,46" /> <!-- "169,169,169,169,169,169" -->
 </block>
 
 <block id="709" name="brickWedgeIncline">
@@ -7388,9 +7368,12 @@ kind of free
 
 <block id="736" name="adobeWedgeTipCNRFullTop">
 	<property name="Extends" value="adobeMaster"/>
+	<property name="IsDeveloper" value="true"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60_corner"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteWedgeTipCNRFullTop"/> </property>
+
+	<property name="MergeInto" value="flagstoneWedgeTipCNRFullTop" param1="46,46,46,46,46,46" /> <!-- "169,169,169,169,169,169" -->
 </block>
 
 <block id="737" name="cntBookcase">
@@ -7415,9 +7398,8 @@ kind of free
 	<property class="UpgradeBlock">	<property name="ToBlock" value="pouredConcreteWedgeTipCNRFullTop"/> </property>
 </block>
 
-<block id="739" name="cobblestoneFrameWedgeTipCNRFullTop">
-	<property name="Extends" value="cobblestoneFrameMaster"/>
-	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
+<block id="739" name="flagstoneWedgeTipCNRFullTop">
+	<property name="Extends" value="flagstoneMaster"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60_corner"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneWedgeTipCNRFullTop"/>	</property>
@@ -7432,63 +7414,87 @@ kind of free
 
 <block id="741" name="adobeRamp">
 	<property name="Extends" value="adobeMaster"/>
+	<property name="IsDeveloper" value="true"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="ramp"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteRamp"/> </property>
+
+	<property name="MergeInto" value="flagstoneRamp" param1="46,46,46,46,46,46" /> <!-- "169,169,169,169,169,169" -->
 </block>
 
 <block id="742" name="adobePillar50">
 	<property name="Extends" value="adobeMaster"/>
+	<property name="IsDeveloper" value="true"/>
 	<property name="Shape" value="New"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Model" value="Pole0.5m"/>
 	<property name="UseGlobalUV" value="Local"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcretePillar50"/> </property>
+
+	<property name="MergeInto" value="flagstonePillar50" param1="46,46,46,46,46,46" /> <!-- "169,169,169,169,169,169" -->
 </block>
 
 <block id="743" name="adobeCNRRamp">
 	<property name="Extends" value="adobeMaster"/>
+	<property name="IsDeveloper" value="true"/>
 	<property name="Shape" value="New"/>
 	<property name="LightOpacity" value="6"/>
 	<property name="Model" value="ramp_corner"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteCNRRamp"/> </property>
+
+	<property name="MergeInto" value="flagstoneCNRRamp" param1="46,46,46,46,46,46" /> <!-- "169,169,169,169,169,169" -->
 </block>
 
 <block id="744" name="adobeCNRFull">
 	<property name="Extends" value="adobeMaster"/>
+	<property name="IsDeveloper" value="true"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="ramp_outside_corner"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteCNRFull"/> </property>
+
+	<property name="MergeInto" value="flagstoneCNRFull" param1="46,46,46,46,46,46" /> <!-- "169,169,169,169,169,169" -->
 </block>
 
 <block id="745" name="adobeCNRInside">
 	<property name="Extends" value="adobeMaster"/>
+	<property name="IsDeveloper" value="true"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="ramp_inside_corner"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteCNRInside"/> </property>
+
+	<property name="MergeInto" value="flagstoneCNRInside" param1="46,46,46,46,46,46" /> <!-- "169,169,169,169,169,169" -->
 </block>
 
 <block id="746" name="adobePlate">
 	<property name="Extends" value="adobeMaster"/>
+	<property name="IsDeveloper" value="true"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="Plate"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcretePlate"/> </property>
+
+	<property name="MergeInto" value="flagstonePlate" param1="46,46,46,46,46,46" /> <!-- "169,169,169,169,169,169" -->
 </block>
 
 <block id="747" name="adobeWedge">
 	<property name="Extends" value="adobeMaster"/>
+	<property name="IsDeveloper" value="true"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteWedge"/> </property>
+
+	<property name="MergeInto" value="flagstoneWedge" param1="46,46,46,46,46,46" /> <!-- "169,169,169,169,169,169" -->
 </block>
 
 <block id="748" name="adobeWedgeTip">
 	<property name="Extends" value="adobeMaster"/>
+	<property name="IsDeveloper" value="true"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60_tip"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteWedgeTip"/> </property>
+
+	<property name="MergeInto" value="flagstoneWedgeTip" param1="46,46,46,46,46,46" /> <!-- "169,169,169,169,169,169" -->
 </block>
 
 <block id="749" name="metalReinforcedWoodDrawBridge">
@@ -8175,14 +8181,17 @@ kind of free
 	<property name="Texture" value="223"/>
 	<property name="Map.Color" value="20,20,120"/>
 	<property name="Map.Color" value="119,136,204"/>
-  <property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
+  <property name="Collide" value="melee,bullet,arrow,rocket"/>
 </block>
 
 <block id="827" name="adobeWedgeTipCNRFullBottom">
 	<property name="Extends" value="adobeMaster"/>
+	<property name="IsDeveloper" value="true"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60_tip_corner"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteWedgeTipCNRFullBottom"/> </property>
+
+	<property name="MergeInto" value="flagstoneWedgeTipCNRFullBottom" param1="46,46,46,46,46,46" /> <!-- "169,169,169,169,169,169" -->
 </block>
 
 <block id="828" name="brickWedgeTipCNRFullBottom">
@@ -8191,14 +8200,7 @@ kind of free
 	<property name="Model" value="wedge60_tip_corner"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property class="UpgradeBlock">	<property name="ToBlock" value="pouredConcreteWedgeTipCNRFullBottom"/> </property>
 </block>
-
-<block id="829" name="cobblestoneFrameStairs25">
-	<property name="Extends" value="cobblestoneFrameMaster"/>
-	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
-	<property name="Shape" value="New"/>
-	<property name="Model" value="StairsFilledVerticalUV"/> <property name="Place" value="TowardsPlacerInverted"/>
-	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneStairs25"/> </property>
-</block>
+	<!-- 1 Free -->
 
 <block id="830" name="woodHalf">
 	<property name="DescriptionKey" value="buildingBlockGroupDesc"/>
@@ -8207,11 +8209,12 @@ kind of free
 	<property name="Model" value="cube_half"/>
 	<property name="Texture" value="241"/>
 	<drop event="Destroy" count="0"/>
+	<property name="EconomicValue" value="10"/>
+	<property name="EconomicBundleSize" value="20"/>
 </block>
 
-<block id="831" name="cobblestoneFrameWedgeTipCNRFullBottom">
-	<property name="Extends" value="cobblestoneFrameMaster"/>
-	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
+<block id="831" name="flagstoneWedgeTipCNRFullBottom">
+	<property name="Extends" value="flagstoneMaster"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60_tip_corner"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneWedgeTipCNRFullBottom"/>	</property>
@@ -8376,7 +8379,10 @@ kind of free
 
 <block id="847" name="adobeBlock">
 	<property name="Extends" value="adobeMaster"/>
+	<property name="IsDeveloper" value="true"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteBlock"/> </property>
+
+	<property name="MergeInto" value="flagstoneBlock" param1="46,46,46,46,46,46" /> <!-- "169,169,169,169,169,169" -->
 </block>
 
 <block id="848" name="solidScrapIronFrameWedgeCNRInsideBottom">
@@ -8522,7 +8528,7 @@ kind of free
 	<property name="Extends" value="treeGrassMaster" param1="CustomIcon"/>
 	<property name="Texture" value="306"/>
 </block>
-	<!-- n Free -->
+	<!-- 4 Free -->
 
 <block id="869" name="plantedChrysanthemum1">
 	<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
@@ -8889,9 +8895,12 @@ kind of free
 
 <block id="908" name="adobeWedgeCNRInsideBottom">
 	<property name="Extends" value="adobeMaster"/>
+	<property name="IsDeveloper" value="true"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60_inside_corner"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteWedgeCNRInsideBottom"/> </property>
+
+	<property name="MergeInto" value="flagstoneWedgeCNRInsideBottom" param1="46,46,46,46,46,46" /> <!-- "169,169,169,169,169,169" -->
 </block>
 
 <block id="909" name="treePlantedGrass">
@@ -8930,9 +8939,8 @@ kind of free
 	<property name="DescriptionKey" value="woodArrowSlitGroupDesc"/>
 </block>
 
-<block id="912" name="cobblestoneFrameWedgeCNRInsideBottom">
-	<property name="Extends" value="cobblestoneFrameMaster"/>
-	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
+<block id="912" name="flagstoneWedgeCNRInsideBottom">
+	<property name="Extends" value="flagstoneMaster"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60_inside_corner"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneWedgeCNRInsideBottom"/>	</property>
@@ -9256,9 +9264,12 @@ kind of free
 
 <block id="947" name="adobeWedgeCNRInsideTop">
 	<property name="Extends" value="adobeMaster"/>
+	<property name="IsDeveloper" value="true"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60_inside_corner_2"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteWedgeCNRInsideTop"/> </property>
+
+	<property name="MergeInto" value="flagstoneWedgeCNRInsideTop" param1="46,46,46,46,46,46" /> <!-- "169,169,169,169,169,169" -->
 </block>
 
 <block id="948" name="flagstoneBlock">
@@ -9339,9 +9350,8 @@ kind of free
 	<property class="UpgradeBlock">	<property name="ToBlock" value="pouredConcreteWedgeCNRInsideTop"/> </property>
 </block>
 
-<block id="990" name="cobblestoneFrameWedgeCNRInsideTop">
-	<property name="Extends" value="cobblestoneFrameMaster"/>
-	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
+<block id="990" name="flagstoneWedgeCNRInsideTop">
+	<property name="Extends" value="flagstoneMaster"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60_inside_corner_2"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneWedgeCNRInsideTop"/>	</property>
@@ -9545,10 +9555,13 @@ kind of free
 
 <block id="1035" name="adobeCNRRampFiller">
 	<property name="Extends" value="adobeMaster"/>
+	<property name="IsDeveloper" value="true"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="ramp_corner_filler"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteCNRRampFiller"/> </property>
   <property name="UseGlobalUV" value="Global"/>
+
+	<property name="MergeInto" value="flagstoneCNRRampFiller" param1="46,46,46,46,46,46" /> <!-- "169,169,169,169,169,169" -->
 </block>
 
 <block id="1036" name="brickCNRRampFiller">
@@ -9559,13 +9572,12 @@ kind of free
   <property name="UseGlobalUV" value="Global"/>
 </block>
 
-<block id="1037" name="cobblestoneFrameCNRRampFiller">
-	<property name="Extends" value="cobblestoneFrameMaster"/>
-	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
+<block id="1037" name="flagstoneCNRRampFiller">
+	<property name="Extends" value="flagstoneMaster"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="ramp_corner_filler"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneCNRRampFiller"/>	</property>
-  <property name="UseGlobalUV" value="Global"/>
+	<property name="UseGlobalUV" value="Global"/>
 </block>
 
 <block id="1038" name="cobblestoneCNRRampFiller">
@@ -9575,7 +9587,15 @@ kind of free
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteCNRRampFiller"/>	</property>
   <property name="UseGlobalUV" value="Global"/>
 </block>
-	<!-- 1 Free -->
+
+<block id="1039" name="woodFrameArch">
+	<property name="Extends" value="woodFrameMaster" />
+	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
+	<property name="Shape" value="New" />
+	<property name="Model" value="Arch" /> <property name="Place" value="TowardsPlacerInverted" />
+	<property name="CanPickup" value="true" />
+	<property class="UpgradeBlock"> <property name="ToBlock" value="woodArch" />	</property>
+</block>
 
 <block id="1040" name="flagstoneGable">
 	<property name="Material" value="stone"/>
@@ -9622,7 +9642,7 @@ kind of free
 	<property name="Extends" value="commercialBlindsTop"/>
 	<property name="Model" value="billboard"/>
 </block>
-	<!-- n Free -->
+	<!-- 10 Free -->
 
 <block id="1055" name="cobblestoneArrowSlitHalf">
 	<property name="Extends" value="cobblestoneMaster"/>
@@ -9704,14 +9724,38 @@ kind of free
 
 <block id="1063" name="adobeArrowSlitHalf">
 	<property name="Extends" value="adobeMaster"/>
+	<property name="IsDeveloper" value="true"/>
 	<property name="Shape" value="New"/>
 	<property name="LightOpacity" value="6"/>
 	<property name="Model" value="arrow_slit_half"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="ImposterExchange" value="imposterBlock" param1="48"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteArrowSlitHalf"/> </property>
 	<property name="DescriptionKey" value="woodArrowSlitGroupDesc"/>
+
+	<property name="MergeInto" value="flagstoneArrowSlitHalf" param1="46,46,46,46,46,46" /> <!-- "169,169,169,169,169,169" -->
 </block>
-	<!-- n Free -->
+
+<block id="1064" name="solidWoodFrameArch">
+	<property name="Extends" value="woodFrameArch" />
+	<property name="CustomIcon" value="woodFrameArch" />
+	<property name="CanPickup" value="false" />
+</block>
+
+<block id="1065" name="woodArch">
+	<property name="Extends" value="woodMaster" />
+	<property name="Shape" value="New" />
+	<property name="Model" value="Arch" /> <property name="Place" value="TowardsPlacerInverted" />
+	<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodArch" /> </property>
+	<property name="DowngradeBlock" value="solidWoodFrameArch" />
+</block>
+
+<block id="1066" name="rWoodArch">
+	<property name="Extends" value="rWoodMaster" />
+	<property name="Shape" value="New" />
+	<property name="Model" value="Arch" /> <property name="Place" value="TowardsPlacerInverted" />
+	<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodMetalArch" /> </property>
+	<property name="DowngradeBlock" value="woodArch" />
+</block>
 
 <block id="1067" name="rWoodWedgeTip">
 	<property name="Extends" value="rWoodMaster"/>
@@ -9720,7 +9764,37 @@ kind of free
 	<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodMetalWedgeTip"/> </property>
 	<property name="DowngradeBlock" value="woodWedgeTip"/>
 </block>
-	<!-- n Free -->
+
+<block id="1068" name="rWoodMetalArch">
+	<property name="Extends" value="rWoodMetalMaster" />
+	<property name="Shape" value="New" />
+	<property name="Model" value="Arch" /> <property name="Place" value="TowardsPlacerInverted" />
+	<property class="UpgradeBlock"> <property name="ToBlock" value="scrapIronArch" /> </property>
+	<property name="DowngradeBlock" value="rWoodArch" />
+</block>
+
+<block id="1069" name="scrapIronFrameArch">
+	<property name="Extends" value="scrapIronFrameMaster" />
+	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
+	<property name="Shape" value="New" />
+	<property name="Model" value="Arch" /> <property name="Place" value="TowardsPlacerInverted" />
+	<property name="CanPickup" value="true" />
+	<property class="UpgradeBlock"> <property name="ToBlock" value="scrapIronArch" /> </property>
+</block>
+
+<block id="1070" name="solidScrapIronFrameArch">
+	<property name="Extends" value="scrapIronFrameArch" />
+	<property name="CustomIcon" value="scrapIronFrameArch" />
+	<property name="CanPickup" value="false" />
+</block>
+
+<block id="1071" name="scrapIronArch">
+	<property name="Extends" value="scrapIronMaster" />
+	<property name="Shape" value="New" />
+	<property name="Model" value="Arch" /> <property name="Place" value="TowardsPlacerInverted" />
+	<property class="UpgradeBlock"> <property name="ToBlock" value="rScrapIronArch" /> </property>
+	<property name="DowngradeBlock" value="solidScrapIronFrameArch" />
+</block>
 
 <block id="1072" name="concreteStairs25">
 	<property name="Extends" value="concreteMaster"/>
@@ -9783,7 +9857,7 @@ kind of free
 	<property name="EconomicValue" value="5"/>
 	<property name="EconomicBundleSize" value="10"/>
 </block>
-	<!-- n Free -->
+	<!-- 14 Free -->
 
 <block id="1092" name="scrapIronBlock">
 	<property name="Extends" value="scrapIronMaster"/>
@@ -9842,10 +9916,13 @@ kind of free
 
 <block id="1097" name="adobeStairs25CornerCNR">
 	<property name="Extends" value="adobeMaster"/>
+	<property name="IsDeveloper" value="true"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="stairs_filled_corner"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteStairs25CornerCNR"/> </property>
 	<property name="ImposterExchange" value="imposterCNRFull" param1="46"/>
+
+	<property name="MergeInto" value="flagstoneStairs25CornerCNR" param1="46,46,46,46,46,46" /> <!-- "169,169,169,169,169,169" -->
 </block>
 
 <block id="1098" name="rWoodMetalWedgeTip">
@@ -9879,12 +9956,11 @@ kind of free
 	<property name="CanPickup" value="false"/>
 </block>
 
-<block id="1102" name="cobblestoneFrameStairs25CornerCNR">
-	<property name="Extends" value="cobblestoneFrameMaster"/>
-	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
+<block id="1102" name="flagstoneStairs25CornerCNR">
+	<property name="Extends" value="flagstoneMaster"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="stairs_filled_corner"/> <property name="Place" value="TowardsPlacerInverted"/>
-	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneStairs25CornerCNR"/>	</property>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneStairs25CornerCNR"/> </property>
 </block>
 
 <block id="1103" name="cntMorticianDrawer">
@@ -9939,7 +10015,39 @@ kind of free
 	<property name="CustomUpgradeSound" value="place_block_wood"/>
 	<drop event="Destroy" count="0"/>
 </block>
-	<!-- 4 Free -->
+
+<block id="1109" name="rScrapIronArch">
+	<property name="Extends" value="rScrapIronMaster" />
+	<property name="Shape" value="New" />
+	<property name="Model" value="Arch" /> <property name="Place" value="TowardsPlacerInverted" />
+	<property class="UpgradeBlock"> <property name="ToBlock" value="concreteArch" /> </property>
+	<property name="DowngradeBlock" value="scrapIronArch" />
+</block>
+
+<block id="1110" name="pouredConcreteArch">
+	<property name="Extends" value="pouredConcreteMaster" />
+	<property name="CustomIcon" value="rConcreteArch" />
+	<property name="IsDeveloper" value="true" />
+	<property name="Shape" value="New" />
+	<property name="Model" value="Arch" /> <property name="Place" value="TowardsPlacerInverted" />
+	<property name="UpgradeRated.ToBlock" value="concreteArch" />
+</block>
+
+<block id="1111" name="concreteArch">
+	<property name="Extends" value="concreteMaster" />
+	<property name="Shape" value="New" />
+	<property name="Model" value="Arch" /> <property name="Place" value="TowardsPlacerInverted" />
+	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteArch" /> </property>
+</block>
+
+<block id="1112" name="pouredRConcreteArch">
+	<property name="Extends" value="pouredRConcreteMaster" />
+	<property name="CustomIcon" value="rConcreteArch" />
+	<property name="IsDeveloper" value="true" />
+	<property name="Shape" value="New" />
+	<property name="Model" value="Arch" /> <property name="Place" value="TowardsPlacerInverted" />
+	<property name="UpgradeRated.ToBlock" value="rConcreteArch" />
+</block>
 
 <block id="1113" name="scrapIronWedgeTip">
 	<property name="Extends" value="scrapIronMaster"/>
@@ -9956,7 +10064,49 @@ kind of free
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteWedgeTip"/> </property>
 	<property name="DowngradeBlock" value="scrapIronWedgeTip"/>
 </block>
-	<!-- n Free -->
+
+<block id="1115" name="flagstoneWedgeIncline">
+	<property name="Extends" value="flagstoneMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="wedge60_incline"/> <property name="Place" value="TowardsPlacerInverted"/>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneWedgeIncline"/> </property>-
+</block>
+
+<block id="1116" name="flagstoneCNRRamp">
+	<property name="Extends" value="flagstoneMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="LightOpacity" value="6"/>
+	<property name="Model" value="ramp_corner"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneCNRRamp"/> </property>-
+</block>
+
+<block id="1117" name="flagstonePyramid">
+	<property name="Extends" value="flagstoneMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="pyramid"/>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestonePyramid"/> </property>-
+</block>
+
+<block id="1118" name="flagstoneArch3m">
+	<property name="Material" value="Mbrick"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="arch_3m"/>
+	<property name="Texture" value="226"/>
+	<property name="UseGlobalUV" value="Local"/>
+	<property class="RepairItems"> <property name="cobblestones" value="3"/> </property>
+</block>
+
+<block id="1119" name="flagstoneArch3m_tip">
+	<property name="Extends" value="flagstoneArch3m"/>
+	<property name="Model" value="arch_3m_tip"/>
+</block>
+
+<block id="1120" name="flagstoneArch3m_center">
+	<property name="Extends" value="flagstoneArch3m"/>
+	<property name="Model" value="arch_3m_center"/>
+</block>
+	<!-- 1 Free -->
 
 <block id="1122" name="treeSnowyDeadBush">
 	<property name="Material" value="leaves"/>
@@ -9968,7 +10118,23 @@ kind of free
 	<property name="IsTerrainDecoration" value="true"/>
 	<drop event="Destroy" name="wood" count="1,3"/>
 </block>
-	<!-- n Free -->
+
+<block id="1123" name="rConcreteArch">
+	<property name="Extends" value="rConcreteMaster" />
+	<property name="Shape" value="New" />
+	<property name="Model" value="Arch" /> <property name="Place" value="TowardsPlacerInverted" />
+	<property class="UpgradeBlock"> <property name="ToBlock" value="steelArch" /> </property>
+	<property name="DowngradeBlock" value="concreteArch" />
+</block>
+
+<block id="1124" name="steelArch">
+	<property name="Extends" value="steelMaster" />
+	<property name="Shape" value="New" />
+	<property name="Model" value="Arch" /> <property name="Place" value="TowardsPlacerInverted" />
+	<property name="Texture" value="356" />
+	<property class="UpgradeBlock"> <property name="ToBlock" value="stainlessSteelArch" /> </property>
+	<property name="DowngradeBlock" value="rConcreteArch" />
+</block>
 
 <block id="1125" name="hubcapNoMine">
 	<property name="CustomIcon" value="mineHubcap"/>
@@ -9994,7 +10160,23 @@ kind of free
 	<property name="Model" value="wedge60"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredRConcreteWedge"/> </property>
 </block>
-	<!-- n Free -->
+
+<block id="1128" name="stainlessSteelArch">
+	<property name="Extends" value="stainlessSteelMaster" />
+	<property name="Shape" value="New" />
+	<property name="Model" value="Arch" /> <property name="Place" value="TowardsPlacerInverted" />
+	<property name="DowngradeBlock" value="rConcreteArch" />
+</block>
+
+<block id="1129" name="adobeArch">
+	<property name="Extends" value="adobeMaster" />
+	<property name="IsDeveloper" value="true"/>
+	<property name="Shape" value="New" />
+	<property name="Model" value="Arch" /> <property name="Place" value="TowardsPlacerInverted" />
+	<property class="UpgradeBlock"> <property name="ToBlock" value="concreteArch" /> </property>
+
+	<property name="MergeInto" value="flagstoneArch" param1="46,46,46,46,46,46" /> <!-- "169,169,169,169,169,169" -->
+</block>
 
 <block id="1130" name="woodWedgeIncline">
 	<property name="Extends" value="woodMaster"/>
@@ -10003,7 +10185,13 @@ kind of free
 	<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodWedgeIncline"/> </property>
 	<property name="DowngradeBlock" value="solidWoodFrameWedgeIncline"/>
 </block>
-	<!-- 1 Free -->
+
+<block id="1131" name="brickArch">
+	<property name="Extends" value="brickMaster" />
+	<property name="Shape" value="New" />
+	<property name="Model" value="Arch" /> <property name="Place" value="TowardsPlacerInverted" />
+	<property class="UpgradeBlock">	<property name="ToBlock" value="concreteArch" /> </property>
+</block>
 
 <block id="1132" name="rConcreteCTREighth">
 	<property name="Extends" value="concreteNoUpgradeMaster"/>
@@ -10036,7 +10224,29 @@ kind of free
 	<property name="Model" value="wedge60_tip"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredRConcreteWedgeTip"/> </property>
 </block>
-	<!-- n Free -->
+
+<block id="1136" name="cobblestoneWedgeIncline">
+	<property name="Extends" value="cobblestoneMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="wedge60_incline"/> <property name="Place" value="TowardsPlacerInverted"/>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteWedgeIncline"/> </property>
+</block>
+
+<block id="1137" name="cobblestoneCNRRamp">
+	<property name="Extends" value="cobblestoneMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="LightOpacity" value="6"/>
+	<property name="Model" value="ramp_corner"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteCNRRamp"/> </property>
+</block>
+
+<block id="1138" name="cobblestonePyramid">
+	<property name="Extends" value="cobblestoneMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="pyramid"/>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcretePyramid"/> </property>
+</block>
 
 <block id="1139" name="woodWedgeTip">
 	<property name="Extends" value="woodMaster"/>
@@ -10044,7 +10254,7 @@ kind of free
 	<property name="Model" value="wedge60_tip"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodWedgeTip"/> </property>
 </block>
-	<!-- n Free -->
+	<!-- 3 Free -->
 
 <block id="1143" name="railingWoodWhiteSheet">
 	<property name="Extends" value="woodWeakNoUpgradeMaster"/>
@@ -10077,7 +10287,7 @@ kind of free
 	<property name="PlantGrowing.Next" value="plantedCotton3Harvest"/>
 	<drop event="Destroy" name="plantedCotton1" count="1"/>
 </block>
-	<!-- n Free -->
+	<!-- 9 Free -->
 
 <block id="1156" name="burntWoodWedge7">
 	<property name="Extends" value="burntWoodBlock1"/>
@@ -10314,6 +10524,7 @@ kind of free
 	<property name="CustomUpgradeSound" value="place_block_wood"/>
 	<drop event="Harvest" name="wood" count="4" prob="1"/>
 	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1" />
 </block>
 	<!-- 3 Free -->
 
@@ -10714,7 +10925,7 @@ kind of free
 	<property name="Extends" value="cntGarageStorage"/>
 	<property name="LootList" value="88"/>
 </block>
-	<!-- n Free -->
+	<!-- 3 Free -->
 
 <block id="1226" name="houseFrontDoor2_v1">
 	<property name="Extends" value="houseFrontDoor1_v1"/>
@@ -10939,7 +11150,7 @@ kind of free
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Tag" value="Door"/>
 	<property name="PlaceEverywhere" value="true"/>
-	<property name="Model" value="Entities/Doors/woodenHatch1_v1Prefab"/><property name="ModelOffset" value="0,0,0"/>
+	<property name="Model" value="Entities/Doors/woodenHatch1_v1Prefab"/><property name="ModelOffset" value="0,.5,0"/>
 	<property name="MultiBlockDim" value="1,1,1"/> <!-- we need to override the default door size of 2 blocks high -->
 	<property name="ImposterExchange" value="imposterPlate" param1="35"/>
 	<property name="Mesh-Damage-1" value="Door/Hatch_DMG0"/>
@@ -10960,7 +11171,7 @@ kind of free
 	<property name="CustomUpgradeSound" value="place_block_wood"/>
 	<drop event="Harvest" name="wood" count="4"/>
 	<drop event="Destroy" count="0"/>
-	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1"/>
+	<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
 	<property name="Group" value="Building"/>
 	<property name="EconomicValue" value="5"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -10996,7 +11207,7 @@ kind of free
 	<drop event="Harvest" name="scrapIron" count="8" prob="1"/>
 	<property name="DowngradeBlock" value="woodHatch1_v2"/>
 </block>
-	<!-- n Free -->
+	<!-- 1 Free -->
 
 <block id="1255" name="torchWallHolder">
 	<property name="Material" value="Mmetal_weak"/>
@@ -11004,13 +11215,14 @@ kind of free
 	<property name="Shape" value="Ext3dModel"/>	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
 	<property name="Model" value="Lighting/torch_wall_holder" param1="main_mesh"/> <property name="HandleFace" value="South"/>
-	<property name="Group" value="Basics,Decor/Miscellaneous"/>
+	<property name="Group" value="Building,Decor/Miscellaneous"/>
 	<property class="UpgradeBlock">
-		<property name="ToBlock" value="wallTorch"/>
+		<property name="ToBlock" value="wallTorchPlayer"/>
 		<property name="Item" value="torch"/>
 		<property name="ItemCount" value="1"/>
 		<property name="UpgradeHitCount" value="4"/>
 	</property>
+	<property name="DescriptionKey" value="torchPlayerGroupDesc"/>
 </block>
 
 <block id="1256" name="cntStorageGeneric">
@@ -11049,13 +11261,7 @@ kind of free
 	<property name="Model" value="cube_half"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteHalf"/> </property>
 </block>
-
-<block id="1259" name="cobblestoneFrameBlock">
-	<property name="Extends" value="cobblestoneFrameMaster"/>
-	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
-	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneBlock"/> </property>
-	<property name="Group" value="Building,Basics"/>
-</block>
+	<!-- 1 Free -->
 
 <block id="1260" name="cntPillCase">
 	<property name="Class" value="Loot"/>
@@ -11620,15 +11826,28 @@ kind of free
 	<drop event="Destroy" name="wood" count="1,3"/>
 	<property name="Group" value="Decor/Miscellaneous"/>
 	<property name="EconomicValue" value="5"/>
+	<property name="DescriptionKey" value="decorativeBlockGroupDesc"/>
 </block>
 
 <block id="1327" name="candleTable">
 	<property name="Extends" value="candleWall"/>
-	<property name="IsDeveloper" value="true"/>
 	<property name="Model" value="Lighting/candleTable" param1="main_mesh"/>
 	<property name="ParticleName" value="candle_flame"/>
 </block>
-	<!-- n Free -->
+
+<block id="1328" name="flagstoneArch">
+	<property name="Extends" value="flagstoneMaster"/>
+	<property name="Shape" value="New" />
+	<property name="Model" value="Arch" /> <property name="Place" value="TowardsPlacerInverted" />
+	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneArch" />	</property>
+</block>
+
+<block id="1329" name="cobblestoneArch">
+	<property name="Extends" value="cobblestoneMaster" />
+	<property name="Shape" value="New" />
+	<property name="Model" value="Arch" /> <property name="Place" value="TowardsPlacerInverted" />
+	<property class="UpgradeBlock"> <property name="ToBlock" value="concreteArch" />	</property>
+</block>
 
 <block id="1330" name="cntShippingCrateWorkingStiffs">
 	<property name="Extends" value="cntShippingCrateShamway"/>
@@ -11653,15 +11872,7 @@ kind of free
 	<property name="Model" value="corner_rounded"/>
 	<property name="ImposterExchange" value="imposterBlock" param1="67"/>
 </block>
-
-<block id="1334" name="cobblestoneFrameRamp">
-	<property name="Extends" value="cobblestoneFrameMaster"/>
-	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
-	<property name="Shape" value="New"/>
-	<property name="Model" value="ramp"/> <property name="Place" value="TowardsPlacer90"/>
-	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneRamp"/> </property>
-	<property name="Group" value="Building,Basics"/>
-</block>
+	<!-- 1 Free -->
 
 <block id="1335" name="brickGable">
 	<property name="Extends" value="brickNoUpgradeMaster"/>
@@ -11792,21 +12003,47 @@ kind of free
 	<property name="Stairs"/>
 	<property name="UpgradeRated.ToBlock" value="concreteStairs50"/>
 </block>
-	<!-- 1 Free -->
+
+<block id="1351" name="wallTorchPlayer">
+	<property name="Extends" value="wallTorch"/>
+	<property name="IsDeveloper" value="true"/>
+	<property name="CustomIcon" value="wallTorch"/>
+	<property name="Stacknumber" value="50"/>
+	<property name="Class" value="TorchHeatMap"/>
+	<property name="HeatMapStrength" value="4.05"/>
+	<property name="HeatMapTime" value="1200"/> <!-- str1, t600, f5 = 2.5; str1, t900, f5 = 4; str4.05, t1200, f15 = 4.05-8.1; -->
+	<property name="HeatMapFrequency" value="15"/>
+	<property name="DescriptionKey" value="torchPlayerGroupDesc"/>
+</block>
 
 <block id="1352" name="flagstoneStairs25">
-	<property name="Extends" value="brickMaster"/>
-	<property name="Material" value="stone"/>
+	<property name="Extends" value="flagstoneMaster"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="StairsFilledVerticalUV"/> <property name="Place" value="TowardsPlacerInverted"/>
-	<property name="Texture" value="226"/>
-	<property name="UseGlobalUV" value="Global"/>
 	<property name="Stairs"/>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneStairs25"/> </property>
 	<property name="ImposterExchange" value="imposterRamp" param1="63"/>
-	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteStairs25"/> </property>
-	<property name="DescriptionKey" value="flagstoneGroupDesc"/>
 </block>
-	<!-- n Free -->
+
+<block id="1353" name="candleWallPlayer">
+	<property name="Extends" value="candleWall"/>
+	<property name="IsDeveloper" value="true"/>
+	<property name="CustomIcon" value="candleWall"/>
+	<property name="Stacknumber" value="50"/>
+	<property name="Class" value="TorchHeatMap"/>
+	<property name="HeatMapStrength" value="1"/>
+	<property name="HeatMapTime" value="1200"/>
+	<property name="HeatMapFrequency" value="15"/>
+	<property name="DescriptionKey" value="torchPlayerGroupDesc"/>
+</block>
+
+<block id="1354" name="candleTablePlayer">
+	<property name="Extends" value="candleWallPlayer"/>
+	<property name="IsDeveloper" value="true"/>
+	<property name="CustomIcon" value="candleTable"/>
+	<property name="Model" value="Lighting/candleTable" param1="main_mesh"/>
+	<property name="ParticleName" value="candle_flame"/>
+</block>
 
 <block id="1355" name="flagstoneStairs50">
 	<property name="Extends" value="flagstoneMaster"/>
@@ -11894,9 +12131,12 @@ kind of free
 
 <block id="1369" name="adobePyramid">
 	<property name="Extends" value="adobeMaster"/>
+	<property name="IsDeveloper" value="true"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="pyramid"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcretePyramid"/> </property>
+
+	<property name="MergeInto" value="flagstonePyramid" param1="46,46,46,46,46,46" /> <!-- "169,169,169,169,169,169" -->
 </block>
 
 <block id="1370" name="woodCTRPlate">
@@ -12084,9 +12324,9 @@ kind of free
 
 <block id="1396" name="flagstoneWedgeTip">
 	<property name="Extends" value="flagstoneMaster"/>
-	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneWedgeTip"/> </property>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="wedge60_tip"/> <property name="Place" value="TowardsPlacerInverted"/>
+	<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneWedgeTip"/> </property>
 </block>
 
 <block id="1397" name="newTextureBlock14">
@@ -12098,7 +12338,7 @@ kind of free
 <block id="1398" name="newTextureBlock15">
 	<property name="Extends" value="newTextureBlock01"/>
 	<property name="IsDeveloper" value="true"/>
-	<property name="Texture" value="422,428,429,214,8,8"/>
+	<property name="Texture" value="422,428,429,214,169,171"/>
 </block>
 
 <block id="1399" name="newTextureBlock16">
@@ -12614,6 +12854,7 @@ kind of free
 
 <block id="1448" name="spotlightNailedDownPOI">
 	<property name="Class" value="Light"/>
+	<property name="DescriptionKey" value="lightPOIGroupDesc"/>
 	<property name="Material" value="metal"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Electrical/spotlightStaticPrefab"/>
@@ -12631,7 +12872,6 @@ kind of free
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1"/>
 	<property name="TakeDelay" value="-1"/>
 	<property name="Group" value="Science"/>
-	<property name="DescriptionKey" value="spotlightPlayerDesc"/>
 	<property name="Stacknumber" value="10"/>
 </block>
 
@@ -13026,7 +13266,7 @@ kind of free
 	<property name="Count" value="8"/>
 	<property name="Map.Color" value="20,20,120"/>
 	<property name="Map.Color" value="119,136,204"/>
-  <property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
+  <property name="Collide" value="melee,bullet,arrow,rocket"/>
 </block>
 
 <block id="1473" name="brickDestroyedBlock01">
@@ -13134,12 +13374,15 @@ kind of free
 
 <block id="1504" name="adobeCTRpole">
 	<property name="Extends" value="adobeMaster"/>
+	<property name="IsDeveloper" value="true"/>
 	<property name="Shape" value="New"/>
 	<property name="LightOpacity" value="0"/>
 	<property name="Model" value="pole_square_centered"/>
 	<property name="ImposterExclude" value="true"/>
 	<property name="UseGlobalUV" value="Local"/>
 	<property class="UpgradeBlock"> <property name="ToBlock" value="pouredConcreteCTRpole"/> </property>
+
+	<property name="MergeInto" value="flagstoneCTRpole" param1="46,46,46,46,46,46" /> <!-- "169,169,169,169,169,169" -->
 </block>
 
 <block id="1505" name="steelCNRInside">
@@ -13462,6 +13705,8 @@ kind of free
 
 <block id="1551" name="industrialLight01">
 	<property name="Class" value="Light"/>
+	<property name="DescriptionKey" value="lightPOIGroupDesc"/>
+	<property name="Group" value="Science"/>
 	<property name="Material" value="Mmetal_thin"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
 	<property name="Shape" value="ModelEntity"/>
@@ -14574,6 +14819,7 @@ kind of free
 
 <block id="1927" name="signShopOpen">
 	<property name="Class" value="Light"/>
+	<property name="DescriptionKey" value="lightPOIGroupDesc"/>
 	<property name="IndexName" value="TraderOnOff"/>
 	<property name="CustomIcon" value="signShopOpenSwitch"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
@@ -14589,7 +14835,6 @@ kind of free
 	<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1"/>
 	<property name="TakeDelay" value="-1"/>
 	<property name="Group" value="Science,Decor/Miscellaneous"/>
-	<property name="DescriptionKey" value="decorationBlockGroupDesc"/>
 	<property name="EconomicValue" value="150"/> <!-- disassemble value -->
 </block>
 
@@ -14679,27 +14924,31 @@ kind of free
 </block>
 
 <block id="1959" name="adobeWhiteArch3m">
-	<property name="Material" value="Mmetal_medium"/>
+	<property name="IsDeveloper" value="true"/>
+	<property name="Material" value="Mbrick"/>
 	<property name="Shape" value="New"/>
 	<property name="Model" value="arch_3m"/>
 	<property name="Texture" value="171"/>
 	<property name="UseGlobalUV" value="Local"/>
+	<property class="RepairItems"> <property name="crushedSand" value="7"/> <property name="clayLump" value="5"/> </property>
+
+	<property name="MergeInto" value="flagstoneArch3m" param1="48,48,48,48,48,48" /> <!-- "171,171,171,171,171,171" -->
 </block>
 
 <block id="1960" name="adobeWhiteArch3m_tip">
-	<property name="Material" value="Mbrick"/>
-	<property name="Shape" value="New"/>
+	<property name="Extends" value="adobeWhiteArch3m"/>
+	<property name="IsDeveloper" value="true"/>
 	<property name="Model" value="arch_3m_tip"/>
-	<property name="Texture" value="171"/>
-	<property name="UseGlobalUV" value="Local"/>
+
+	<property name="MergeInto" value="flagstoneArch3m_tip" param1="48,48,48,48,48,48" /> <!-- "171,171,171,171,171,171" -->
 </block>
 
 <block id="1961" name="adobeWhiteArch3m_center">
-	<property name="Material" value="Mbrick"/>
-	<property name="Shape" value="New"/>
+	<property name="Extends" value="adobeWhiteArch3m"/>
+	<property name="IsDeveloper" value="true"/>
 	<property name="Model" value="arch_3m_center"/>
-	<property name="Texture" value="171"/>
-	<property name="UseGlobalUV" value="Local"/>
+
+	<property name="MergeInto" value="flagstoneArch3m_center" param1="48,48,48,48,48,48" /> <!-- "171,171,171,171,171,171" -->
 </block>
 	<!-- n Free -->
 
@@ -15382,6 +15631,7 @@ kind of free
 <block id="2020" name="spotlightPlayer">
 	<property name="CustomIcon" value="spotlightNailedDownPOI"/>
 	<property name="Class" value="Spotlight"/>
+	<property name="DescriptionKey" value="lightPOIGroupDesc"/>
 	<property name="RuntimeSwitch" value="true"/>
 	<property name="Material" value="metal"/>
 	<property name="Shape" value="ModelEntity"/>
@@ -15409,6 +15659,7 @@ kind of free
 
 <block id="2021" name="industrialLight01_player">
 	<property name="Extends" value="industrialLight01"/>
+	<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
 	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
 	<property name="CustomIcon" value="industrialLight01"/>
 	<property name="RuntimeSwitch" value="true"/>
@@ -15426,6 +15677,7 @@ kind of free
 
 <block id="2022" name="porchLight01_player">
 	<property name="Extends" value="porchLight01"/>
+	<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
 	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
 	<property name="CustomIcon" value="porchLight01"/>
 	<property name="RuntimeSwitch" value="true"/>
@@ -15435,6 +15687,7 @@ kind of free
 
 <block id="2023" name="ceilingLight01_player">
 	<property name="Extends" value="porchLight01"/>
+	<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
 	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
 	<property name="CustomIcon" value="ceilingLight01"/>
 	<property name="RuntimeSwitch" value="true"/>
@@ -15446,6 +15699,7 @@ kind of free
 
 <block id="2024" name="ceilingLight02_player">
 	<property name="Extends" value="porchLight01"/>
+	<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
 	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
 	<property name="CustomIcon" value="ceilingLight02"/>
 	<property name="RuntimeSwitch" value="true"/>
@@ -15456,6 +15710,7 @@ kind of free
 
 <block id="2025" name="wallLight01_player">
 	<property name="Extends" value="porchLight01"/>
+	<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
 	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
 	<property name="CustomIcon" value="wallLight01"/>
 	<property name="RuntimeSwitch" value="true"/>
@@ -15466,6 +15721,7 @@ kind of free
 
 <block id="2026" name="ceilingLight07_player">
 	<property name="Extends" value="porchLight01"/>
+	<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
 	<property name="IsDeveloper" value="true"/> <!-- DO NOT merge to console -->
 	<property name="CustomIcon" value="ceilingLight07"/>
 	<property name="RuntimeSwitch" value="true"/>
