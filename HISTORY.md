@@ -14,6 +14,11 @@
   * due to changes, there is now only one crafting-perfectionist perk but requieres all craftSkill* on a certain level and player level 140+
 * restored Localisation.txt changes
 * restored items.xml changes
+### Changes to items.xml
+* schematicMaster.Stacknumber changed from 1 to 10 (schematics are books, why can't we stack those?)
+### Changes to blocks.xml
+* keystoneBlock.Fall changed to keystoneBlock (from destroyed stone)
+  * Note: Would be better if the owner could pick it up instead, but that seems not to work, there is aldready a TakeDelay(30) defined
 
 ## v15.2.1
 * merged A15.2 experimental changes

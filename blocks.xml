@@ -4075,7 +4075,7 @@ group desc for stuff like metal siding
 	<property class="RepairItems"> <property name="forgedSteel" value="10"/> </property>
 	<property name="IndexName" value="lpblock"/>
 	<drop event="Destroy" name="keystoneBlock" count="1"/>
-	<drop event="Fall" name="destroyedStone" count="1" prob=".75" stick_chance="1"/>
+	<drop event="Fall" name="keystoneBlock" stick_chance="1"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="TakeDelay" value="30"/>
 	<property name="Group" value="Building"/>

@@ -7444,7 +7444,7 @@ Mesh files no longer used:
 	<property name="HoldType" value="21"/>
 	<property name="Weight" value="5"/>
 	<property name="FuelValue" value="5"/>
-	<property name="Stacknumber" value="1"/> <!-- STK book -->
+	<property name="Stacknumber" value="10"/> <!-- STK book -->
 	<property name="EconomicValue" value="250"/>
 	<property class="Action1"> <!-- UseAction -->
 		<property name="Class" value="LearnRecipe"/>

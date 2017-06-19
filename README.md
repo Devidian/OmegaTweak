@@ -10,6 +10,7 @@
   + fertileFarmland -> fertileDirt
   + sod -> sod
   + clay -> clay
+  + keystone -> keystone
 * added repair items (wood) for pew segments
 
 ### Changes to recipes.xml
