@@ -336,25 +336,28 @@
 			<multiply skill_level="90,100" value="1.95,2.00"/>
 		</effect>
 	</action_skill>
-	<perk name="Concrete Mixing" icon="resource" description_key="concreteMixingDesc" title_key="concreteMixing" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
+	<perk name="Workbench" icon="resource" description_key="workbenchSkillDesc" title_key="workbench" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
 		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
+		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="2"/>
+		<recipe name="workbench" unlock_level="1"/>
+	</perk>
+	<perk name="Concrete Mixing" icon="resource" description_key="concreteMixingDesc" title_key="concreteMixing" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
+		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="30"/>
+		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="3"/>
 		<recipe name="cement" unlock_level="1"/>
 		<recipe name="concreteMix" unlock_level="1"/>
 	</perk>
 	<perk name="Steel Smithing" icon="resource" description_key="steelSmithingDesc" title_key="steelSmithing" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="tools">
+		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="6"/>
+		<requirement skill_level="1" required_skill_name="craftSkillWeapons" required_skill_level="4"/>
 		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="3"/>
-		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
+		<recipe name="forgeCrucible" unlock_level="1"/>
 		<recipe name="forgedSteel" unlock_level="1"/>
-		<recipe name="steelArrowHead" unlock_level="1"/>
 		<recipe name="spring" unlock_level="1"/>
 	</perk>
-	<perk name="Workbench" icon="resource" description_key="workbenchSkillDesc" title_key="workbench" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
-		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
-		<recipe name="workbench" unlock_level="1"/>
-	</perk>
 	<perk name="ChemStationPerk" icon="resource" description_key="chemStationPerkDesc" title_key="chemistryStation" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
-		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="40"/>
-		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="2"/>
+		<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="7"/>
+		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="3"/>
 		<recipe name="chemistryStation" unlock_level="1"/>
 	</perk>
 
@@ -516,7 +519,6 @@
 		<requirement perk_level="8" required_player_level="80"/>
 		<requirement perk_level="9" required_player_level="100"/>
 		<requirement perk_level="10" required_player_level="120"/>
-		<recipe name="machete" unlock_level="10"/>
 		<effect name="CraftingTime">
 			<multiply skill_level="0,1" value="1.0,.95"/>
 			<multiply skill_level="1,2" value=".95,.90"/>
@@ -579,6 +581,11 @@
 			<multiply skill_level="9,10" value="0.0086,0.0068"/>
 		</effect>
 	</perk>
+	<perk name="macheteCraftingPerk" icon="knife" description_key="macheteCraftingDesc" title_key="macheteCraftingName" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="weapons">
+		<requirement skill_level="1" required_skill_name="craftSkillWeapons" required_skill_level="10"/>
+		<recipe name="machete" unlock_level="1"/>
+	</perk>
+
 	<perk name="craftSkillTools" max_level="10" skill_point_cost_multiplier="1.25" skill_point_cost_per_level="3" exp_to_level="5000000"
 	icon="tool_smithing" description_key="craftSkillToolsDesc" title_key="craftSkillTools" group="tools" exp_gain_multiplier="0">
 		<requirement perk_level="2" required_player_level="5"/>
