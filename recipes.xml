@@ -1442,7 +1442,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="machete" count="1">
-	<ingredient name="forgedIron" count="20"/>
+	<ingredient name="forgedSteel" count="15"/>
 	<ingredient name="wood" count="10"/>
 </recipe>
 

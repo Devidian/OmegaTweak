@@ -18,7 +18,6 @@
 * added paper recipe from book (1 book = 64 paper)
 * added crushedSand recipe (18 sand from 1 destroyed stone)
 * added machete repair recipe (1 machete 2 repair kit 5 forgedSteel)
-* added jailDoor recipe (workbench)
 * added commercialDoor1, 2 & 4 recipe (workbench)
 * added emberpile1 & 2 recipe
 * added pew segments recipes

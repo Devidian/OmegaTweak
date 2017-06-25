@@ -3126,7 +3126,7 @@ group desc for stuff like metal siding
 	<property name="Material" value="Mmetal_thin"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Light" value="0.5"/>
+	<property name="Light" value="0.75"/>
 	<property name="Collide" value="melee,bullet,arrow,rocket"/>
 	<property name="Model" value="Entities/Lighting/porchLight01Prefab"/> <property name="HandleFace" value="West"/>
 	<property name="ImposterDontBlock" value="true"/>
