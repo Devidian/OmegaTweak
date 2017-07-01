@@ -55,7 +55,7 @@
     - 30% chance to stun
 * uncommented book, changed stack to 100, fuel and weight to 64
 * Added "Machetes Training" as ActionSkillGroup for machete
-* changed machete repairMaterial to forgedSteel
+* ~~changed machete repairMaterial to forgedSteel~~ (since A16e.b129 machete is steel)
 * Adjusted stack numbers:
   + scrapIron 6000 -> 30000 (what fits in forge)
   + scrapBrass 6000 -> 30000
@@ -65,7 +65,8 @@
   + ~~rockSmall 1000 -> 3000~~ (vanilla now 6000 @A16)
   + ~~yuccaFibers 1000 -> 5000~~ (vanilla now 6000 @A16)
   + ~~clayLump 1000 -> 3000~~ (vanilla now 6000 @A16)
-  + calipers 1 -> 10
+  + ~~calipers 1 -> 10~~ (removed in A16e.b129)
+  + forgeCrucible 1 -> 3
   + toolAndDieSet 1 -> 5
   + cobblestones 1000 -> 5000
   + concreteMix 1000 -> 5000
