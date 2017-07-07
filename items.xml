@@ -9471,6 +9471,86 @@ Mesh files no longer used:
 	<property name="CreativeMode" value="None" />
 </item>
 
+<!-- OmegaTweak AdminStuff Start -->
+
+<item id="2000" name="omegaHazmatBoots">
+	<property name="Extends" value="hazmatBoots"/>
+	<property name="Insulation" value="6"/>
+	<property name="Encumbrance" value="0.03"/>
+	<property name="EconomicValue" value="500000"/>
+	<property class="Attributes">
+		<property name="ConcussiveProtection" value="1"/>
+		<property name="PunctureProtection" value="1"/>
+		<property name="FireProtection" value="1"/>
+		<property name="RadiationProtection" value="1"/>
+		<property name="ElectricalProtection" value="1"/>
+		<property name="DegradationMax" value="1600,4000"/>
+	</property>
+</item>
+
+<item id="2001" name="omegaHazmatPants">
+	<property name="Extends" value="omegaHazmatBoots"/>
+	<property name="Weight" value="10"/>
+	<property name="EconomicValue" value="750000"/>
+	<property name="EquipSlot" value="Legs"/>
+	<property class="UMA">
+		<property name="Mesh" value="armor_hazmat_legs"/>
+		<property name="Mask0" value="legs" param1="middle"/>
+		<property name="Overlay0" value="armor_hazmat_pants"/>
+		<property name="Layer" value="1"/>
+		<property name="UISlot" value="Pants"/>
+	</property>
+</item>
+
+<item id="2002" name="omegaHazmatShirt">
+	<property name="Extends" value="omegaHazmatBoots"/>
+	<property name="Insulation" value="10"/>
+	<property name="Waterproof" value="0.45"/>
+	<property name="Weight" value="10"/>
+	<property name="EconomicValue" value="750000"/>
+	<property name="EquipSlot" value="Chest"/>
+	<property class="UMA">
+		<property name="Mesh" value="armor_hazmat_chest"/>
+		<property name="Overlay0" value="armor_hazmat_chest"/>
+		<property name="Layer" value="3"/>
+		<property name="UISlot" value="Jacket"/>
+	</property>
+</item>
+
+<item id="2003" name="omegaHazmatGloves">
+	<property name="Extends" value="omegaHazmatBoots"/>
+	<property name="EquipSlot" value="Hands"/>
+	<property class="UMA">
+		<property name="Mesh" value="armor_hazmat_hands"/>
+		<property name="Overlay0" value="armor_hazmat_gloves"/>
+		<property name="Layer" value="0"/>
+		<property name="UISlot" value="Gloves"/>
+	</property>
+</item>
+
+<item id="2004" name="omegaHazmatMask">
+	<property name="Extends" value="omegaHazmatBoots"/>
+	<property name="EquipSlot" value="Head"/>
+	<property class="UMA">
+		<property name="Mesh" value="armor_hazmat_head"/>
+		<property name="Overlay0" value="armor_hazmat_hood"/>
+		<property name="Layer" value="middle"/>
+		<property name="UISlot" value="Headgear"/>
+		<property name="Mask0" value="Head" param1="base"/>
+		<property name="Mask1" value="Head" param1="inner"/>
+		<property name="Mask2" value="Face" param1="base"/>
+		<property name="Mask3" value="Face" param1="inner"/>
+		<property name="Mask4" value="Face" param1="middle"/>
+		<property name="Mask5" value="Face" param1="outer"/>
+		<property name="Mask6" value="Head" param1="base"/>
+		<property name="Mask7" value="Eyes" param1="base"/>
+		<property name="Mask8" value="Eyes" param1="inner"/>
+		<property name="Mask9" value="Eyes" param1="middle"/>
+		<property name="ShowAltHair" value="true"/>
+	</property>
+</item>
+
+<!-- OmegaTweak AdminStuff End -->
 
 <!--
 <item id="1501" name="superWrench">
