@@ -9474,18 +9474,36 @@ Mesh files no longer used:
 <!-- OmegaTweak AdminStuff Start -->
 
 <item id="2000" name="omegaHazmatBoots">
-	<property name="Extends" value="hazmatBoots"/>
-	<property name="Insulation" value="6"/>
+	<property name="Insulation" value="1"/>
 	<property name="Encumbrance" value="0.03"/>
+	<property name="Material" value="MmilitaryFiber"/>
+	<property name="RepairTools" value="militaryFiber"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="Weight" value="5"/>
 	<property name="EconomicValue" value="500000"/>
+	<property name="EquipSlot" value="Feet"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property class="Attributes">
-		<property name="ConcussiveProtection" value="1"/>
-		<property name="PunctureProtection" value="1"/>
-		<property name="FireProtection" value="1"/>
-		<property name="RadiationProtection" value="1"/>
-		<property name="ElectricalProtection" value="1"/>
+		<property name="ConcussiveProtection" value="1,1"/>
+		<property name="PunctureProtection" value="1,1"/>
+		<property name="FireProtection" value="1,1"/>
+		<property name="RadiationProtection" value="1,1"/>
+		<property name="ElectricalProtection" value="1,1"/>
 		<property name="DegradationMax" value="1600,4000"/>
 	</property>
+	<property class="UMA">
+		<property name="Mesh" value="armor_hazmat_feet"/>
+		<property name="Overlay0" value="armor_hazmat_boots"/>
+		<property name="Layer" value="0"/>
+		<property name="UISlot" value="Footwear"/>
+	</property>
+	<property name="DescriptionKey" value="hazmatClothesGroupDesc"/>
+	<property name="Group" value="Clothing"/>
+	<!--<property name="ActionSkillGroup" value="Clothing/Armor"/>-->
+	<!--<property name="CraftingSkillGroup" value="craftSkillScience"/>-->
+	<!--<property name="RepairExpMultiplier" value="10.8"/>-->
 </item>
 
 <item id="2001" name="omegaHazmatPants">
