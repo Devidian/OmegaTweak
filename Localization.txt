@@ -4899,3 +4899,8 @@ fistfight,progression,Skill,KgNone,Fistfight,,Faustkampf,,
 fistfightDesc,progression,Skill,KgNone,,,,,
 geologist,progression,Skill,KgNone,Geologist,Géologue,Geologe,,Geólogo
 geologistDesc,progression,Skill,KgNone,Geologists know where minerals have their weakness and can therefore do more damage and get more ressources,,Der Geologe kennt die Schwächen unterschiedlicher Materialien und kann daher mehr Schaden anrichten und effizienter Rohstoffe gewinnen,,
+omegaHazmatShirt,items,Clothes,EnChanged,Omega Hazmat Jacket,Chemise de protection,Omega Schutzanzugjacke,,Camisa de material peligroso
+omegaHazmatBoots,items,Clothes,KgNone,Omega Hazmat Boots,Bottes de protection,Omega Schutzanzugstiefel,,Botas de material peligroso
+omegaHazmatGloves,items,Clothes,KgNone,Omega Hazmat Gloves,Gants de protection,Omega Schutzanzughandschuhe,,Guantes de material peligroso
+omegaHazmatMask,items,Clothes,KgNone,Omega Hazmat Mask,Masque de protection,Omega Schutzanzugmaske,,Máscara de material peligroso
+omegaHazmatPants,items,Clothes,KgNone,Omega Hazmat Pants,Pantalon de protection,Omega Schutzanzughose,,Pantalones de material peligroso

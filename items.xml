@@ -9474,6 +9474,7 @@ Mesh files no longer used:
 <!-- OmegaTweak AdminStuff Start -->
 
 <item id="2000" name="omegaHazmatBoots">
+	<property name="CustomIcon" value="hazmatBoots"/>
 	<property name="Insulation" value="1"/>
 	<property name="Encumbrance" value="0.03"/>
 	<property name="Material" value="MmilitaryFiber"/>
@@ -9508,6 +9509,7 @@ Mesh files no longer used:
 
 <item id="2001" name="omegaHazmatPants">
 	<property name="Extends" value="omegaHazmatBoots"/>
+	<property name="CustomIcon" value="hazmatPants"/>
 	<property name="Weight" value="10"/>
 	<property name="EconomicValue" value="750000"/>
 	<property name="EquipSlot" value="Legs"/>
@@ -9522,6 +9524,7 @@ Mesh files no longer used:
 
 <item id="2002" name="omegaHazmatShirt">
 	<property name="Extends" value="omegaHazmatBoots"/>
+	<property name="CustomIcon" value="hazmatShirt"/>
 	<property name="Insulation" value="10"/>
 	<property name="Waterproof" value="0.45"/>
 	<property name="Weight" value="10"/>
@@ -9537,6 +9540,7 @@ Mesh files no longer used:
 
 <item id="2003" name="omegaHazmatGloves">
 	<property name="Extends" value="omegaHazmatBoots"/>
+	<property name="CustomIcon" value="hazmatGloves"/>
 	<property name="EquipSlot" value="Hands"/>
 	<property class="UMA">
 		<property name="Mesh" value="armor_hazmat_hands"/>
@@ -9548,6 +9552,7 @@ Mesh files no longer used:
 
 <item id="2004" name="omegaHazmatMask">
 	<property name="Extends" value="omegaHazmatBoots"/>
+	<property name="CustomIcon" value="hazmatMask"/>
 	<property name="EquipSlot" value="Head"/>
 	<property class="UMA">
 		<property name="Mesh" value="armor_hazmat_head"/>

@@ -71,11 +71,13 @@
   + cobblestones 1000 -> 5000
   + concreteMix 1000 -> 5000
   + cement 1000 -> 3000
+* added Admin-Hazmat-Suit with full protection
 
 ### Changes to Localisation.txt
 * Localisation for Geologist perk
 * Localisation for fistfight (german & english only yet)
 * Localisation for perfectionist perk (german & english only yet)
+* Admin-Hazmat-Suit localisation added
 
 ### Changes to entitygroups.xml
 * added new group with all +special zombies (ToDo: A16 Zombies)

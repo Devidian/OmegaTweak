@@ -16,6 +16,9 @@
 * restored items.xml changes
 ### Changes to items.xml
 * schematicMaster.Stacknumber changed from 1 to 10 (schematics are books, why can't we stack those?)
+* added Admin-Hazmat-Suit with full protection
+### Changes to Localisation.txt
+* Admin-Hazmat-Suit localisation added
 ### Changes to blocks.xml
 * keystoneBlock.Fall changed to keystoneBlock (from destroyed stone)
   * Note: Would be better if the owner could pick it up instead, but that seems not to work, there is aldready a TakeDelay(30) defined
