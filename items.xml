@@ -8241,8 +8241,8 @@ Mesh files no longer used:
 	<property name="DropMeshfile" value="Items/Misc/crushedSandDroppedPrefab"/>
 	<property name="HoldType" value="45"/>
 	<property name="Material" value="glass"/>
-	<property name="Weight" value="5"/>
-	<property name="Stacknumber" value="6000"/> <!-- STK resource -->
+	<property name="Weight" value="2"/>
+	<property name="Stacknumber" value="15000"/> <!-- STK resource -->
 	<property name="EconomicValue" value="5"/>
 	<property name="EconomicBundleSize" value="50"/>
 	<property name="Group" value="Resources"/>

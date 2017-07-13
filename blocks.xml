@@ -3215,7 +3215,7 @@ group desc for stuff like metal siding
 </block>
 
 <block id="329" name="pew_segment02">
-<property class="RepairItems">
+	<property class="RepairItems">
 		<property name="wood" value="4" /> 
 	</property>
 	<drop event="Harvest" name="wood" count="4"/>

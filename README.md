@@ -1,4 +1,4 @@
-# OmegaTweak v16.0.e
+# OmegaTweak v16.0.0
 ## 7 Days to die Tweaks by Devidian
 
 ### Changes to blocks.xml
@@ -12,6 +12,7 @@
   + clay -> clay
   + keystone -> keystone
 * added repair items (wood) for pew segments
+* Fix Vanilla bug: Set HarvestOverDamage on treeGrassMaster to false, preventing mass-grass-xp
 
 ### Changes to recipes.xml
 * added book recipe for 64 paper + 1 leather (caseing)
@@ -61,7 +62,7 @@
   + scrapBrass 6000 -> 30000
   + scrapLead 6000 -> 30000
   + ironFragment 1200 -> 3000 (->15000 Scrap iron,2 of it fit in forge)
-  + ~~crushedSand 1000 -> 3000~~ (vanilla now 6000 @A16)
+  + crushedSand 6000 -> 15000 (reduced weight from 5 to 2)
   + ~~rockSmall 1000 -> 3000~~ (vanilla now 6000 @A16)
   + ~~yuccaFibers 1000 -> 5000~~ (vanilla now 6000 @A16)
   + ~~clayLump 1000 -> 3000~~ (vanilla now 6000 @A16)
@@ -80,7 +81,7 @@
 * Admin-Hazmat-Suit localisation added
 
 ### Changes to entitygroups.xml
-* added new group with all +special zombies (ToDo: A16 Zombies)
+* added new group with all +special zombies (ToDo: Balancing)
 
 ### Changes to spawning.xml
 * changed last entry for screamer horde to spawn zombies from special zombies group too

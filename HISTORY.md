@@ -1,3 +1,10 @@
+## v16.0.0 (Stable)
+### Changes to items.xml
+* changed crushed Sand Stacknumber from 6000 to 15000
+* changed crushed Sand Weight from 5 to 2 (you need more sand to smelt for glass)
+### Vanilla Bug fixes
+* [blocks.xml] Set HarvestOverDamage on treeGrassMaster to false, preventing mass-grass-xp
+
 ## v16.0.e (merge version, experimental)
 * restored changes to blocks.xml made in previous versions
   * drop fall events
