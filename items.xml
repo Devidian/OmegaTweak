@@ -272,7 +272,7 @@ Mesh files no longer used:
 		<property name="DamageEntity" value="7"/>
 		<property name="DamageBlock" value="5"/>
 		<property name="Sound_start" value="swoosh"/>
-		<property name="Stamina_usage" value="4"/>
+		<property name="Stamina_usage" value="6.1"/>
 		<property name="DamageBonus.head" value="2"/>
 		<property name="ToolCategory.Butcher" value="0" param1="10"/>
 	</property>
@@ -329,7 +329,7 @@ Mesh files no longer used:
 		<property name="Range" value="2.2"/>
 		<property name="Sphere" value="0.1"/>
 		<property name="Sound_start" value="swoosh"/>
-		<property name="Stamina_usage" value="5.4"/>
+		<property name="Stamina_usage" value="5.5"/>
 		<property name="DamageBonus.head" value="5"/>
 		<property name="DamageBonus.glass" value="1"/>
 		<property name="DamageBonus.leaves" value="25"/>
@@ -367,7 +367,7 @@ Mesh files no longer used:
 		<property name="Range" value="2.2"/>
 		<property name="Sphere" value="0.1"/>
 		<property name="Sound_start" value="swoosh"/>
-		<property name="Stamina_usage" value="5.75"/>
+		<property name="Stamina_usage" value="6.51"/>
 		<property name="DamageBonus.wood" value="3"/>
 		<property name="DamageBonus.head" value="5"/>
 		<property name="DamageBonus.glass" value="1"/>
@@ -1442,12 +1442,12 @@ Mesh files no longer used:
 		<property name="Sound_start" value="swoosh"/>
 		<property name="Stamina_usage" value="3.5"/>
 		<property name="DamageBonus.head" value="5"/>
-		<property name="DamageBonus.glass" value="1"/>
-		<property name="DamageBonus.wood" value="1.2"/>
-		<property name="DamageBonus.earth" value="0.25"/>
-		<property name="DamageBonus.stone" value="0.75"/>
-		<property name="DamageBonus.metal" value="0.5"/>
-		<property name="DamageBonus.organic" value="1"/>
+		<property name="DamageBonus.glass" value="0.42"/>
+		<property name="DamageBonus.wood" value="1"/>
+		<property name="DamageBonus.earth" value="0.2083"/>
+		<property name="DamageBonus.stone" value="0.625"/>
+		<property name="DamageBonus.metal" value="0.4167"/>
+		<property name="DamageBonus.organic" value="0.8334"/>
 		<property name="ActionExp" value="2"/>
 		<property name="ToolCategory.Butcher" value="0.5" param1="3.5"/>
 		<property name="Sound_harvesting" value="open_animal" param1="organic" />
@@ -1463,7 +1463,7 @@ Mesh files no longer used:
 	</property>
 	<property class="Attributes">
 		<property name="EntityDamage" value="4,10"/>
-		<property name="BlockDamage" value="19,33"/>
+		<property name="BlockDamage" value="22.8,30"/>
 		<property name="DegradationMax" value="100,600"/>
 		<property name="DegradationRate" value="1,1"/>
 		<property name="DismembermentBaseChance" value="0,0"/>
@@ -1481,10 +1481,13 @@ Mesh files no longer used:
 	<property name="Extends" value="stoneAxe"/>
 	<property name="EconomicValue" value="200"/>
 	<property name="CustomIcon" value="stoneAxe"/> <property name="CustomIconTint" value="ffb0b0"/>
+	<property class="Action0">
+		<property name="Stamina_usage" value="4.5"/>
+	</property>
 	<property class="Attributes">
 		<property name="EntityDamage" value="10,20"/>
-		<property name="BlockDamage" value="40,104"/>
-		<property name="DegradationMax" value="300,600"/>
+		<property name="BlockDamage" value="45.6,60"/>
+		<property name="DegradationMax" value="350,800"/>
 		<property name="DegradationRate" value="1,1"/>
 	</property>
 </item>
@@ -1509,7 +1512,7 @@ Mesh files no longer used:
 		<property name="Stamina_usage" value="8.27"/>
 		<property name="DamageBonus.wood" value="1"/>
 		<property name="DamageBonus.head" value="2"/>
-		<property name="DamageBonus.glass" value="1"/>
+		<property name="DamageBonus.glass" value="0.25"/>
 		<property name="DamageBonus.stone" value="0.25"/>
 		<property name="DamageBonus.metal" value="0.25"/>
 		<property name="DamageBonus.earth" value="0.2"/>
@@ -1540,7 +1543,7 @@ Mesh files no longer used:
 	<property name="RepairTools" value="forgedSteel"/>
 	<property name="EconomicValue" value="912"/>
 	<property class="Action0">
-		<property name="Stamina_usage" value="9.19"/>
+		<property name="Stamina_usage" value="15"/>
 		<property name="ToolCategory.Butcher" value="0.75" param1="10"/>
 		<property name="ToolCategory.harvestingTools" value="1.4" param1="1"/>
 	</property>
@@ -1600,7 +1603,7 @@ Mesh files no longer used:
 	<property name="EconomicValue" value="912"/>
 	<property class="Action0">
 		<property name="Delay" value="1.5"/>
-		<property name="Stamina_usage" value="12.53"/>
+		<property name="Stamina_usage" value="20.4"/>
 		<property name="DamageBonus.head" value="4"/>
 		<property name="ToolCategory.harvestingTools" value="1.4" param1="1"/>
 	</property>
@@ -1633,7 +1636,7 @@ Mesh files no longer used:
 		<property name="Sound_start" value="swoosh"/>
 		<property name="Stamina_usage" value="4.8"/>
 		<property name="DamageBonus.earth" value="2"/>
-		<property name="DamageBonus.glass" value="1"/>
+		<property name="DamageBonus.glass" value="0.5"/>
 		<property name="DamageBonus.head" value="4"/>
 		<property name="DamageBonus.wood" value="0.3"/>
 		<property name="DamageBonus.stone" value="0.5"/>
@@ -1645,7 +1648,7 @@ Mesh files no longer used:
 	</property>
 	<property class="Attributes">
 		<property name="EntityDamage" value="4,12"/>
-		<property name="BlockDamage" value="15,30"/>
+		<property name="BlockDamage" value="15,19.7"/>
 		<property name="DegradationMax" value="60,600"/>
 		<property name="DegradationRate" value="1,1"/>
 	</property>
@@ -1676,7 +1679,7 @@ Mesh files no longer used:
 		<property name="Sound_start" value="swoosh"/>
 		<property name="Stamina_usage" value="8.27"/>
 		<property name="DamageBonus.earth" value="2"/>
-		<property name="DamageBonus.glass" value="1"/>
+		<property name="DamageBonus.glass" value="0.5"/>
 		<property name="DamageBonus.head" value="4"/>
 		<property name="DamageBonus.wood" value="0.25"/>
 		<property name="DamageBonus.stone" value="0.5"/>
@@ -1709,7 +1712,7 @@ Mesh files no longer used:
 	<property name="EconomicValue" value="912"/>
 	<property class="Action0">
 		<property name="Delay" value="1.2"/>
-		<property name="Stamina_usage" value="10.02"/>
+		<property name="Stamina_usage" value="16.36"/>
 		<property name="DamageBonus.earth" value="3"/>
 		<property name="DamageBonus.organic" value="1"/>
 		<property name="ToolCategory.harvestingTools" value="1.4" param1="1"/>
@@ -1740,7 +1743,7 @@ Mesh files no longer used:
 		<property name="Stamina_usage" value="6.5"/>
 		<property name="DamageBonus.head" value="3"/>
 		<property name="DamageBonus.earth" value="2"/>
-		<property name="DamageBonus.glass" value="1"/>
+		<property name="DamageBonus.glass" value="0.2"/>
 		<property name="DamageBonus.stone" value="0"/>
 		<property name="DamageBonus.metal" value="0"/>
 		<property name="ActionExp" value="2"/>
@@ -1858,7 +1861,7 @@ Mesh files no longer used:
 		<property name="DamageBonus.metal" value="1"/>
 		<property name="DamageBonus.organic" value="0.5"/>
 		<property name="DamageBonus.earth" value="1"/>
-		<property name="ToolCategory.harvestingTools" value="0.66" param1="1"/>
+		<property name="ToolCategory.harvestingTools" value="0.7" param1="1"/>
 		<property name="ToolCategory.Butcher" value="0" param1="10"/>
 		<property name="ActionExp" value="3"/>
 	</property>
@@ -2687,6 +2690,7 @@ Mesh files no longer used:
 	<property name="Explosion.ParticleIndex" value="10"/>
 	<property name="Explosion.RadiusBlocks" value="3"/>
 	<property name="Explosion.RadiusEntities" value="4"/>
+	<property name="Explosion.RadiusBuffs" value="3"/> <!-- int, default is same as RadiusBlocks -->
 	<property name="Explosion.BlastPower" value="70"/>
 	<property name="Explosion.DamageBonus.stone" value="0.1"/>
 	<property name="Explosion.DamageBonus.metal" value="0"/>
@@ -2797,8 +2801,9 @@ Mesh files no longer used:
 	<property name="Extends" value="ironArrow" param1="HandMeshfile"/>
 	<property name="Meshfile" value="Entities/Electrical/steel_dartPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
-	<property name="EconomicValue" value="28"/>
-	<property name="EconomicBundleSize" value="5"/>
+	<property name="Stacknumber" value="500"/> <!-- STK ammo -->
+	<property name="EconomicValue" value="34"/>
+	<property name="EconomicBundleSize" value="10"/>
 	<property class="Action1">
 		<property name="Velocity" value="55"/>
 		<property name="Gravity" value="-4"/>
@@ -8564,6 +8569,7 @@ Mesh files no longer used:
 	<property name="Stacknumber" value="100"/>
 	<property name="FuelValue" value="64"/>
 	<property name="Weight" value="64"/>
+	<property name="CustomIcon" value="book"/>
 	<property name="Group" value="Decor/Miscellaneous"/>
 </item>
 
@@ -9391,7 +9397,7 @@ Mesh files no longer used:
 	<property name="HoldType" value="45"/>
 	<property name="Material" value="Msteel"/>
 	<property name="Weight" value="5"/>
-	<property name="Stacknumber" value="10"/>
+	<property name="Stacknumber" value="1"/>
 	<property name="Group" value="Resources"/>
 	<property name="EconomicValue" value="2000"/>
 	<property name="CraftingSkillGroup" value="craftSkillTools"/>

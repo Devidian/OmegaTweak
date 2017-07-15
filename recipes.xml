@@ -2020,7 +2020,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 
 <recipe name="sod" count="1">
 	<ingredient name="yuccaFibers" count="1"/>
-	<ingredient name="dirtFragment" count="12"/>
+	<ingredient name="dirtFragment" count="8"/>
 </recipe>
 
 <recipe name="splint" count="1">
@@ -2217,10 +2217,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="wood" count="10"/>
 </recipe>
 
-<recipe name="woodHalf" count="1">
-	<ingredient name="wood" count="10"/>
-</recipe>
-
 <recipe name="woodHatch1_v1" count="1">
 	<ingredient name="wood" count="10"/>
 </recipe>
@@ -2308,6 +2304,14 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="unit_stone" count="5"/>
 	<ingredient name="unit_lead" count="5"/>
 	<ingredient name="unit_clay" count="3"/>
+</recipe>
+
+<recipe name="woodFrameHalf" count="1">
+	<ingredient name="wood" count="5"/>
+</recipe>
+
+<recipe name="scrapIronFrameHalf" count="1">
+	<ingredient name="scrapIron" count="15"/>
 </recipe>
 
 <recipe name="woodFrameWedgeIncline" count="1">

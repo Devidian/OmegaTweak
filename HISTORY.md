@@ -1,3 +1,6 @@
+## v16.1.0
+* Just patched, removed HarvestOverDamage fix (as it is now vanilla)
+
 ## v16.0.0 (Stable)
 ### Changes to items.xml
 * changed crushed Sand Stacknumber from 6000 to 15000

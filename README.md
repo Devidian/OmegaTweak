@@ -1,4 +1,4 @@
-# OmegaTweak v16.0.0
+# OmegaTweak v16.1.0
 ## 7 Days to die Tweaks by Devidian
 
 ### Changes to blocks.xml
@@ -12,7 +12,6 @@
   + clay -> clay
   + keystone -> keystone
 * added repair items (wood) for pew segments
-* Fix Vanilla bug: Set HarvestOverDamage on treeGrassMaster to false, preventing mass-grass-xp
 
 ### Changes to recipes.xml
 * added book recipe for 64 paper + 1 leather (caseing)
@@ -25,8 +24,6 @@
 * added miningHelmet recipe with footballHelmetZU
 
 ### Changes to entityclasses.xml
-
-* ~~Map Icon for Minibikes activated~~ (vanilla @ A16)
 * Backpack lifetime raised from 20 Minutes to 60 Minutes
 * (UMA)Zombie corpse lifetime raised from 30(45) to 60 seconds
   + Note: corpse still exist after rotting, no time to set(change) there currently
@@ -63,10 +60,6 @@
   + scrapLead 6000 -> 30000
   + ironFragment 1200 -> 3000 (->15000 Scrap iron,2 of it fit in forge)
   + crushedSand 6000 -> 15000 (reduced weight from 5 to 2)
-  + ~~rockSmall 1000 -> 3000~~ (vanilla now 6000 @A16)
-  + ~~yuccaFibers 1000 -> 5000~~ (vanilla now 6000 @A16)
-  + ~~clayLump 1000 -> 3000~~ (vanilla now 6000 @A16)
-  + ~~calipers 1 -> 10~~ (removed in A16e.b129)
   + forgeCrucible 1 -> 3
   + toolAndDieSet 1 -> 5
   + cobblestones 1000 -> 5000

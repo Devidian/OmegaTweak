@@ -289,7 +289,7 @@
 	</entitygroup>
 
 	<entitygroup name="EnemyAnimalsDesert">
-		<entity name="invisibleAnimal" prob="6" />
+		<entity name="invisibleAnimalEnemy" prob="6" />
 		<entity name="animalZombieVulture" />
 		<entity name="animalSnake" />
 	</entitygroup>
@@ -302,7 +302,7 @@
 	</entitygroup>
 
 	<entitygroup name="EnemyAnimalsSnow">
-		<entity name="invisibleAnimal" prob="6" />
+		<entity name="invisibleAnimalEnemy" prob="6" />
 		<entity name="animalZombieVulture" prob="0.4" />
 		<entity name="animalDireWolf" prob="0.05" />
 		<entity name="animalBear" prob="0.05" />
@@ -316,7 +316,7 @@
 	</entitygroup>
 
 	<entitygroup name="EnemyAnimalsForest">
-		<entity name="invisibleAnimal" prob="6" />
+		<entity name="invisibleAnimalEnemy" prob="6" />
 		<entity name="animalWolf" prob="0.4" />
 		<entity name="animalBear" prob="0.05" />
 		<entity name="animalDireWolf" prob="0.05" />
@@ -330,7 +330,7 @@
 	</entitygroup>
 
 	<entitygroup name="EnemyAnimalsBurntForest">
-		<entity name="invisibleAnimal" prob="6" />
+		<entity name="invisibleAnimalEnemy" prob="6" />
 		<entity name="animalZombieVulture" />
 		<entity name="animalZombieBear" prob="0.15" />
 	</entitygroup>
@@ -343,11 +343,7 @@
 	</entitygroup>
 
 	<entitygroup name="EnemyAnimalsPlains">
-		<entity name="invisibleAnimal" prob="6" />
-		<entity name="animalRabbit" />
-		<entity name="animalChicken" />
-		<entity name="animalBoar" />
-		<entity name="animalStag" />
+		<entity name="invisibleAnimalEnemy" prob="6" /> <!-- The first entity in the list of a group determines if it can spawn in safe zones or not. This animal is not friendly therefore this group will not spawn in safe zones-->
 		<entity name="animalZombieVulture" />
 		<entity name="animalSnake" />
 		<entity name="animalWolf" />

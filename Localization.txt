@@ -996,8 +996,8 @@ freezingDesc,buffs,Buff,KgNone,"You are freezing. Find clothing, take shelter or
 freezingTooltip,buffs,Buff,KgNone,"You are freezing. Find clothing, take shelter or build a campfire.","Vous gelez. Trouvez des vêtements, abritez-vous ou construisez un feu de camp.","Du frierst. Finde Kleidung, einen Unterschlupf oder mache ein Lagerfeuer.",,"Te estás congelando. Busca ropa, encuentra un refugio o enciende una fogata."
 freshAir,buffs,Buff,KgNone,Fresh Air,Air frais,Frische Luft,,Aire fresco
 fullBuff,buffs,Buff,KgNone,Healing,Guérison,Heilen,,Curándote
-fullBuffDesc,buffs,Buff,KgNone,You have enough consumed food to slowly heal.,Vous avez consommé suffisamment de nourriture pour guérir petit à petit.,"Du hast genug Nahrung zu dir genommen, um langsam zu heilen.",,Has consumido suficiente comida para curarte lentamente.
-fullBuffTooltip,buffs,Buff,KgNone,You have enough consumed food to slowly heal.,Vous avez consommé suffisamment de nourriture pour guérir petit à petit.,"Du hast genug Nahrung zu dir genommen, um langsam zu heilen.",,Has consumido suficiente comida para curarte lentamente.
+fullBuffDesc,buffs,Buff,EnChanged,You are gaining health from the food you have eaten.,Vous avez consommé suffisamment de nourriture pour guérir petit à petit.,Die verzehrte Nahrung heilt Dich.,,Has consumido suficiente comida para curarte lentamente.
+fullBuffTooltip,buffs,Buff,EnChanged,You are gaining health from the food you have eaten.,Vous avez consommé suffisamment de nourriture pour guérir petit à petit.,Die verzehrte Nahrung heilt Dich.,,Has consumido suficiente comida para curarte lentamente.
 hangover,buffs,Buff,KgNone,Hangover,Gueule de bois,Kater,,Crudo
 hangoverDesc,buffs,Buff,KgNone,You have a hangover. Now you know for how long and you wish you didn't.,Vous avez la gueule de bois. Et malheureusement vous en connaissez la durée.,"Du hast einen Kater. Jetzt weißt du, wie lange es anhält, aber dir wäre lieber, wenn du es nicht wüsstest.",,Tienes resaca. Ahora sabes cuánto te va a durar y desearías no haberlo hecho.
 hangoverTooltip,buffs,Buff,KgNone,You have a hangover.,Vous avez la gueule de bois.,Du hast einen Kater.,,Tienes resaca.
@@ -1436,7 +1436,7 @@ canDogfoodDesc,items,Food,KgNone,You always wished for the life of a dog. Enjoy!
 canHam,items,Food,KgNone,Can of Ham,Conserve de jambon,Dosenfleisch,,Lata de jamón
 canHamDesc,items,Food,KgNone,A can of high quality Shamway ham the number 1 maker of meat-like products. The lunch of champions.,"Conserve de jambon de très bonne qualité de la marque Shamway, le top du top des ersatz de viande. Le déjeuner des champions.","Eine Dose mit Qualitätsschinken von Shamway, dem Marktführer in der Sparte fleischähnliche Produkte. Ein Mahl für Champions.",,"Una lata de jamón Shamway de alta calidad, del productor número 1 de productos cárnicos. El almuerzo de los campeones."
 canLamb,items,Food,KgNone,Lamb Rations,Rations d'agneau,Lamm-Ration,,Porción de cordero
-canLambDesc,items,Food,KgNone,Lamb rations are great when the world has ended and your on the lamb.,Les rations d'agneau sont parfaites pour ceux qui sont loin d'être doux comme des agneaux pendant l'apocalypse.,"Lamm-Rationen sind toll, wenn die Welt untergegangen ist und du das Weite suchst.",,Las porciones de cordero son geniales cuando el mundo se ha acabado y estás a la fuga.
+canLambDesc,items,Food,KgNone,Lamb rations are great when the world has ended and you're on the lamb.,Les rations d'agneau sont parfaites pour ceux qui sont loin d'être doux comme des agneaux pendant l'apocalypse.,"Lamm-Rationen sind toll, wenn die Welt untergegangen ist und du das Weite suchst.",,Las porciones de cordero son geniales cuando el mundo se ha acabado y estás a la fuga.
 canMiso,items,Food,KgNone,Can of Miso,Conserve de miso,Dose Misosuppe,,Lata de miso
 canMisoDesc,items,Food,KgNone,It's time to soup it up with some Miso soup mmm mmm good.,C'est l'heure de la soupe miso. Miam miam.,"Eine leckere Misosuppe ist jetzt angesagt. Mmmmm, lecker.",,"Es hora de tomar algo de sopa de miso. ¡Mmm, deliciosa!"
 canMurkyWater,items,Food,KgNone,Can of Murky Water,Conserve d'eau trouble,Konserve mit trübem Wasser,,Lata de agua turbia
@@ -3429,7 +3429,7 @@ barStool,blocks,Block,New,Bar Stool,,Barhocker,,
 brickCNRRoundTop,blocks,Block,New,Brick Corner Round Top,,,,
 brickCTRpole,blocks,Block,New,brick Pole Centered,,,,
 brickGable,blocks,Block,New,brick Gable,,,,
-brickHalf,blocks,Block,New,brick Half,,,,
+brickHalf,blocks,Block,New,brick 1/2 Block,,,,
 brickStairs25,blocks,Block,New,brick Stairs 25,,,,
 buildingBlockGroupDesc,blocks,Block,New,A building block from the creative menu.,,,,
 burningBarrelDesc,blocks,Block,New,The burning barrel is an essential prop in every post-apocalyptic setting.,,,,
@@ -3441,7 +3441,7 @@ flagstonePillar100,blocks,Block,New,Flagstone Pillar 100,,,,
 flagstonePillar50,blocks,Block,New,Flagstone Pillar 50,,,,
 flagstoneWedgeTip,blocks,Block,New,Flagstone Wedge Tip,,,,
 flagstonePole,blocks,Block,New,Flagstone Pole,,,,
-cobblestoneHalf,blocks,Block,New,cobblestone Half,,,,
+cobblestoneHalf,blocks,Block,New,cobblestone 1/2 Block,,,,
 cobblestonePillar100,blocks,Block,New,Cobblestone Pillar 100,,,,
 cobblestonePillar50,blocks,Block,New,Cobblestone Pillar 50,,,,
 cobblestonePlate,blocks,Block,New,Cobblestone Plate,,,,
@@ -3479,7 +3479,7 @@ flagstoneArrowSlitHalf,blocks,Block,New,Flagstone Arrow Slit,,,,
 flagstoneCNRFull,blocks,Block,New,flagstone Corner Full,,Steinplatten – Komplette Ecke,,
 flagstoneCNRInside,blocks,Block,New,Flagstone Inside Corner,,Steinplatten – Innenecke,,
 flagstoneCTRpole,blocks,Block,New,flagstone Pole Centered,,,,
-flagstoneHalf,blocks,Block,New,flagstone Half,,,,
+flagstoneHalf,blocks,Block,New,flagstone 1/2 Block,,,,
 flagstonePlate,blocks,Block,New,flagstone Plate,,,,
 flagstoneStairs50,blocks,Block,New,flagstone Stairs 50,,,,
 flagstoneWedge,blocks,Block,New,flagstone Wedge,,,,
@@ -3661,7 +3661,7 @@ motionsensor,blocks,Electricity,New,Motion Sensor,,,,
 motionsensorDesc,blocks,Electricity,New,Used to trigger electrical events when motion is detected.,,,,
 porchLight01_player,blocks,Electricity,New,Old Outdoor Light,,,,
 powerSourceDesc,blocks,Electricity,New,Used to generate power for your electrical components. See Journal Tip for more info.,,,,
-pressureplate,blocks,Electricity,New,Pressure Plate 1x1,,,,
+pressureplate,blocks,Electricity,New,Trigger Plate 1x1,,,,
 pressureplateDesc,blocks,Electricity,New,Used to trigger electrical events when stepped on.,,,,
 shotgunTurret,blocks,Electricity,New,Shotgun Turret,,,,
 shotgunTurretDesc,blocks,Electricity,New,A motion sensing shotgun turret. What more needs to be said?,,,,
@@ -4631,7 +4631,7 @@ opaqueBusinessGlass,blocks,Block,New,Opaque Business Glass,,,,
 flagstoneArch3m,blocks,Block,New,Flagstone Arch 3m Corner,,,,
 flagstoneArch3m_tip,blocks,Block,New,Flagstone Arch 3m Tip,,,,
 flagstoneArch3m_center,blocks,Block,New,Flagstone Arch 3m Middle,,,,
-pressureplateLong,blocks,Electricity,New,Pressure Plate 1x5,,,,
+pressureplateLong,blocks,Electricity,New,Trigger Plate 1x5,,,,
 doorGroupDesc,blocks,Block,New,Press & hold [activate] to lock it or set a combination. Upgrade & repair with a construction tool using the secondary action.,Maintenez [activate] pour la verrouiller ou définir un code. Elle peut être améliorée et réparée à l'aide de bois et d'un outil de construction grâce à l'action secondaire.,Zum Verschließen oder Kombination eingeben [activate] gedrückt halten. Kann mit Bauwerkzeugen unter Verwendung der sekundären Aktion aufgewertet und repariert werden.,,Mantén presionado [activate] para cerrar con llave o para definir una combinación. Usa la acción secundaria para mejorar y reparar con madera y con una herramienta de construcción.
 ttBlockMissingPickup,UI,Tooltip,New,The block is no longer available for pickup.,,,,
 cntCollapsedForge,blocks,Container,New,Destroyed Forge,,,,
@@ -4888,9 +4888,19 @@ brickWedgeTipStairs,blocks,Block,New,Brick Wedge Tip Stairs,,,,
 cobblestoneWedgeTipStairs,blocks,Block,New,Cobblestone Wedge Tip Stairs,,,,
 flagstoneWedgeStairs,blocks,Block,New,Flagstone Wedge Stairs,,,,
 flagstoneWedgeTipStairs,blocks,Block,New,Flagstone Wedge Tip Stairs,,,,
-macheteBlade,items,Part,KgNone,Machete Blade,,Machetenklinge,,
-macheteBladeDesc,items,Part,KgNone,Used for crafting a machete.,,Wird gebraucht um eine Machete herzustellen.,,
+macheteBlade,items,Part,New,Machete Blade,,Machetenklinge,,
+macheteBladeDesc,items,Part,New,Used for crafting a machete.,,Wird gebraucht um eine Machete herzustellen.,,
 teInUse,UI,Misc,New,Currently In Use,Currently In Use,Currently In Use,,
+ttCantPickupInUse,UI,Tooltip,New,This cannot be picked up while it is in use.,,,,
+woodFrameHalf,blocks,Block,New,Wood Frame 1/2 Block,,,,
+solidWoodFrameHalf,blocks,Block,New,Solid Wood Frame 1/2 Block,,,,
+rWoodHalf,blocks,Block,New,Reinforced Wood 1/2 Block,,,,
+rWoodMetalHalf,blocks,Block,New,Reinforced Wood 1/2 Block,,,,
+scrapIronFrameHalf,blocks,Block,New,Scrap Iron Frame 1/2 Block,,,,
+solidScrapIronFrameHalf,blocks,Block,New,Solid Scrap Iron 1/2 Block,,,,
+scrapIronHalf,blocks,Block,New,Scrap Iron 1/2 Block,,,,
+rScrapIronHalf,blocks,Block,New,Reinforced Scrap Iron 1/2 Block,,,,
+xuiExpires,UI,Menu,New,Expires,,,,
 perfectionistDesc,progression,Skill,KgNone,"A perfectionist is what he is, a perfectionist!",,"Ein Perfektionist ist was er ist, ein Perfektionist!",,
 CraftingPerfectionist,progression,Skill,KgNone,Crafting-perfectionist,,Handwerks-Perfektionist,,
 machetesTraining,progression,Skill,KgNone,Machetes Training,,Macheten Training,,
