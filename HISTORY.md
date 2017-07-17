@@ -1,3 +1,7 @@
+## v16.1.1
+### Changes to progression.xml
+* Merged perks "Knife Guy" and "The Decapitator" into "Machetes Training", those wont have any further effect on machetes now
+
 ## v16.1.0
 * Just patched, removed HarvestOverDamage fix (as it is now vanilla)
 

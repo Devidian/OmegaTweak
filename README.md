@@ -35,8 +35,8 @@
   + Bonus 1: StaminaDegradation down to 0.66 (Level 100)
   + Bonus 2: EntityDamage up to 1.28
 * New Action Skill: Machetes Training
-  + Bonus 2: EntityDamage up to 1.28 (Level 100) and 1.40 (level 200)
-* Added Machetes Training as requirement for knife guy and decapitator until we have something similar
+  + Merged perks "Knife Guy" and "The Decapitator" into "Machetes Training", those wont have any further effect on machetes now
+  + EntityDamage from "Knife Guy" recalculated with "Machetes Training" origin values - may be rebalanced in future
 * New Perk: Geologist with 2 level each 20 Skillpoints
   + Requirements: Player Level 50, Miner 69er Level 5, Mining Tools Level 100
   + Level 1: 10% Block Damage,  5% harvest count

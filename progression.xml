@@ -41,17 +41,38 @@
 		</effect>
 	</action_skill>
 	
-	<action_skill name="Machetes Training" exp_to_level="125" icon="knife" description_key="machetesTrainingDesc" title_key="machetesTraining" group="weapons">
+	<action_skill name="Machetes Training" max_level="200" exp_to_level="125" icon="knife" description_key="machetesTrainingDesc" title_key="machetesTraining" group="weapons">
 		<effect name="EntityDamage">
 			<multiply skill_level="1,5" value="1,1.04" />
-			<multiply skill_level="5,11" value="1.04,1.07" />
-			<multiply skill_level="11,19" value="1.07,1.1" />
-			<multiply skill_level="19,32" value="1.1,1.14" />
-			<multiply skill_level="32,49" value="1.14,1.19" />
-			<multiply skill_level="49,70" value="1.19,1.23" />
-			<multiply skill_level="70,100" value="1.23,1.28" />
-			<multiply skill_level="100,140" value="1.28,1.34" />
-			<multiply skill_level="140,200" value="1.34,1.40" />
+			<multiply skill_level="5,11" value="1.04,1.1301875" />
+			<multiply skill_level="11,19" value="1.1301875,1.22375" />
+			<multiply skill_level="19,32" value="1.22375,1.3965" />
+			<multiply skill_level="32,49" value="1.3965,1.45775" />
+			<multiply skill_level="49,70" value="1.45775,1.645125" />
+			<multiply skill_level="70,100" value="1.645125,1.712" />
+			<multiply skill_level="100,140" value="1.712,2.09375" />
+			<multiply skill_level="140,200" value="2.09375,2.1875" />
+		</effect>
+		<effect name="DismembermentChance">
+			<add skill_level="0,20" value="0.00,0.00"/>
+			<add skill_level="20,40" value="0.04,0.08"/>
+			<add skill_level="40,80" value="0.08,0.15"/>
+			<add skill_level="80,120" value="0.15,0.20"/>
+			<add skill_level="120,180" value="0.20,0.25"/>
+		</effect>
+		<effect name="HarvestCount">
+			<multiply skill_level="0,30" value="1.00,1.00"/>
+			<multiply skill_level="30,40" value="1.00,1.10"/>
+			<multiply skill_level="40,60" value="1.10,1.25"/>
+			<multiply skill_level="60,100" value="1.25,1.50"/>
+			<multiply skill_level="100,200" value="1.50,2.00"/>
+		</effect>
+		<effect name="StaminaDegradation">
+			<multiply skill_level="0,10" value="1.00,1.00"/>
+			<multiply skill_level="10,20" value="1.00,0.90"/>
+			<multiply skill_level="20,40" value="0.90,0.75"/>
+			<multiply skill_level="40,70" value="0.75,0.60"/>
+			<multiply skill_level="70,120" value="0.60,0.50"/>
 		</effect>
 	</action_skill>
 	<!-- Player Perks -->
@@ -322,7 +343,6 @@
 	</action_skill>
 
 	<perk name="Knife Guy" icon="knife" description_key="knifeGuyDesc" title_key="knifeGuy" max_level="5" skill_point_cost_multiplier="1.43" skill_point_cost_per_level="5" group="weapons">
-		<requirement perk_level="1" required_skill_name="Machetes Training" required_skill_level="1" /> <!-- Until we have something equal for Machetes -->
 		<requirement perk_level="1" required_skill_name="Blade Weapons" required_skill_level="1"/>
 		<requirement perk_level="2" required_skill_name="Blade Weapons" required_skill_level="10"/>
 		<requirement perk_level="3" required_skill_name="Blade Weapons" required_skill_level="20"/>
@@ -355,7 +375,6 @@
 	</perk>
 
 	<perk name="The Decapitator" icon="knife" description_key="theDecapitatorDesc" title_key="decapitator" max_level="3" skill_point_cost_multiplier="2" skill_point_cost_per_level="4" group="weapons">
-		<requirement perk_level="1" required_skill_name="Machetes Training" required_skill_level="1" /> <!-- Until we have something equal for Machetes -->
 		<requirement perk_level="1" required_skill_name="Blade Weapons" required_skill_level="20"/>
 		<requirement perk_level="2" required_skill_name="Blade Weapons" required_skill_level="40"/>
 		<requirement perk_level="3" required_skill_name="Blade Weapons" required_skill_level="80"/>
