@@ -24,6 +24,8 @@
 	<!-- START OmegaTweak -->
 	<!-- Player Skills -->
 	<!-- Action Skills -->
+	<action_skill name="testAction" exp_to_level="125" icon="run" max_level="200" description_key="testActionDesc" title_key="testAction" group="weapons" >
+	</action_skill>
 	<action_skill name="Fistfight" exp_to_level="125" icon="run" description_key="fistfightDesc" title_key="fistfight" group="weapons" >
 		<effect name="StaminaDegradation">
 			<multiply skill_level="1,5" value="1,.95" />
