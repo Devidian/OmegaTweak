@@ -1,3 +1,11 @@
+## v16.1.2
+### Changes to blocks.xml
+* added upgradePath cntStorageGenericInsecure -> cntStorageGeneric
+### Changes to progression.xml
+* recalculated level progression, now cumulative xp is 5 times more (11MXP->55MPX) for 5 times more level.
+* level 200 vanilla means level 530 now, rest to 1000 will progress slower.
+* Skillpoints per level lowered to 3, means vanilla skill points (1200) is reached at level 400 which is faster than level 200 before.
+
 ## v16.1.1
 ### Changes to progression.xml
 * Merged perks "Knife Guy" and "The Decapitator" into "Machetes Training", those wont have any further effect on machetes now

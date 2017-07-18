@@ -3,13 +3,17 @@
 <progression>
 <player
 	max_level="1000"
-	exp_to_level="8000"
-	experience_multiplier="1.0149"
-	skill_points_per_level="6"
+	exp_to_level="8300"
+	experience_multiplier="1.003063360271"
+	skill_points_per_level="3"
 	skill_point_multiplier="0"/>
 	<!-- A15: 8000 XP for level 1 and 134k for level 199, total cumulative of 9MXP; XPRequired = exp_to_level * experience_multiplier ^ level -->
 	<!-- A16: 8300 XP for level 1, total cumulative of 11MXP -->
-
+	<!-- OmegaTweak: Level raised to 1000 (5 times more) multiplier adjusted to have a cumulative xp of 55MXP (very exactly) -->
+	<!--             This means on cumulative 11MXP (vanilla) you wont have Level 200, you will have Level ~530 -->
+	<!--             This also means you would reach vanilla skill-point-through-level cap with just 2.2MXP -->
+	<!--             So skill points per level changed to 3 what means you need level 400 (6.5MXP) what is also less than vanilla -->
+	<!-- 			 Total skill-points through level 3000 (3*1000) vs vanilla 1200 (6*200) -->
 <skills
 	max_level="100"
 	exp_to_level="250"

@@ -31,6 +31,9 @@
 
 ### Changes to progression.xml
 * Raised player level from 200 to 1000
+* recalculated level progression, now cumulative xp is 5 times more (11MXP->55MPX) for 5 times more level.
+* level 200 vanilla means level 530 now, rest to 1000 will progress slower.
+* Skillpoints per level lowered to 3, means vanilla skill points (1200) is reached at level 400 which is faster than level 200 before.
 * New Action Skill: Fistfight
   + Bonus 1: StaminaDegradation down to 0.66 (Level 100)
   + Bonus 2: EntityDamage up to 1.28
