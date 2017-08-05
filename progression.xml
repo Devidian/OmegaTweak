@@ -23,10 +23,12 @@
 	<!-- if skill_point_cost_multiplier > 0 then PointCostPerLevel = int(SkillPointCostMultiplier ^ currentTier) * SkillPointCostPerLevel -->
 	<!-- START OmegaTweak -->
 	<!-- Player Skills -->
-	<!-- Action Skills -->
-	<action_skill name="testAction" exp_to_level="125" icon="run" max_level="200" description_key="testActionDesc" title_key="testAction" group="weapons" >
-	</action_skill>
-	<action_skill name="Fistfight" exp_to_level="125" icon="run" description_key="fistfightDesc" title_key="fistfight" group="weapons" >
+	<!-- Action Skills Naming-prefix: as -->
+	<!-- 
+	<action_skill name="asHuntingKnife" max_level="200" exp_to_level="125" icon="knife" description_key="asHuntingKnifeDesc" title_key="asHuntingKnife" group="weapons" >
+	</action_skill> 
+	-->
+	<action_skill name="asFistFight" exp_to_level="125" icon="run" description_key="asFistFightDesc" title_key="asFistFight" group="weapons" >
 		<effect name="StaminaDegradation">
 			<multiply skill_level="1,5" value="1,.95" />
 			<multiply skill_level="5,11" value=".95,.91" />
@@ -47,7 +49,7 @@
 		</effect>
 	</action_skill>
 	
-	<action_skill name="Machetes Training" max_level="200" exp_to_level="125" icon="knife" description_key="machetesTrainingDesc" title_key="machetesTraining" group="weapons">
+	<action_skill name="asMachete" max_level="200" exp_to_level="125" icon="knife" description_key="asMacheteDesc" title_key="asMachete" group="weapons">
 		<effect name="EntityDamage">
 			<multiply skill_level="1,5" value="1,1.04" />
 			<multiply skill_level="5,11" value="1.04,1.1301875" />
@@ -82,7 +84,8 @@
 		</effect>
 	</action_skill>
 	<!-- Player Perks -->
-	<perk name="Geologist" icon="mining" description_key="geologistDesc" title_key="geologist" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="20" group="tools">
+	<!-- Total cost: 45 (15+30) -->
+	<perk name="Geologist" icon="mining" description_key="geologistDesc" title_key="geologist" max_level="2" skill_point_cost_multiplier="1" skill_point_cost_per_level="15" group="tools">
 		<requirement perk_level="1" required_skill_name="Miner 69er" required_skill_level="5"/>
 		<requirement perk_level="1" required_skill_name="Mining Tools" required_skill_level="90"/>
 		<requirement perk_level="1" required_player_level="50"/>
@@ -99,7 +102,8 @@
 			<multiply perk_level="2" value="1.10"/> <!-- 10% Harvest Bonus -->
 		</effect>
 	</perk>
-	<perk name="Crafting perfectionist" icon="tool_smithing" description_key="perfectionistDesc" title_key="CraftingPerfectionist" max_level="5" skill_point_cost_multiplier="1.15" skill_point_cost_per_level="20" group="crafting">
+	<!-- Total cost: 150 (10+20+30+40+50) -->
+	<perk name="Crafting perfectionist" icon="tool_smithing" description_key="perfectionistDesc" title_key="CraftingPerfectionist" max_level="5" skill_point_cost_multiplier="1.00" skill_point_cost_per_level="10" group="crafting">
 		<requirement perk_level="1" required_skill_name="craftSkillGuns" required_skill_level="2"/>
 		<requirement perk_level="1" required_skill_name="craftSkillWeapons" required_skill_level="2"/>
 		<requirement perk_level="1" required_skill_name="craftSkillTools" required_skill_level="2"/>
