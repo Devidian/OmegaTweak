@@ -48,7 +48,7 @@
 			<multiply skill_level="70,100" value="1.23,1.28" />
 		</effect>
 	</action_skill>
-	
+
 	<action_skill name="asMachete" max_level="200" exp_to_level="125" icon="knife" description_key="asMacheteDesc" title_key="asMachete" group="weapons">
 		<effect name="EntityDamage">
 			<multiply skill_level="1,5" value="1,1.04" />
@@ -685,16 +685,7 @@
 			<multiply skill_level="9,10" value="0.37,0.30"/>
 		</effect>
 		<effect name="RepairAmount">
-			<add skill_level="0,1" value="1,5"/>
-			<add skill_level="1,2" value="5,10"/>
-			<add skill_level="2,3" value="10,15"/>
-			<add skill_level="3,4" value="15,20"/>
-			<add skill_level="4,5" value="20,25"/>
-			<add skill_level="5,6" value="25,30"/>
-			<add skill_level="6,7" value="30,35"/>
-			<add skill_level="7,8" value="35,40"/>
-			<add skill_level="8,9" value="40,45"/>
-			<add skill_level="9,10" value="45,50"/>
+			<multiply skill_level="0,10" value="1,1.2"/>
 		</effect>
 		<effect name="RepairQualityLoss"> <!-- .666 for Fixer.  Loss at no Fixer skill and QL 600 = 40,32,25...6,5,4 -->
 			<multiply skill_level="0,1" value="0.0670,0.0533"/>
@@ -763,16 +754,7 @@
 			<multiply skill_level="9,10" value="0.37,0.30"/>
 		</effect>
 		<effect name="RepairAmount">
-			<add skill_level="0,1" value="1,5"/>
-			<add skill_level="1,2" value="5,10"/>
-			<add skill_level="2,3" value="10,15"/>
-			<add skill_level="3,4" value="15,20"/>
-			<add skill_level="4,5" value="20,25"/>
-			<add skill_level="5,6" value="25,30"/>
-			<add skill_level="6,7" value="30,35"/>
-			<add skill_level="7,8" value="35,40"/>
-			<add skill_level="8,9" value="40,45"/>
-			<add skill_level="9,10" value="45,50"/>
+			<multiply skill_level="0,10" value="1,1.2"/>
 		</effect>
 		<effect name="RepairQualityLoss"> <!-- .666 for Fixer.  Loss at no Fixer skill and QL 600 = 40,32,25...6,5,4 -->
 			<multiply skill_level="0,1" value="0.0670,0.0533"/>
@@ -836,16 +818,7 @@
 			<multiply skill_level="9,10" value="0.37,0.30"/>
 		</effect>
 		<effect name="RepairAmount">
-			<add skill_level="0,1" value="1,5"/>
-			<add skill_level="1,2" value="5,10"/>
-			<add skill_level="2,3" value="10,15"/>
-			<add skill_level="3,4" value="15,20"/>
-			<add skill_level="4,5" value="20,25"/>
-			<add skill_level="5,6" value="25,30"/>
-			<add skill_level="6,7" value="30,35"/>
-			<add skill_level="7,8" value="35,40"/>
-			<add skill_level="8,9" value="40,45"/>
-			<add skill_level="9,10" value="45,50"/>
+			<multiply skill_level="0,10" value="1,1.2"/>
 		</effect>
 		<effect name="RepairQualityLoss"> <!-- .666 for Fixer.  Loss at no Fixer skill and QL 600 = 30,24,19...5,4,3 -->
 			<multiply skill_level="0,1" value="0.0503,0.0402"/>
@@ -931,16 +904,7 @@
 			<multiply skill_level="9,10" value="0.37,0.30"/>
 		</effect>
 		<effect name="RepairAmount">
-			<add skill_level="0,1" value="1,5"/>
-			<add skill_level="1,2" value="5,10"/>
-			<add skill_level="2,3" value="10,15"/>
-			<add skill_level="3,4" value="15,20"/>
-			<add skill_level="4,5" value="20,25"/>
-			<add skill_level="5,6" value="25,30"/>
-			<add skill_level="6,7" value="30,35"/>
-			<add skill_level="7,8" value="35,40"/>
-			<add skill_level="8,9" value="40,45"/>
-			<add skill_level="9,10" value="45,50"/>
+			<multiply skill_level="0,10" value="1,1.2"/>
 		</effect>
 		<effect name="RepairQualityLoss"> <!-- .666 for Fixer.  Loss at no Fixer skill and QL 600 = 30,24,19...5,4,3 -->
 			<multiply skill_level="0,1" value="0.0503,0.0402"/>
@@ -1071,16 +1035,7 @@
 			<multiply skill_level="9,10" value="0.37,0.30"/>
 		</effect>
 		<effect name="RepairAmount">
-			<add skill_level="0,1" value="1,5"/>
-			<add skill_level="1,2" value="5,10"/>
-			<add skill_level="2,3" value="10,15"/>
-			<add skill_level="3,4" value="15,20"/>
-			<add skill_level="4,5" value="20,25"/>
-			<add skill_level="5,6" value="25,30"/>
-			<add skill_level="6,7" value="30,35"/>
-			<add skill_level="7,8" value="35,40"/>
-			<add skill_level="8,9" value="40,45"/>
-			<add skill_level="9,10" value="45,50"/>
+			<multiply skill_level="0,10" value="1,1.2"/>
 		</effect>
 		<effect name="RepairQualityLoss"> <!-- .666 for Fixer.  Loss at no Fixer skill and QL 600 = 40,32,25...6,5,4 -->
 			<multiply skill_level="0,1" value="0.0670,0.0533"/>
@@ -1129,11 +1084,7 @@
 			<multiply skill_level="4,5" value="0.44,0.30"/>
 		</effect>
 		<effect name="RepairAmount">
-			<add skill_level="0,1" value="05,10"/>
-			<add skill_level="1,2" value="10,20"/>
-			<add skill_level="2,3" value="20,30"/>
-			<add skill_level="3,4" value="30,40"/>
-			<add skill_level="4,5" value="40,50"/>
+			<multiply skill_level="0,5" value="1,1.2"/>
 		</effect>
 		<effect name="RepairQualityLoss"> <!-- .666 for Fixer.  Loss at no Fixer skill and QL 600 = 40,32,25...6,5,4 -->
 			<multiply skill_level="0,1" value="0.0670,0.0425"/>

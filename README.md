@@ -1,4 +1,4 @@
-# OmegaTweak v16.1.2
+# OmegaTweak v16.2.0
 ## 7 Days to die Tweaks by Devidian
 
 ### Changes to blocks.xml
@@ -31,15 +31,15 @@
 
 ### Changes to progression.xml
 * Raised player level from 200 to 1000
-* recalculated level progression, now cumulative xp is 5 times more (11MXP->55MPX) for 5 times more level.
-* level 200 vanilla means level 530 now, rest to 1000 will progress slower.
-* Skillpoints per level lowered to 3, means vanilla skill points (1200) is reached at level 400 which is faster than level 200 before.
+  + recalculated level progression, now cumulative xp is 5 times more (11MXP->55MPX) for 5 times more level.
+  + level 200 vanilla means level 530 now, rest to 1000 will progress slower (you need 44MXP more from 530 to 1000)
+  + Skillpoints per level lowered to 3, means vanilla skill points (1200) is reached at level 400 which is faster than level 200 before.
 * New Action Skill: Fistfight
   + Bonus 1: StaminaDegradation down to 0.66 (Level 100)
   + Bonus 2: EntityDamage up to 1.28
-* New Action Skill: Machetes Training
-  + Merged perks "Knife Guy" and "The Decapitator" into "Machetes Training", those wont have any further effect on machetes now
-  + EntityDamage from "Knife Guy" recalculated with "Machetes Training" origin values - may be rebalanced in future
+* New Action Skill: Machetes
+  + Merged perks "Knife Guy" and "The Decapitator" into "Machetes", those wont have any further effect on machetes now
+  + EntityDamage from "Knife Guy" recalculated with "Machetes" origin values - may be rebalanced in future
 * New Perk: Geologist with 2 level each 20 Skillpoints
   + Requirements: Player Level 50, Miner 69er Level 5, Mining Tools Level 100
   + Level 1: 10% Block Damage,  5% harvest count

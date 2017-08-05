@@ -1,3 +1,10 @@
+## v16.2.0
+* Just patched
+
+## v16.1.3
+### Changes to progression.xml, items.xml and Localisation.txt
+* renamed machete and fistfight skillnames and localisation-identifier
+
 ## v16.1.2
 ### Changes to blocks.xml
 * added upgradePath cntStorageGenericInsecure -> cntStorageGeneric
