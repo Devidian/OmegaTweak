@@ -109,31 +109,31 @@
 		<requirement perk_level="1" required_skill_name="craftSkillTools" required_skill_level="2"/>
 		<requirement perk_level="1" required_skill_name="craftSkillScience" required_skill_level="2"/>
 		<requirement perk_level="1" required_skill_name="craftSkillArmor" required_skill_level="2"/>
-		<requirement perk_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="2"/>
+		<requirement perk_level="1" required_skill_name="craftSkillMiscellaneous" required_skill_level="1"/>
 		<requirement perk_level="2" required_skill_name="craftSkillGuns" required_skill_level="4"/>
 		<requirement perk_level="2" required_skill_name="craftSkillWeapons" required_skill_level="4"/>
 		<requirement perk_level="2" required_skill_name="craftSkillTools" required_skill_level="4"/>
 		<requirement perk_level="2" required_skill_name="craftSkillScience" required_skill_level="4"/>
 		<requirement perk_level="2" required_skill_name="craftSkillArmor" required_skill_level="4"/>
-		<requirement perk_level="2" required_skill_name="craftSkillMiscellaneous" required_skill_level="4"/>
+		<requirement perk_level="2" required_skill_name="craftSkillMiscellaneous" required_skill_level="2"/>
 		<requirement perk_level="3" required_skill_name="craftSkillGuns" required_skill_level="6"/>
 		<requirement perk_level="3" required_skill_name="craftSkillWeapons" required_skill_level="6"/>
 		<requirement perk_level="3" required_skill_name="craftSkillTools" required_skill_level="6"/>
 		<requirement perk_level="3" required_skill_name="craftSkillScience" required_skill_level="6"/>
 		<requirement perk_level="3" required_skill_name="craftSkillArmor" required_skill_level="6"/>
-		<requirement perk_level="3" required_skill_name="craftSkillMiscellaneous" required_skill_level="6"/>
+		<requirement perk_level="3" required_skill_name="craftSkillMiscellaneous" required_skill_level="3"/>
 		<requirement perk_level="4" required_skill_name="craftSkillGuns" required_skill_level="8"/>
 		<requirement perk_level="4" required_skill_name="craftSkillWeapons" required_skill_level="8"/>
 		<requirement perk_level="4" required_skill_name="craftSkillTools" required_skill_level="8"/>
 		<requirement perk_level="4" required_skill_name="craftSkillScience" required_skill_level="8"/>
 		<requirement perk_level="4" required_skill_name="craftSkillArmor" required_skill_level="8"/>
-		<requirement perk_level="4" required_skill_name="craftSkillMiscellaneous" required_skill_level="8"/>
+		<requirement perk_level="4" required_skill_name="craftSkillMiscellaneous" required_skill_level="4"/>
 		<requirement perk_level="5" required_skill_name="craftSkillGuns" required_skill_level="10"/>
 		<requirement perk_level="5" required_skill_name="craftSkillWeapons" required_skill_level="10"/>
 		<requirement perk_level="5" required_skill_name="craftSkillTools" required_skill_level="10"/>
 		<requirement perk_level="5" required_skill_name="craftSkillScience" required_skill_level="10"/>
 		<requirement perk_level="5" required_skill_name="craftSkillArmor" required_skill_level="10"/>
-		<requirement perk_level="5" required_skill_name="craftSkillMiscellaneous" required_skill_level="10"/>
+		<requirement perk_level="5" required_skill_name="craftSkillMiscellaneous" required_skill_level="5"/>
 		<requirement perk_level="1" required_player_level="140"/>
 		<requirement perk_level="2" required_player_level="150"/>
 		<requirement perk_level="3" required_player_level="165"/>
