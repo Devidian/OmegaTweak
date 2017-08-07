@@ -1,4 +1,4 @@
-# OmegaTweak v16.2.0
+# OmegaTweak v16.2.1
 ## 7 Days to die Tweaks by Devidian
 
 ### Changes to blocks.xml
@@ -37,7 +37,17 @@
 * New Action Skill: Fistfight
   + Bonus 1: StaminaDegradation down to 0.66 (Level 100)
   + Bonus 2: EntityDamage up to 1.28
-* New Action Skill: Machetes
+* New Action Skill: asBoneShiv
+  + unlocks huntingKnife recipe on level 20
+  + unlocks macheteBlade recipe on level 40
+  + see asMachete
+* New Action Skill: asHuntingKnife
+  + unlocks huntingKnife recipe on level 10
+  + unlocks macheteBlade recipe on level 20
+  + see asMachete
+* New Action Skill: asMachete
+  + unlocks huntingKnife recipe on level 10
+  + unlocks macheteBlade recipe on level 10
   + Merged perks "Knife Guy" and "The Decapitator" into "Machetes", those wont have any further effect on machetes now
   + EntityDamage from "Knife Guy" recalculated with "Machetes" origin values - may be rebalanced in future
 * New Perk: Geologist with 2 level each 20 Skillpoints
@@ -55,7 +65,11 @@
     - 5% chance to buff bleeding
     - 30% chance to stun
 * uncommented book, changed stack to 100, fuel and weight to 64
-* Added "Machetes Training" as ActionSkillGroup for machete
+* Added "asBoneShiv" as ActionSkillGroup for BoneShiv
+* Added "asHuntingKnife" as ActionSkillGroup for HuntingKnife
+* Added "asMachete" as ActionSkillGroup for machete
+* Removed "Blade Weapons", "Knife Guy", "The Decapitator" as they are not used anymore
+* huntingKnifeBook now gives skillpoint instead of recipe
 * ~~changed machete repairMaterial to forgedSteel~~ (since A16e.b129 machete is steel)
 * Adjusted stack numbers:
   + scrapIron 6000 -> 30000 (what fits in forge)

@@ -4910,7 +4910,11 @@ extinguishFireBuffDesc,buffs,Buff,New,If you happen to be on fire then this will
 DroppedLootContainer,entityclasses,Entity Info,New,Dropped Loot,,,,
 perfectionistDesc,progression,Skill,KgNone,"A perfectionist is what he is, a perfectionist!",,"Ein Perfektionist ist was er ist, ein Perfektionist!",,
 CraftingPerfectionist,progression,Skill,KgNone,Crafting-perfectionist,,Handwerks-Perfektionist,,
-asMachete,progression,Skill,KgNone,Machetes,,Macheten,,
+asBoneShiv,progression,Skill,KgNone,Bone Shiv,Surin en os,Knochenklinge,,Pincho de hueso
+asBoneShivDesc,progression,Skill,KgNone,,,,,
+asHuntingKnife,progression,Skill,KgNone,Hunting Knife,Couteau de chasse,Jagdmesser,,Cuchillo de caza
+asHuntingKnifeDesc,progression,Skill,KgNone,,,,,
+asMachete,progression,Skill,KgNone,Machete,Machette,Machete,,Machete
 asMacheteDesc,progression,Skill,KgNone,,,,,
 asFistFight,progression,Skill,KgNone,Fistfight,,Faustkampf,,
 asFistFightDesc,progression,Skill,KgNone,,,,,

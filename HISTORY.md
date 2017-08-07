@@ -1,3 +1,22 @@
+## v16.2.1
+### Changes to progression.xml
+* New Action Skill: asBoneShiv
+  + unlocks huntingKnife recipe on level 20
+  + unlocks macheteBlade recipe on level 40
+  + see asMachete
+* New Action Skill: asHuntingKnife
+  + unlocks huntingKnife recipe on level 10
+  + unlocks macheteBlade recipe on level 20
+  + see asMachete
+* Updated Action Skill: asMachete
+  + unlocks huntingKnife recipe on level 10
+  + unlocks macheteBlade recipe on level 10
+### Changes to items.xml
+* Added "asBoneShiv" as ActionSkillGroup for BoneShiv
+* Added "asHuntingKnife" as ActionSkillGroup for HuntingKnife
+* Removed "Blade Weapons", "Knife Guy", "The Decapitator" as they are not used anymore
+* huntingKnifeBook now gives skillpoint instead of recipe
+
 ## v16.2.0
 * Just patched
 

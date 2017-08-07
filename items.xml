@@ -309,7 +309,7 @@ Mesh files no longer used:
 		<property name="DismembermentBaseChance" value="0,0.01"/>
 	</property>
 	<property name="Group" value="Ammo/Weapons"/>
-	<property name="ActionSkillGroup" value="Blade Weapons"/>
+	<property name="ActionSkillGroup" value="asBoneShiv"/>
 	<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
 </item>
 
@@ -345,7 +345,7 @@ Mesh files no longer used:
 		<property name="DismembermentBaseChance" value="0.01,0.02"/>
 	</property>
 	<property name="Group" value="Ammo/Weapons"/>
-	<property name="ActionSkillGroup" value="Blade Weapons"/>
+	<property name="ActionSkillGroup" value="asHuntingKnife"/>
 	<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
 	<property name="RepairExpMultiplier" value="5.5"/>
 </item>
@@ -7500,8 +7500,8 @@ Mesh files no longer used:
 <item id="912" name="huntingKnifeBook">
 	<property name="Extends" value="schematicMaster"/>
 	<property class="Action1">
-		<property name="Recipes_to_learn" value="huntingKnife"/>
-		<!-- <property name="Skills_to_gain" value="craftSkillWeapons"/> -->
+		<!-- <property name="Recipes_to_learn" value="huntingKnife"/> -->
+		 <property name="Skills_to_gain" value="asHuntingKnife"/> 
 	</property>
 </item>
 
